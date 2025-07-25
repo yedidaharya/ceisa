@@ -1,0 +1,1322 @@
+<odoo>
+    <record id="ref_negara_1_AN" model="ceisa.referensi.negara">
+        <field name="kode_negara">AN</field>
+        <field name="uraian_negara">NETHERLANDS ANTILLES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_2_AZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">AZ</field>
+        <field name="uraian_negara">AZERBAIJAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_3_BE" model="ceisa.referensi.negara">
+        <field name="kode_negara">BE</field>
+        <field name="uraian_negara">BELGIUM</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_4_BH" model="ceisa.referensi.negara">
+        <field name="kode_negara">BH</field>
+        <field name="uraian_negara">BAHRAIN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_5_BJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">BJ</field>
+        <field name="uraian_negara">BENIN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_6_CC" model="ceisa.referensi.negara">
+        <field name="kode_negara">CC</field>
+        <field name="uraian_negara">COCOS (KEELING) ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_7_CI" model="ceisa.referensi.negara">
+        <field name="kode_negara">CI</field>
+        <field name="uraian_negara">COTE DIVOIRE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_8_CK" model="ceisa.referensi.negara">
+        <field name="kode_negara">CK</field>
+        <field name="uraian_negara">COOK ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_9_CU" model="ceisa.referensi.negara">
+        <field name="kode_negara">CU</field>
+        <field name="uraian_negara">CUBA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_10_CV" model="ceisa.referensi.negara">
+        <field name="kode_negara">CV</field>
+        <field name="uraian_negara">CAPE VERDE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_11_CX" model="ceisa.referensi.negara">
+        <field name="kode_negara">CX</field>
+        <field name="uraian_negara">CHRISTMAS ISLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_12_CZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">CZ</field>
+        <field name="uraian_negara">CZECH REPUBLIC</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_13_DJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">DJ</field>
+        <field name="uraian_negara">DJIBOUTI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_14_DK" model="ceisa.referensi.negara">
+        <field name="kode_negara">DK</field>
+        <field name="uraian_negara">DENMARK</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_15_DO" model="ceisa.referensi.negara">
+        <field name="kode_negara">DO</field>
+        <field name="uraian_negara">DOMINICAN REPUBLIC</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_16_ER" model="ceisa.referensi.negara">
+        <field name="kode_negara">ER</field>
+        <field name="uraian_negara">ERITREA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_17_FI" model="ceisa.referensi.negara">
+        <field name="kode_negara">FI</field>
+        <field name="uraian_negara">FINLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_18_FR" model="ceisa.referensi.negara">
+        <field name="kode_negara">FR</field>
+        <field name="uraian_negara">FRANCE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_19_GE" model="ceisa.referensi.negara">
+        <field name="kode_negara">GE</field>
+        <field name="uraian_negara">GEORGIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_20_HM" model="ceisa.referensi.negara">
+        <field name="kode_negara">HM</field>
+        <field name="uraian_negara">HEARD ISLAND AND MCDONALD ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_21_HU" model="ceisa.referensi.negara">
+        <field name="kode_negara">HU</field>
+        <field name="uraian_negara">HUNGARY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_22_IL" model="ceisa.referensi.negara">
+        <field name="kode_negara">IL</field>
+        <field name="uraian_negara">ISRAEL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_23_IO" model="ceisa.referensi.negara">
+        <field name="kode_negara">IO</field>
+        <field name="uraian_negara">BRITISH INDIAN OCEAN TERRITORY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_24_IR" model="ceisa.referensi.negara">
+        <field name="kode_negara">IR</field>
+        <field name="uraian_negara">IRAN, ISLAMIC REPUBLIC OF</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_25_JM" model="ceisa.referensi.negara">
+        <field name="kode_negara">JM</field>
+        <field name="uraian_negara">JAMAICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_26_JO" model="ceisa.referensi.negara">
+        <field name="kode_negara">JO</field>
+        <field name="uraian_negara">JORDAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_27_KH" model="ceisa.referensi.negara">
+        <field name="kode_negara">KH</field>
+        <field name="uraian_negara">CAMBODIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_28_KI" model="ceisa.referensi.negara">
+        <field name="kode_negara">KI</field>
+        <field name="uraian_negara">KIRIBATI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_29_KM" model="ceisa.referensi.negara">
+        <field name="kode_negara">KM</field>
+        <field name="uraian_negara">COMOROS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_30_LA" model="ceisa.referensi.negara">
+        <field name="kode_negara">LA</field>
+        <field name="uraian_negara">LAO PEOPLE'S DEMOCRATIC REPUBLIC</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_31_LK" model="ceisa.referensi.negara">
+        <field name="kode_negara">LK</field>
+        <field name="uraian_negara">SRI LANKA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_32_LS" model="ceisa.referensi.negara">
+        <field name="kode_negara">LS</field>
+        <field name="uraian_negara">LESOTHO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_33_LV" model="ceisa.referensi.negara">
+        <field name="kode_negara">LV</field>
+        <field name="uraian_negara">LATVIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_34_MQ" model="ceisa.referensi.negara">
+        <field name="kode_negara">MQ</field>
+        <field name="uraian_negara">MARTINIQUE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_35_MT" model="ceisa.referensi.negara">
+        <field name="kode_negara">MT</field>
+        <field name="uraian_negara">MALTA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_36_MZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">MZ</field>
+        <field name="uraian_negara">MOZAMBIQUE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_37_NA" model="ceisa.referensi.negara">
+        <field name="kode_negara">NA</field>
+        <field name="uraian_negara">NAMIBIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_38_NG" model="ceisa.referensi.negara">
+        <field name="kode_negara">NG</field>
+        <field name="uraian_negara">NIGERIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_39_NP" model="ceisa.referensi.negara">
+        <field name="kode_negara">NP</field>
+        <field name="uraian_negara">NEPAL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_40_NU" model="ceisa.referensi.negara">
+        <field name="kode_negara">NU</field>
+        <field name="uraian_negara">NIUE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_41_Nh" model="ceisa.referensi.negara">
+        <field name="kode_negara">Nh</field>
+        <field name="uraian_negara">NASHTAx</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_42_Ni" model="ceisa.referensi.negara">
+        <field name="kode_negara">Ni</field>
+        <field name="uraian_negara">NAuHTA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_43_Nl" model="ceisa.referensi.negara">
+        <field name="kode_negara">Nl</field>
+        <field name="uraian_negara">NLAHTAX</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_44_PA" model="ceisa.referensi.negara">
+        <field name="kode_negara">PA</field>
+        <field name="uraian_negara">PANAMA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_45_PE" model="ceisa.referensi.negara">
+        <field name="kode_negara">PE</field>
+        <field name="uraian_negara">PERU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_46_PG" model="ceisa.referensi.negara">
+        <field name="kode_negara">PG</field>
+        <field name="uraian_negara">PAPUA NEW GUINEA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_47_PH" model="ceisa.referensi.negara">
+        <field name="kode_negara">PH</field>
+        <field name="uraian_negara">PHILIPPINES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_48_PT" model="ceisa.referensi.negara">
+        <field name="kode_negara">PT</field>
+        <field name="uraian_negara">PORTUGAL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_49_SB" model="ceisa.referensi.negara">
+        <field name="kode_negara">SB</field>
+        <field name="uraian_negara">SOLOMON ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_50_SC" model="ceisa.referensi.negara">
+        <field name="kode_negara">SC</field>
+        <field name="uraian_negara">SEYCHELLES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_51_SE" model="ceisa.referensi.negara">
+        <field name="kode_negara">SE</field>
+        <field name="uraian_negara">SWEDEN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_52_SK" model="ceisa.referensi.negara">
+        <field name="kode_negara">SK</field>
+        <field name="uraian_negara">SLOVAKIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_53_SS" model="ceisa.referensi.negara">
+        <field name="kode_negara">SS</field>
+        <field name="uraian_negara">South Sudan</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_54_TF" model="ceisa.referensi.negara">
+        <field name="kode_negara">TF</field>
+        <field name="uraian_negara">FRENCH SOUTHERN TERRITORIES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_55_TG" model="ceisa.referensi.negara">
+        <field name="kode_negara">TG</field>
+        <field name="uraian_negara">TOGO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_56_TO" model="ceisa.referensi.negara">
+        <field name="kode_negara">TO</field>
+        <field name="uraian_negara">TONGA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_57_UA" model="ceisa.referensi.negara">
+        <field name="kode_negara">UA</field>
+        <field name="uraian_negara">UKRAINE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_58_UG" model="ceisa.referensi.negara">
+        <field name="kode_negara">UG</field>
+        <field name="uraian_negara">UGANDA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_59_AL" model="ceisa.referensi.negara">
+        <field name="kode_negara">AL</field>
+        <field name="uraian_negara">ALBANIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_60_AO" model="ceisa.referensi.negara">
+        <field name="kode_negara">AO</field>
+        <field name="uraian_negara">ANGOLA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_61_AT" model="ceisa.referensi.negara">
+        <field name="kode_negara">AT</field>
+        <field name="uraian_negara">AUSTRIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_62_BA" model="ceisa.referensi.negara">
+        <field name="kode_negara">BA</field>
+        <field name="uraian_negara">BOSNIA AND HERZEGOVINA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_63_BB" model="ceisa.referensi.negara">
+        <field name="kode_negara">BB</field>
+        <field name="uraian_negara">BARBADOS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_64_BO" model="ceisa.referensi.negara">
+        <field name="kode_negara">BO</field>
+        <field name="uraian_negara">BOLIVIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_65_CD" model="ceisa.referensi.negara">
+        <field name="kode_negara">CD</field>
+        <field name="uraian_negara">CONGO, THE DEMOCRATIC REPUBLIC OF THE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_66_DE" model="ceisa.referensi.negara">
+        <field name="kode_negara">DE</field>
+        <field name="uraian_negara">GERMANY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_67_DM" model="ceisa.referensi.negara">
+        <field name="kode_negara">DM</field>
+        <field name="uraian_negara">DOMINICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_68_EH" model="ceisa.referensi.negara">
+        <field name="kode_negara">EH</field>
+        <field name="uraian_negara">WESTERN SAHARA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_69_ET" model="ceisa.referensi.negara">
+        <field name="kode_negara">ET</field>
+        <field name="uraian_negara">ETHIOPIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_70_FJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">FJ</field>
+        <field name="uraian_negara">FIJI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_71_FM" model="ceisa.referensi.negara">
+        <field name="kode_negara">FM</field>
+        <field name="uraian_negara">MICRONESIA, FEDERATED STATES OF</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_72_GA" model="ceisa.referensi.negara">
+        <field name="kode_negara">GA</field>
+        <field name="uraian_negara">GABON</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_73_HN" model="ceisa.referensi.negara">
+        <field name="kode_negara">HN</field>
+        <field name="uraian_negara">HONDURAS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_74_IN" model="ceisa.referensi.negara">
+        <field name="kode_negara">IN</field>
+        <field name="uraian_negara">INDIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_75_IQ" model="ceisa.referensi.negara">
+        <field name="kode_negara">IQ</field>
+        <field name="uraian_negara">IRAQ</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_76_IS" model="ceisa.referensi.negara">
+        <field name="kode_negara">IS</field>
+        <field name="uraian_negara">ICELAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_77_KN" model="ceisa.referensi.negara">
+        <field name="kode_negara">KN</field>
+        <field name="uraian_negara">SAINT KITTS AND NEVIS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_78_LB" model="ceisa.referensi.negara">
+        <field name="kode_negara">LB</field>
+        <field name="uraian_negara">LEBANON</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_79_LR" model="ceisa.referensi.negara">
+        <field name="kode_negara">LR</field>
+        <field name="uraian_negara">LIBERIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_80_LT" model="ceisa.referensi.negara">
+        <field name="kode_negara">LT</field>
+        <field name="uraian_negara">LITHUANIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_81_MG" model="ceisa.referensi.negara">
+        <field name="kode_negara">MG</field>
+        <field name="uraian_negara">MADAGASCAR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_82_ML" model="ceisa.referensi.negara">
+        <field name="kode_negara">ML</field>
+        <field name="uraian_negara">MALI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_83_MP" model="ceisa.referensi.negara">
+        <field name="kode_negara">MP</field>
+        <field name="uraian_negara">NORTHERN MARIANA ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_84_NF" model="ceisa.referensi.negara">
+        <field name="kode_negara">NF</field>
+        <field name="uraian_negara">NORFOLK ISLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_85_NL" model="ceisa.referensi.negara">
+        <field name="kode_negara">NL</field>
+        <field name="uraian_negara">NETHERLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_86_NZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">NZ</field>
+        <field name="uraian_negara">NEW ZEALAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_87_PL" model="ceisa.referensi.negara">
+        <field name="kode_negara">PL</field>
+        <field name="uraian_negara">POLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_88_PN" model="ceisa.referensi.negara">
+        <field name="kode_negara">PN</field>
+        <field name="uraian_negara">PITCAIRN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_89_PR" model="ceisa.referensi.negara">
+        <field name="kode_negara">PR</field>
+        <field name="uraian_negara">PUERTO RICO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_90_PW" model="ceisa.referensi.negara">
+        <field name="kode_negara">PW</field>
+        <field name="uraian_negara">PALAU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_91_RS" model="ceisa.referensi.negara">
+        <field name="kode_negara">RS</field>
+        <field name="uraian_negara">SERBIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_92_SA" model="ceisa.referensi.negara">
+        <field name="kode_negara">SA</field>
+        <field name="uraian_negara">SAUDI ARABIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_93_SD" model="ceisa.referensi.negara">
+        <field name="kode_negara">SD</field>
+        <field name="uraian_negara">SUDAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_94_SG" model="ceisa.referensi.negara">
+        <field name="kode_negara">SG</field>
+        <field name="uraian_negara">SINGAPORE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_95_SH" model="ceisa.referensi.negara">
+        <field name="kode_negara">SH</field>
+        <field name="uraian_negara">SAINT HELENA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_96_SN" model="ceisa.referensi.negara">
+        <field name="kode_negara">SN</field>
+        <field name="uraian_negara">SENEGAL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_97_ST" model="ceisa.referensi.negara">
+        <field name="kode_negara">ST</field>
+        <field name="uraian_negara">SAO TOME AND PRINCIPE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_98_TJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">TJ</field>
+        <field name="uraian_negara">TAJIKISTAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_99_TK" model="ceisa.referensi.negara">
+        <field name="kode_negara">TK</field>
+        <field name="uraian_negara">TOKELAU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_100_TT" model="ceisa.referensi.negara">
+        <field name="kode_negara">TT</field>
+        <field name="uraian_negara">TRINIDAD AND TOBAGO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_101_TZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">TZ</field>
+        <field name="uraian_negara">TANZANIA, UNITED REPUBLIC OF</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_102_US" model="ceisa.referensi.negara">
+        <field name="kode_negara">US</field>
+        <field name="uraian_negara">UNITED STATES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_103_VE" model="ceisa.referensi.negara">
+        <field name="kode_negara">VE</field>
+        <field name="uraian_negara">VENEZUELA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_104_VG" model="ceisa.referensi.negara">
+        <field name="kode_negara">VG</field>
+        <field name="uraian_negara">VIRGIN ISLANDS, BRITISH</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_105_VU" model="ceisa.referensi.negara">
+        <field name="kode_negara">VU</field>
+        <field name="uraian_negara">VANUATU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_106_WF" model="ceisa.referensi.negara">
+        <field name="kode_negara">WF</field>
+        <field name="uraian_negara">WALLIS AND FUTUNA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_107_YU" model="ceisa.referensi.negara">
+        <field name="kode_negara">YU</field>
+        <field name="uraian_negara">YUGOSLAVIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_108_AF" model="ceisa.referensi.negara">
+        <field name="kode_negara">AF</field>
+        <field name="uraian_negara">AFGHANISTAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_109_AQ" model="ceisa.referensi.negara">
+        <field name="kode_negara">AQ</field>
+        <field name="uraian_negara">ANTARCTICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_110_BL" model="ceisa.referensi.negara">
+        <field name="kode_negara">BL</field>
+        <field name="uraian_negara">Saint Barth lemy</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_111_BT" model="ceisa.referensi.negara">
+        <field name="kode_negara">BT</field>
+        <field name="uraian_negara">BHUTAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_112_BZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">BZ</field>
+        <field name="uraian_negara">BELIZE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_113_CG" model="ceisa.referensi.negara">
+        <field name="kode_negara">CG</field>
+        <field name="uraian_negara">CONGO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_114_CN" model="ceisa.referensi.negara">
+        <field name="kode_negara">CN</field>
+        <field name="uraian_negara">CHINA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_115_CR" model="ceisa.referensi.negara">
+        <field name="kode_negara">CR</field>
+        <field name="uraian_negara">COSTA RICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_116_CW" model="ceisa.referensi.negara">
+        <field name="kode_negara">CW</field>
+        <field name="uraian_negara">Curacao</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_117_CY" model="ceisa.referensi.negara">
+        <field name="kode_negara">CY</field>
+        <field name="uraian_negara">CYPRUS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_118_DZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">DZ</field>
+        <field name="uraian_negara">ALGERIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_119_EE" model="ceisa.referensi.negara">
+        <field name="kode_negara">EE</field>
+        <field name="uraian_negara">ESTONIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_120_ES" model="ceisa.referensi.negara">
+        <field name="kode_negara">ES</field>
+        <field name="uraian_negara">SPAIN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_121_FK" model="ceisa.referensi.negara">
+        <field name="kode_negara">FK</field>
+        <field name="uraian_negara">FALKLAND ISLANDS (MALVINAS)</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_122_GF" model="ceisa.referensi.negara">
+        <field name="kode_negara">GF</field>
+        <field name="uraian_negara">FRENCH GUIANA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_123_GH" model="ceisa.referensi.negara">
+        <field name="kode_negara">GH</field>
+        <field name="uraian_negara">GHANA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_124_GI" model="ceisa.referensi.negara">
+        <field name="kode_negara">GI</field>
+        <field name="uraian_negara">GIBRALTAR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_125_GQ" model="ceisa.referensi.negara">
+        <field name="kode_negara">GQ</field>
+        <field name="uraian_negara">EQUATORIAL GUINEA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_126_GR" model="ceisa.referensi.negara">
+        <field name="kode_negara">GR</field>
+        <field name="uraian_negara">GREECE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_127_GS" model="ceisa.referensi.negara">
+        <field name="kode_negara">GS</field>
+        <field name="uraian_negara">SOUTH GEORGIA AND THE SOUTH SANDWICH ISL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_128_GY" model="ceisa.referensi.negara">
+        <field name="kode_negara">GY</field>
+        <field name="uraian_negara">GUYANA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_129_HT" model="ceisa.referensi.negara">
+        <field name="kode_negara">HT</field>
+        <field name="uraian_negara">HAITI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_130_ID" model="ceisa.referensi.negara">
+        <field name="kode_negara">ID</field>
+        <field name="uraian_negara">INDONESIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_131_IE" model="ceisa.referensi.negara">
+        <field name="kode_negara">IE</field>
+        <field name="uraian_negara">IRELAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_132_KP" model="ceisa.referensi.negara">
+        <field name="kode_negara">KP</field>
+        <field name="uraian_negara">KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_133_KW" model="ceisa.referensi.negara">
+        <field name="kode_negara">KW</field>
+        <field name="uraian_negara">KUWAIT</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_134_LY" model="ceisa.referensi.negara">
+        <field name="kode_negara">LY</field>
+        <field name="uraian_negara">LIBYAN ARAB JAMAHIRIYA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_135_MR" model="ceisa.referensi.negara">
+        <field name="kode_negara">MR</field>
+        <field name="uraian_negara">MAURITANIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_136_NI" model="ceisa.referensi.negara">
+        <field name="kode_negara">NI</field>
+        <field name="uraian_negara">NICARAGUA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_137_NO" model="ceisa.referensi.negara">
+        <field name="kode_negara">NO</field>
+        <field name="uraian_negara">NORWAY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_138_NT" model="ceisa.referensi.negara">
+        <field name="kode_negara">NT</field>
+        <field name="uraian_negara">NAuHTA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_139_PF" model="ceisa.referensi.negara">
+        <field name="kode_negara">PF</field>
+        <field name="uraian_negara">FRENCH POLYNESIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_140_QA" model="ceisa.referensi.negara">
+        <field name="kode_negara">QA</field>
+        <field name="uraian_negara">QATAR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_141_RE" model="ceisa.referensi.negara">
+        <field name="kode_negara">RE</field>
+        <field name="uraian_negara">REUNION</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_142_RU" model="ceisa.referensi.negara">
+        <field name="kode_negara">RU</field>
+        <field name="uraian_negara">RUSSIAN FEDERATION</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_143_SJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">SJ</field>
+        <field name="uraian_negara">SVALBARD AND JAN MAYEN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_144_SO" model="ceisa.referensi.negara">
+        <field name="kode_negara">SO</field>
+        <field name="uraian_negara">SOMALIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_145_SR" model="ceisa.referensi.negara">
+        <field name="kode_negara">SR</field>
+        <field name="uraian_negara">SURINAME</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_146_SV" model="ceisa.referensi.negara">
+        <field name="kode_negara">SV</field>
+        <field name="uraian_negara">EL SALVADOR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_147_TD" model="ceisa.referensi.negara">
+        <field name="kode_negara">TD</field>
+        <field name="uraian_negara">CHAD</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_148_TH" model="ceisa.referensi.negara">
+        <field name="kode_negara">TH</field>
+        <field name="uraian_negara">THAILAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_149_TP" model="ceisa.referensi.negara">
+        <field name="kode_negara">TP</field>
+        <field name="uraian_negara">EAST TIMOR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_150_TW" model="ceisa.referensi.negara">
+        <field name="kode_negara">TW</field>
+        <field name="uraian_negara">TAIWAN, PROVINCE OF CHINA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_151_UY" model="ceisa.referensi.negara">
+        <field name="kode_negara">UY</field>
+        <field name="uraian_negara">URUGUAY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_152_VN" model="ceisa.referensi.negara">
+        <field name="kode_negara">VN</field>
+        <field name="uraian_negara">VIET NAM</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_153_WS" model="ceisa.referensi.negara">
+        <field name="kode_negara">WS</field>
+        <field name="uraian_negara">SAMOA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_154_YE" model="ceisa.referensi.negara">
+        <field name="kode_negara">YE</field>
+        <field name="uraian_negara">YEMEN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_155_YT" model="ceisa.referensi.negara">
+        <field name="kode_negara">YT</field>
+        <field name="uraian_negara">MAYOTTE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_156_ZA" model="ceisa.referensi.negara">
+        <field name="kode_negara">ZA</field>
+        <field name="uraian_negara">SOUTH AFRICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_157_ZW" model="ceisa.referensi.negara">
+        <field name="kode_negara">ZW</field>
+        <field name="uraian_negara">ZIMBABWE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_158_AE" model="ceisa.referensi.negara">
+        <field name="kode_negara">AE</field>
+        <field name="uraian_negara">UNITED ARAB EMIRATES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_159_AG" model="ceisa.referensi.negara">
+        <field name="kode_negara">AG</field>
+        <field name="uraian_negara">ANTIGUA AND BARBUDA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_160_AI" model="ceisa.referensi.negara">
+        <field name="kode_negara">AI</field>
+        <field name="uraian_negara">ANGUILLA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_161_AM" model="ceisa.referensi.negara">
+        <field name="kode_negara">AM</field>
+        <field name="uraian_negara">ARMENIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_162_AR" model="ceisa.referensi.negara">
+        <field name="kode_negara">AR</field>
+        <field name="uraian_negara">ARGENTINA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_163_BD" model="ceisa.referensi.negara">
+        <field name="kode_negara">BD</field>
+        <field name="uraian_negara">BANGLADESH</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_164_BF" model="ceisa.referensi.negara">
+        <field name="kode_negara">BF</field>
+        <field name="uraian_negara">BURKINA FASO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_165_BG" model="ceisa.referensi.negara">
+        <field name="kode_negara">BG</field>
+        <field name="uraian_negara">BULGARIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_166_BI" model="ceisa.referensi.negara">
+        <field name="kode_negara">BI</field>
+        <field name="uraian_negara">BURUNDI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_167_BQ" model="ceisa.referensi.negara">
+        <field name="kode_negara">BQ</field>
+        <field name="uraian_negara">Bonaire, Sint Eustatius and Saba</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_168_BS" model="ceisa.referensi.negara">
+        <field name="kode_negara">BS</field>
+        <field name="uraian_negara">BAHAMAS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_169_BV" model="ceisa.referensi.negara">
+        <field name="kode_negara">BV</field>
+        <field name="uraian_negara">BOUVET ISLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_170_CA" model="ceisa.referensi.negara">
+        <field name="kode_negara">CA</field>
+        <field name="uraian_negara">CANADA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_171_CH" model="ceisa.referensi.negara">
+        <field name="kode_negara">CH</field>
+        <field name="uraian_negara">SWITZERLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_172_CL" model="ceisa.referensi.negara">
+        <field name="kode_negara">CL</field>
+        <field name="uraian_negara">CHILE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_173_CM" model="ceisa.referensi.negara">
+        <field name="kode_negara">CM</field>
+        <field name="uraian_negara">CAMEROON</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_174_CO" model="ceisa.referensi.negara">
+        <field name="kode_negara">CO</field>
+        <field name="uraian_negara">COLOMBIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_175_EC" model="ceisa.referensi.negara">
+        <field name="kode_negara">EC</field>
+        <field name="uraian_negara">ECUADOR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_176_GB" model="ceisa.referensi.negara">
+        <field name="kode_negara">GB</field>
+        <field name="uraian_negara">UNITED KINGDOM</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_177_GD" model="ceisa.referensi.negara">
+        <field name="kode_negara">GD</field>
+        <field name="uraian_negara">GRENADA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_178_GG" model="ceisa.referensi.negara">
+        <field name="kode_negara">GG</field>
+        <field name="uraian_negara">Guernsey</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_179_GM" model="ceisa.referensi.negara">
+        <field name="kode_negara">GM</field>
+        <field name="uraian_negara">GAMBIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_180_GP" model="ceisa.referensi.negara">
+        <field name="kode_negara">GP</field>
+        <field name="uraian_negara">GUADELOUPE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_181_GW" model="ceisa.referensi.negara">
+        <field name="kode_negara">GW</field>
+        <field name="uraian_negara">GUINEA-BISSAU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_182_HK" model="ceisa.referensi.negara">
+        <field name="kode_negara">HK</field>
+        <field name="uraian_negara">HONG KONG</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_183_IM" model="ceisa.referensi.negara">
+        <field name="kode_negara">IM</field>
+        <field name="uraian_negara">Isle of Man</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_184_KR" model="ceisa.referensi.negara">
+        <field name="kode_negara">KR</field>
+        <field name="uraian_negara">KOREA, REPUBLIC OF</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_185_KY" model="ceisa.referensi.negara">
+        <field name="kode_negara">KY</field>
+        <field name="uraian_negara">CAYMAN ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_186_KZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">KZ</field>
+        <field name="uraian_negara">KAZAKSTAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_187_LC" model="ceisa.referensi.negara">
+        <field name="kode_negara">LC</field>
+        <field name="uraian_negara">SAINT LUCIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_188_LU" model="ceisa.referensi.negara">
+        <field name="kode_negara">LU</field>
+        <field name="uraian_negara">LUXEMBOURG</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_189_MA" model="ceisa.referensi.negara">
+        <field name="kode_negara">MA</field>
+        <field name="uraian_negara">MOROCCO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_190_ME" model="ceisa.referensi.negara">
+        <field name="kode_negara">ME</field>
+        <field name="uraian_negara">Montenegro</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_191_MF" model="ceisa.referensi.negara">
+        <field name="kode_negara">MF</field>
+        <field name="uraian_negara">Saint Martin (French Part)</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_192_MM" model="ceisa.referensi.negara">
+        <field name="kode_negara">MM</field>
+        <field name="uraian_negara">MYANMAR</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_193_MS" model="ceisa.referensi.negara">
+        <field name="kode_negara">MS</field>
+        <field name="uraian_negara">MONTSERRAT</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_194_MU" model="ceisa.referensi.negara">
+        <field name="kode_negara">MU</field>
+        <field name="uraian_negara">MAURITIUS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_195_MY" model="ceisa.referensi.negara">
+        <field name="kode_negara">MY</field>
+        <field name="uraian_negara">MALAYSIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_196_NE" model="ceisa.referensi.negara">
+        <field name="kode_negara">NE</field>
+        <field name="uraian_negara">NIGER</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_197_NR" model="ceisa.referensi.negara">
+        <field name="kode_negara">NR</field>
+        <field name="uraian_negara">NAURU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_198_Nz" model="ceisa.referensi.negara">
+        <field name="kode_negara">Nz</field>
+        <field name="uraian_negara">NAuHTA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_199_OM" model="ceisa.referensi.negara">
+        <field name="kode_negara">OM</field>
+        <field name="uraian_negara">OMAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_200_PK" model="ceisa.referensi.negara">
+        <field name="kode_negara">PK</field>
+        <field name="uraian_negara">PAKISTAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_201_ZA" model="ceisa.referensi.negara">
+        <field name="kode_negara">ZA</field>
+        <field name="uraian_negara">SOUTH AFRICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_202_ZW" model="ceisa.referensi.negara">
+        <field name="kode_negara">ZW</field>
+        <field name="uraian_negara">ZIMBABWE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_203_AN" model="ceisa.referensi.negara">
+        <field name="kode_negara">AN</field>
+        <field name="uraian_negara">NETHERLANDS ANTILLES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_204_AZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">AZ</field>
+        <field name="uraian_negara">AZERBAIJAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_205_BE" model="ceisa.referensi.negara">
+        <field name="kode_negara">BE</field>
+        <field name="uraian_negara">BELGIUM</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_206_BH" model="ceisa.referensi.negara">
+        <field name="kode_negara">BH</field>
+        <field name="uraian_negara">BAHRAIN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_207_BJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">BJ</field>
+        <field name="uraian_negara">BENIN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_208_CC" model="ceisa.referensi.negara">
+        <field name="kode_negara">CC</field>
+        <field name="uraian_negara">COCOS (KEELING) ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_209_CI" model="ceisa.referensi.negara">
+        <field name="kode_negara">CI</field>
+        <field name="uraian_negara">COTE D'IVOIRE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_210_CK" model="ceisa.referensi.negara">
+        <field name="kode_negara">CK</field>
+        <field name="uraian_negara">COOK ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_211_CU" model="ceisa.referensi.negara">
+        <field name="kode_negara">CU</field>
+        <field name="uraian_negara">CUBA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_212_CV" model="ceisa.referensi.negara">
+        <field name="kode_negara">CV</field>
+        <field name="uraian_negara">CAPE VERDE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_213_CX" model="ceisa.referensi.negara">
+        <field name="kode_negara">CX</field>
+        <field name="uraian_negara">CHRISTMAS ISLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_214_CZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">CZ</field>
+        <field name="uraian_negara">CZECH REPUBLIC</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_215_DJ" model="ceisa.referensi.negara">
+        <field name="kode_negara">DJ</field>
+        <field name="uraian_negara">DJIBOUTI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_216_DK" model="ceisa.referensi.negara">
+        <field name="kode_negara">DK</field>
+        <field name="uraian_negara">DENMARK</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_217_DO" model="ceisa.referensi.negara">
+        <field name="kode_negara">DO</field>
+        <field name="uraian_negara">DOMINICAN REPUBLIC</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_218_ER" model="ceisa.referensi.negara">
+        <field name="kode_negara">ER</field>
+        <field name="uraian_negara">ERITREA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_219_FI" model="ceisa.referensi.negara">
+        <field name="kode_negara">FI</field>
+        <field name="uraian_negara">FINLAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_220_FR" model="ceisa.referensi.negara">
+        <field name="kode_negara">FR</field>
+        <field name="uraian_negara">FRANCE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_221_GE" model="ceisa.referensi.negara">
+        <field name="kode_negara">GE</field>
+        <field name="uraian_negara">GEORGIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_222_HM" model="ceisa.referensi.negara">
+        <field name="kode_negara">HM</field>
+        <field name="uraian_negara">HEARD ISLAND AND MCDONALD ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_223_HU" model="ceisa.referensi.negara">
+        <field name="kode_negara">HU</field>
+        <field name="uraian_negara">HUNGARY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_224_IL" model="ceisa.referensi.negara">
+        <field name="kode_negara">IL</field>
+        <field name="uraian_negara">ISRAEL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_225_IO" model="ceisa.referensi.negara">
+        <field name="kode_negara">IO</field>
+        <field name="uraian_negara">BRITISH INDIAN OCEAN TERRITORY</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_226_IR" model="ceisa.referensi.negara">
+        <field name="kode_negara">IR</field>
+        <field name="uraian_negara">IRAN, ISLAMIC REPUBLIC OF</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_227_JM" model="ceisa.referensi.negara">
+        <field name="kode_negara">JM</field>
+        <field name="uraian_negara">JAMAICA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_228_JO" model="ceisa.referensi.negara">
+        <field name="kode_negara">JO</field>
+        <field name="uraian_negara">JORDAN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_229_KH" model="ceisa.referensi.negara">
+        <field name="kode_negara">KH</field>
+        <field name="uraian_negara">CAMBODIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_230_KI" model="ceisa.referensi.negara">
+        <field name="kode_negara">KI</field>
+        <field name="uraian_negara">KIRIBATI</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_231_KM" model="ceisa.referensi.negara">
+        <field name="kode_negara">KM</field>
+        <field name="uraian_negara">COMOROS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_232_LA" model="ceisa.referensi.negara">
+        <field name="kode_negara">LA</field>
+        <field name="uraian_negara">LAO PEOPLE'S DEMOCRATIC REPUBLIC</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_233_LK" model="ceisa.referensi.negara">
+        <field name="kode_negara">LK</field>
+        <field name="uraian_negara">SRI LANKA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_234_LS" model="ceisa.referensi.negara">
+        <field name="kode_negara">LS</field>
+        <field name="uraian_negara">LESOTHO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_235_LV" model="ceisa.referensi.negara">
+        <field name="kode_negara">LV</field>
+        <field name="uraian_negara">LATVIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_236_MQ" model="ceisa.referensi.negara">
+        <field name="kode_negara">MQ</field>
+        <field name="uraian_negara">MARTINIQUE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_237_MT" model="ceisa.referensi.negara">
+        <field name="kode_negara">MT</field>
+        <field name="uraian_negara">MALTA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_238_MZ" model="ceisa.referensi.negara">
+        <field name="kode_negara">MZ</field>
+        <field name="uraian_negara">MOZAMBIQUE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_239_NA" model="ceisa.referensi.negara">
+        <field name="kode_negara">NA</field>
+        <field name="uraian_negara">NAMIBIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_240_NG" model="ceisa.referensi.negara">
+        <field name="kode_negara">NG</field>
+        <field name="uraian_negara">NIGERIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_241_NP" model="ceisa.referensi.negara">
+        <field name="kode_negara">NP</field>
+        <field name="uraian_negara">NEPAL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_242_NU" model="ceisa.referensi.negara">
+        <field name="kode_negara">NU</field>
+        <field name="uraian_negara">NIUE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_243_Nh" model="ceisa.referensi.negara">
+        <field name="kode_negara">Nh</field>
+        <field name="uraian_negara">NASHTAx</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_244_Ni" model="ceisa.referensi.negara">
+        <field name="kode_negara">Ni</field>
+        <field name="uraian_negara">NAuHTA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_245_Nl" model="ceisa.referensi.negara">
+        <field name="kode_negara">Nl</field>
+        <field name="uraian_negara">NLAHTAX</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_246_PA" model="ceisa.referensi.negara">
+        <field name="kode_negara">PA</field>
+        <field name="uraian_negara">PANAMA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_247_PE" model="ceisa.referensi.negara">
+        <field name="kode_negara">PE</field>
+        <field name="uraian_negara">PERU</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_248_PG" model="ceisa.referensi.negara">
+        <field name="kode_negara">PG</field>
+        <field name="uraian_negara">PAPUA NEW GUINEA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_249_PH" model="ceisa.referensi.negara">
+        <field name="kode_negara">PH</field>
+        <field name="uraian_negara">PHILIPPINES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_250_PT" model="ceisa.referensi.negara">
+        <field name="kode_negara">PT</field>
+        <field name="uraian_negara">PORTUGAL</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_251_SB" model="ceisa.referensi.negara">
+        <field name="kode_negara">SB</field>
+        <field name="uraian_negara">SOLOMON ISLANDS</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_252_SC" model="ceisa.referensi.negara">
+        <field name="kode_negara">SC</field>
+        <field name="uraian_negara">SEYCHELLES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_253_SE" model="ceisa.referensi.negara">
+        <field name="kode_negara">SE</field>
+        <field name="uraian_negara">SWEDEN</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_254_SK" model="ceisa.referensi.negara">
+        <field name="kode_negara">SK</field>
+        <field name="uraian_negara">SLOVAKIA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_255_SS" model="ceisa.referensi.negara">
+        <field name="kode_negara">SS</field>
+        <field name="uraian_negara">South Sudan</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_256_TF" model="ceisa.referensi.negara">
+        <field name="kode_negara">TF</field>
+        <field name="uraian_negara">FRENCH SOUTHERN TERRITORIES</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_257_TG" model="ceisa.referensi.negara">
+        <field name="kode_negara">TG</field>
+        <field name="uraian_negara">TOGO</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_258_TO" model="ceisa.referensi.negara">
+        <field name="kode_negara">TO</field>
+        <field name="uraian_negara">TONGA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_259_UA" model="ceisa.referensi.negara">
+        <field name="kode_negara">UA</field>
+        <field name="uraian_negara">UKRAINE</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_260_UG" model="ceisa.referensi.negara">
+        <field name="kode_negara">UG</field>
+        <field name="uraian_negara">UGANDA</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_749_HK" model="ceisa.referensi.negara">
+        <field name="kode_negara">HK</field>
+        <field name="uraian_negara">HKHKG</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_750_TH" model="ceisa.referensi.negara">
+        <field name="kode_negara">TH</field>
+        <field name="uraian_negara">THAILAND</field>
+        <field name="tarif_freight">10.00</field>
+    </record>
+    <record id="ref_negara_751_IT" model="ceisa.referensi.negara">
+        <field name="kode_negara">IT</field>
+        <field name="uraian_negara">ITALY</field>
+        <field name="tarif_freight">15.00</field>
+    </record>
+    <record id="ref_negara_752_IT" model="ceisa.referensi.negara">
+        <field name="kode_negara">IT</field>
+        <field name="uraian_negara">ITALY</field>
+        <field name="tarif_freight">15.00</field>
+    </record>
+</odoo>

@@ -1,0 +1,38 @@
+<odoo>
+    <record id="ref_cara_angkut_1" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">1</field>
+        <field name="uraian_cara_angkut">LAUT</field>
+    </record>
+    <record id="ref_cara_angkut_2" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">2</field>
+        <field name="uraian_cara_angkut">KERETA API</field>
+    </record>
+    <record id="ref_cara_angkut_3" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">3</field>
+        <field name="uraian_cara_angkut">DARAT</field>
+    </record>
+    <record id="ref_cara_angkut_4" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">4</field>
+        <field name="uraian_cara_angkut">UDARA</field>
+    </record>
+    <record id="ref_cara_angkut_5" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">5</field>
+        <field name="uraian_cara_angkut">POS</field>
+    </record>
+    <record id="ref_cara_angkut_6" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">6</field>
+        <field name="uraian_cara_angkut">MULTI MODA</field>
+    </record>
+    <record id="ref_cara_angkut_7" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">7</field>
+        <field name="uraian_cara_angkut">INSTALASI</field>
+    </record>
+    <record id="ref_cara_angkut_8" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">8</field>
+        <field name="uraian_cara_angkut">PERAIRAN</field>
+    </record>
+    <record id="ref_cara_angkut_9" model="ceisa.referensi.cara.angkut">
+        <field name="kode_cara_angkut">9</field>
+        <field name="uraian_cara_angkut">LAINNYA</field>
+    </record>
+</odoo>

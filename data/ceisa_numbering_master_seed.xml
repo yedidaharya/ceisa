@@ -1,0 +1,15 @@
+<odoo>
+    <data noupdate="1">
+        <record id="ref__numbering_1" model="ceisa.numbering.master">
+            <field name="kode_dokumen">40</field>
+            <field name="counter">1</field>
+            <field name="company_id" ref="ref_company_1"/>
+        </record>
+
+        <record id="ref_numbering_2" model="ceisa.numbering.master">
+            <field name="kode_dokumen">23</field>
+            <field name="counter">1</field>
+            <field name="company_id" ref="ref_company_1"/>
+        </record>
+    </data>
+</odoo>

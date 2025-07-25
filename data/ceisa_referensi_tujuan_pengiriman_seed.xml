@@ -1,0 +1,141 @@
+<odoo>
+    <!-- Dokumen 25 -->
+    <record id="ref_tujuan_pengiriman_1" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">25</field>
+        <field name="kode_tujuan_pengiriman">1</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN BKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_2" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">25</field>
+        <field name="kode_tujuan_pengiriman">2</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN JKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_3" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">25</field>
+        <field name="kode_tujuan_pengiriman">3</field>
+        <field name="uraian_tujuan_pengiriman">RETUR</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_4" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">25</field>
+        <field name="kode_tujuan_pengiriman">4</field>
+        <field name="uraian_tujuan_pengiriman">NON PENYERAHAN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_5" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">25</field>
+        <field name="kode_tujuan_pengiriman">5</field>
+        <field name="uraian_tujuan_pengiriman">LAINNYA</field>
+    </record>
+
+    <!-- Dokumen 261 -->
+    <record id="ref_tujuan_pengiriman_6" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">261</field>
+        <field name="kode_tujuan_pengiriman">1</field>
+        <field name="uraian_tujuan_pengiriman">DIPERBAIKI</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_7" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">261</field>
+        <field name="kode_tujuan_pengiriman">2</field>
+        <field name="uraian_tujuan_pengiriman">DISUBKONTRAKKAN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_8" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">261</field>
+        <field name="kode_tujuan_pengiriman">3</field>
+        <field name="uraian_tujuan_pengiriman">DIPINJAMKAN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_9" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">261</field>
+        <field name="kode_tujuan_pengiriman">4</field>
+        <field name="uraian_tujuan_pengiriman">BARANG RETURN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_10" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">261</field>
+        <field name="kode_tujuan_pengiriman">5</field>
+        <field name="uraian_tujuan_pengiriman">LAINNYA</field>
+    </record>
+
+    <!-- Dokumen 27 -->
+    <record id="ref_tujuan_pengiriman_11" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">27</field>
+        <field name="kode_tujuan_pengiriman">1</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN BKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_12" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">27</field>
+        <field name="kode_tujuan_pengiriman">2</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN JKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_13" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">27</field>
+        <field name="kode_tujuan_pengiriman">3</field>
+        <field name="uraian_tujuan_pengiriman">RETUR</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_14" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">27</field>
+        <field name="kode_tujuan_pengiriman">4</field>
+        <field name="uraian_tujuan_pengiriman">NON PENYERAHAN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_15" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">27</field>
+        <field name="kode_tujuan_pengiriman">5</field>
+        <field name="uraian_tujuan_pengiriman">LAINNYA</field>
+    </record>
+
+    <!-- Dokumen 40 -->
+    <record id="ref_tujuan_pengiriman_16" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">40</field>
+        <field name="kode_tujuan_pengiriman">1</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN BKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_17" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">40</field>
+        <field name="kode_tujuan_pengiriman">2</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN JKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_18" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">40</field>
+        <field name="kode_tujuan_pengiriman">3</field>
+        <field name="uraian_tujuan_pengiriman">RETUR</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_19" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">40</field>
+        <field name="kode_tujuan_pengiriman">4</field>
+        <field name="uraian_tujuan_pengiriman">NON PENYERAHAN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_20" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">40</field>
+        <field name="kode_tujuan_pengiriman">5</field>
+        <field name="uraian_tujuan_pengiriman">LAINNYA</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_21" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">40</field>
+        <field name="kode_tujuan_pengiriman">6</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN BKP DENGAN FP01</field>
+    </record>
+
+    <!-- Dokumen 41 -->
+    <record id="ref_tujuan_pengiriman_22" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">41</field>
+        <field name="kode_tujuan_pengiriman">1</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN BKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_23" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">41</field>
+        <field name="kode_tujuan_pengiriman">2</field>
+        <field name="uraian_tujuan_pengiriman">PENYERAHAN JKP</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_24" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">41</field>
+        <field name="kode_tujuan_pengiriman">3</field>
+        <field name="uraian_tujuan_pengiriman">RETUR</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_25" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">41</field>
+        <field name="kode_tujuan_pengiriman">4</field>
+        <field name="uraian_tujuan_pengiriman">NON PENYERAHAN</field>
+    </record>
+    <record id="ref_tujuan_pengiriman_26" model="ceisa.referensi.tujuan.pengiriman">
+        <field name="kode_dokumen">41</field>
+        <field name="kode_tujuan_pengiriman">5</field>
+        <field name="uraian_tujuan_pengiriman">LAINNYA</field>
+    </record>
+</odoo>

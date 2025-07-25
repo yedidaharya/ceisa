@@ -1,0 +1,38 @@
+<odoo>
+    <record id="ref_tipe_kontainer_1_1" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">1</field>
+        <field name="uraian_tipe_kontainer">General / Dry Cargo</field>
+    </record>
+    <record id="ref_tipe_kontainer_2_2" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">2</field>
+        <field name="uraian_tipe_kontainer">Tunne Type</field>
+    </record>
+    <record id="ref_tipe_kontainer_3_3" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">3</field>
+        <field name="uraian_tipe_kontainer">Open Top Steel</field>
+    </record>
+    <record id="ref_tipe_kontainer_4_4" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">4</field>
+        <field name="uraian_tipe_kontainer">Flat Rack</field>
+    </record>
+    <record id="ref_tipe_kontainer_5_5" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">5</field>
+        <field name="uraian_tipe_kontainer">Reefer/Refregete</field>
+    </record>
+    <record id="ref_tipe_kontainer_6_6" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">6</field>
+        <field name="uraian_tipe_kontainer">Barge Container</field>
+    </record>
+    <record id="ref_tipe_kontainer_7_7" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">7</field>
+        <field name="uraian_tipe_kontainer">Bulk Container</field>
+    </record>
+    <record id="ref_tipe_kontainer_8_8" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">8</field>
+        <field name="uraian_tipe_kontainer">Isotank</field>
+    </record>
+    <record id="ref_tipe_kontainer_9_99" model="ceisa.referensi.tipe.kontainer">
+        <field name="kode_tipe_kontainer">99</field>
+        <field name="uraian_tipe_kontainer">Lain-lain</field>
+    </record>
+</odoo>

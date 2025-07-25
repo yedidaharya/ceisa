@@ -1,0 +1,810 @@
+<odoo>
+    <record id="ref_dokumen_bc10" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">10</field>
+        <field name="uraian_dokumen">RKSP</field>
+    </record>
+    <record id="ref_dokumen_bc11" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">11</field>
+        <field name="uraian_dokumen">MANIFES</field>
+    </record>
+    <record id="ref_dokumen_bc16" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">16</field>
+        <field name="uraian_dokumen">BC 1.6 - PEMBERITAHUAN PABEAN PENGELUARAN BARANG DARI KAWASAN PABEAN UNTUK DITIMBUN DI PUSAT LOGISTIK BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc20" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">20</field>
+        <field name="uraian_dokumen">BC 2.0 - PEMBERITAHUAN IMPOR BARANG</field>
+    </record>
+    <record id="ref_dokumen_bc21" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">21</field>
+        <field name="uraian_dokumen">PIBK/IMPOR KHUSUS</field>
+    </record>
+    <record id="ref_dokumen_bc23" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">23</field>
+        <field name="uraian_dokumen">BC 2.3 - PEMBERITAHUAN IMPOR BARANG UNTUK DITIMBUN DI TEMPAT PENIMBUNAN BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc25" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">25</field>
+        <field name="uraian_dokumen">BC 2.5 - PEMBERITAHUAN IMPOR BARANG DARI TEMPAT PENIMBUNAN BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc27" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">27</field>
+        <field name="uraian_dokumen">BC 2.7 - PEMBERITAHUAN PENGELUARAN UNTUK DIANGKUT DARI TEMPAT PENIMBUNAN BERIKAT KE TEMPAT PENIMBUNAN BERIKAT LAINNYA</field>
+    </record>
+    <record id="ref_dokumen_bc28" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">28</field>
+        <field name="uraian_dokumen">BC 2.8 - PEMBERITAHUAN IMPOR BARANG DARI PUSAT LOGISTIK BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc30" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">30</field>
+        <field name="uraian_dokumen">BC 3.0 - PEMBERITAHUAN EKSPOR BARANG</field>
+    </record>
+    <record id="ref_dokumen_bc33" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">33</field>
+        <field name="uraian_dokumen">BC 3.3 - PEMBERITAHUAN EKSPOR BARANG MELALUI/DARI PUSAT LOGISTIK BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc40" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">40</field>
+        <field name="uraian_dokumen">BC 4.0 - PEMBERITAHUAN PEMASUKAN BARANG ASAL TEMPAT LAIN DALAM DAERAH PABEAN KE TEMPAT PENIMBUNAN BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc41" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">41</field>
+        <field name="uraian_dokumen">BC 4.1 - PEMBERITAHUAN PENGELUARAN KEMBALI BARANG ASAL TEMPAT LAIN DALAM DAERAH PABEAN DARI TEMPAT PENIMBUNAN BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc50" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">50</field>
+        <field name="uraian_dokumen">KITE</field>
+    </record>
+    <record id="ref_dokumen_bc51" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">51</field>
+        <field name="uraian_dokumen">FTZ 01</field>
+    </record>
+    <record id="ref_dokumen_bc52" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">52</field>
+        <field name="uraian_dokumen">FTZ 02</field>
+    </record>
+    <record id="ref_dokumen_bc53" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">53</field>
+        <field name="uraian_dokumen">FTZ 03</field>
+    </record>
+    <record id="ref_dokumen_bc65" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">65</field>
+        <field name="uraian_dokumen">BC 1.1 KONSOLIDASI PJT</field>
+    </record>
+    <record id="ref_dokumen_bc111" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">111</field>
+        <field name="uraian_dokumen">Bank Devisa Hasil Ekspor (DHE)</field>
+    </record>
+    <record id="ref_dokumen_bc161" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">161</field>
+        <field name="uraian_dokumen">PPB - PEMBERITAHUAN PERPINDAHAN BARANG ANTAR TEMPAT PENIMBUNAN DALAM SATU PUSAT LOGISTIK BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc217" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">217</field>
+        <field name="uraian_dokumen">PACKING LIST</field>
+    </record>
+    <record id="ref_dokumen_bc246" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">246</field>
+        <field name="uraian_dokumen">L/C</field>
+    </record>
+    <record id="ref_dokumen_bc261" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">261</field>
+        <field name="uraian_dokumen">BC 2.6.1 - PEMBERITAHUAN PENGELUARAN BARANG DARI TEMPAT PENIMBUNAN BERIKAT DENGAN JAMINAN</field>
+    </record>
+    <record id="ref_dokumen_bc262" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">262</field>
+        <field name="uraian_dokumen">BC 2.6.2 - PEMBERITAHUAN PEMASUKAN KEMBALI BARANG YANG DI KELUARKAN DARI TEMPAT PENIMBUNAN BERIKAT DENGAN JAMINAN</field>
+    </record>
+    <record id="ref_dokumen_bc281" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">281</field>
+        <field name="uraian_dokumen">PPK - PEMBERITAHUAN PEMASUKAN KEMBALI BARANG ASAL PLB DARI LOKASI PENERIMA FASILITAS DI TEMPAT LAIN DALAM DAERAH PABEAN KE PLB</field>
+    </record>
+    <record id="ref_dokumen_bc282" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">282</field>
+        <field name="uraian_dokumen">DOKAP PLB - PEMBERITAHUAN PENGELUARAN DENGAN DOKUMEN PELENGKAP</field>
+    </record>
+    <record id="ref_dokumen_bc315" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">315</field>
+        <field name="uraian_dokumen">KONTRAK KERJA</field>
+    </record>
+    <record id="ref_dokumen_bc331" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">331</field>
+        <field name="uraian_dokumen">P3BET - PEMBERITAHUAN PENGGABUNGAN DAN PEMECAHAN BARANG EKSPOR DAN TRANSHIPMENT</field>
+    </record>
+    <record id="ref_dokumen_bc343" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">343</field>
+        <field name="uraian_dokumen">SHIPING ORDER</field>
+    </record>
+    <record id="ref_dokumen_bc380" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">380</field>
+        <field name="uraian_dokumen">INVOICE</field>
+    </record>
+    <record id="ref_dokumen_bc383" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">383</field>
+        <field name="uraian_dokumen">SSTB</field>
+    </record>
+    <record id="ref_dokumen_bc388" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">388</field>
+        <field name="uraian_dokumen">FAKTUR PAJAK</field>
+    </record>
+    <record id="ref_dokumen_bc410" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">410</field>
+        <field name="uraian_dokumen">SURAT SANGGUP BAYAR / SSB</field>
+    </record>
+    <record id="ref_dokumen_bc430" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">430</field>
+        <field name="uraian_dokumen">BANK GARANSI</field>
+    </record>
+    <record id="ref_dokumen_bc440" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">440</field>
+        <field name="uraian_dokumen">SURAT TANDA BUKTI SETOR / STBS</field>
+    </record>
+    <record id="ref_dokumen_bc454" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">454</field>
+        <field name="uraian_dokumen">SSPCP / SSBC</field>
+    </record>
+    <record id="ref_dokumen_bc455" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">455</field>
+        <field name="uraian_dokumen">SURAT SETORAN PAJAK (SSP)</field>
+    </record>
+    <record id="ref_dokumen_bc456" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">456</field>
+        <field name="uraian_dokumen">SKB</field>
+    </record>
+    <record id="ref_dokumen_bc457" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">457</field>
+        <field name="uraian_dokumen">Surat Keterangan Bebas (SKB) PPh</field>
+    </record>
+    <record id="ref_dokumen_bc458" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">458</field>
+        <field name="uraian_dokumen">SURAT KETERANGAN TIDAK DIPUNGUT (SKTD) PPN</field>
+    </record>
+    <record id="ref_dokumen_bc500" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">500</field>
+        <field name="uraian_dokumen">MOU PDE (Eksportir)</field>
+    </record>
+    <record id="ref_dokumen_bc511" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">511</field>
+        <field name="uraian_dokumen">FTZ-01 PEMASUKAN DARI LUAR DAERAH PABEAN (IMPOR)</field>
+    </record>
+    <record id="ref_dokumen_bc512" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">512</field>
+        <field name="uraian_dokumen">FTZ-01 PENGELUARAN KE LUAR DAERAH PABEAN (EKSPOR)</field>
+    </record>
+    <record id="ref_dokumen_bc513" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">513</field>
+        <field name="uraian_dokumen">FTZ-01 PENGELUARAN KE TEMPAT LAIN DALAM DAERAH PABEAN</field>
+    </record>
+    <record id="ref_dokumen_bc521" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">521</field>
+        <field name="uraian_dokumen">FTZ-02 PEMASUKAN ANTAR FREE TRADE ZONE DAN KAWASAN BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc522" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">522</field>
+        <field name="uraian_dokumen">FTZ-02 PENGELUARAN ANTAR FREE TRADE ZONE DAN KAWASAN BERIKAT</field>
+    </record>
+    <record id="ref_dokumen_bc531" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">531</field>
+        <field name="uraian_dokumen">FTZ-03 PEMASUKAN DARI TEMPAT LAIN DALAM DAERAH PABEAN</field>
+    </record>
+    <record id="ref_dokumen_bc640_do" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">640</field>
+        <field name="uraian_dokumen">DELIVERY ORDER</field>
+    </record>
+    <record id="ref_dokumen_bc666" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">666</field>
+        <field name="uraian_dokumen">Pengecualian Dengan Surat Keputusan</field>
+    </record>
+    <record id="ref_dokumen_bc704" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">704</field>
+        <field name="uraian_dokumen">MASTER B/L</field>
+    </record>
+    <record id="ref_dokumen_bc705" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">705</field>
+        <field name="uraian_dokumen">B/L</field>
+    </record>
+    <record id="ref_dokumen_bc740" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">740</field>
+        <field name="uraian_dokumen">AWB</field>
+    </record>
+    <record id="ref_dokumen_bc741" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">741</field>
+        <field name="uraian_dokumen">MASTER AWB</field>
+    </record>
+    <record id="ref_dokumen_bc800" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">800</field>
+        <field name="uraian_dokumen">SERTIFIKAT ALAT PERANGKAT TELEKOM/POSTEL</field>
+    </record>
+    <record id="ref_dokumen_bc803" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">803</field>
+        <field name="uraian_dokumen">SATS LN / DEPHUT</field>
+    </record>
+    <record id="ref_dokumen_bc805" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">805</field>
+        <field name="uraian_dokumen">REGISTRASI B3 / KLH</field>
+    </record>
+    <record id="ref_dokumen_bc808" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">808</field>
+        <field name="uraian_dokumen">IJIN IMPOR / POLRI</field>
+    </record>
+    <record id="ref_dokumen_bc809" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">809</field>
+        <field name="uraian_dokumen">SIE</field>
+    </record>
+    <record id="ref_dokumen_bc810" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">810</field>
+        <field name="uraian_dokumen">SM/SPM</field>
+    </record>
+    <record id="ref_dokumen_bc811" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">811</field>
+        <field name="uraian_dokumen">Sertifikat Legalitas Kayu (Dok.V-Legal)</field>
+    </record>
+    <record id="ref_dokumen_bc812" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">812</field>
+        <field name="uraian_dokumen">Dok. Impor (PIB)</field>
+    </record>
+    <record id="ref_dokumen_bc813" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">813</field>
+        <field name="uraian_dokumen">DOK. CUKAI (CK)</field>
+    </record>
+    <record id="ref_dokumen_bc814" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">814</field>
+        <field name="uraian_dokumen">SKEP IJIN EKSPOR BERKALA</field>
+    </record>
+    <record id="ref_dokumen_bc815" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">815</field>
+        <field name="uraian_dokumen">SKEP IJIN TATA NIAGA EKSPOR</field>
+    </record>
+    <record id="ref_dokumen_bc816" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">816</field>
+        <field name="uraian_dokumen">DOK. EKSPOR (PEB)</field>
+    </record>
+    <record id="ref_dokumen_bc817" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">817</field>
+        <field name="uraian_dokumen">Eksportir Terdaftar (ET) Depdag</field>
+    </record>
+    <record id="ref_dokumen_bc818" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">818</field>
+        <field name="uraian_dokumen">Endorsement BRIK</field>
+    </record>
+    <record id="ref_dokumen_bc819" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">819</field>
+        <field name="uraian_dokumen">Sertifikat Intan Kasar</field>
+    </record>
+    <record id="ref_dokumen_bc820" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">820</field>
+        <field name="uraian_dokumen">Surat Persetujuan Ekspor (SPE)</field>
+    </record>
+    <record id="ref_dokumen_bc821" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">821</field>
+        <field name="uraian_dokumen">Surat Tanda Registrasi UPPB</field>
+    </record>
+    <record id="ref_dokumen_bc822" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">822</field>
+        <field name="uraian_dokumen">Srt Tanda Pendaftaran Pedagang Bokor SIR</field>
+    </record>
+    <record id="ref_dokumen_bc834" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">834</field>
+        <field name="uraian_dokumen">SNI GULA KRISTAL MENTAH / DEPTAN</field>
+    </record>
+    <record id="ref_dokumen_bc835" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">835</field>
+        <field name="uraian_dokumen">IZIN DAN/ATAU PENDAFT PESTISIDA / DEPTAN</field>
+    </record>
+    <record id="ref_dokumen_bc836" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">836</field>
+        <field name="uraian_dokumen">IZIN IMPOR / DEPTAN</field>
+    </record>
+    <record id="ref_dokumen_bc842" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">842</field>
+        <field name="uraian_dokumen">SNI / ESDM</field>
+    </record>
+    <record id="ref_dokumen_bc843" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">843</field>
+        <field name="uraian_dokumen">NOMOR PELUMAS TERDAFTAR / ESDM</field>
+    </record>
+    <record id="ref_dokumen_bc844" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">844</field>
+        <field name="uraian_dokumen">IJIN USAHA NIAGA/IU NIAGA TERBATAS/ESDM</field>
+    </record>
+    <record id="ref_dokumen_bc845" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">845</field>
+        <field name="uraian_dokumen">REKOMENDASI IMPOR PELUMAS</field>
+    </record>
+    <record id="ref_dokumen_bc846" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">846</field>
+        <field name="uraian_dokumen">SKEM</field>
+    </record>
+    <record id="ref_dokumen_bc851" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">851</field>
+        <field name="uraian_dokumen">SURAT IJIN KARANTINA TANAMAN</field>
+    </record>
+    <record id="ref_dokumen_bc853" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">853</field>
+        <field name="uraian_dokumen">SURAT IJIN KARANTINA HEWAN / IKAN</field>
+    </record>
+    <record id="ref_dokumen_bc854" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">854</field>
+        <field name="uraian_dokumen">SURAT PERSETUJUAN MUAT BPOM</field>
+    </record>
+    <record id="ref_dokumen_bc856" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">856</field>
+        <field name="uraian_dokumen">LAP. PEMERIKSAAN SURVEYOR (LPS-E)</field>
+    </record>
+    <record id="ref_dokumen_bc857" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">857</field>
+        <field name="uraian_dokumen">FUMIGATION CERTIFICATE</field>
+    </record>
+    <record id="ref_dokumen_bc858" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">858</field>
+        <field name="uraian_dokumen">CITES CERTIFICATE</field>
+    </record>
+    <record id="ref_dokumen_bc860" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">860</field>
+        <field name="uraian_dokumen">Electronic Certificate Of Origin (E-CO)</field>
+    </record>
+    <record id="ref_dokumen_bc861" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">861</field>
+        <field name="uraian_dokumen">CERTIFICATE OF ORIGIN (CO)</field>
+    </record>
+    <record id="ref_dokumen_bc862" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">862</field>
+        <field name="uraian_dokumen">SKEP USDFS</field>
+    </record>
+    <record id="ref_dokumen_bc871" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">871</field>
+        <field name="uraian_dokumen">Nomor Pendaftaran Alat Kesehatan/Depkes</field>
+    </record>
+    <record id="ref_dokumen_bc872" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">872</field>
+        <field name="uraian_dokumen">LAPORAN SURVEYOR DEPKES</field>
+    </record>
+    <record id="ref_dokumen_bc873" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">873</field>
+        <field name="uraian_dokumen">IP (NARKTK, PREKURSOR &amp; PSIKOTR)/DEPKES</field>
+    </record>
+    <record id="ref_dokumen_bc874" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">874</field>
+        <field name="uraian_dokumen">IT (PREKURSOR &amp; PSIKOTR)/DEPKES</field>
+    </record>
+    <record id="ref_dokumen_bc875" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">875</field>
+        <field name="uraian_dokumen">SPI (NARKTK, PREKURSOR &amp; PSIKOTR)/DEPKES</field>
+    </record>
+    <record id="ref_dokumen_bc876" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">876</field>
+        <field name="uraian_dokumen">Ijin Pembawaan UKA</field>
+    </record>
+    <record id="ref_dokumen_bc877" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">877</field>
+        <field name="uraian_dokumen">Ijin Persetujuan Pembawaan UKA</field>
+    </record>
+    <record id="ref_dokumen_bc878" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">878</field>
+        <field name="uraian_dokumen">Ijin Pelaporan Pembawaan UKA</field>
+    </record>
+    <record id="ref_dokumen_bc888" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">888</field>
+        <field name="uraian_dokumen">PENGECUALIAN PERIJINAN</field>
+    </record>
+    <record id="ref_dokumen_bc902" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">902</field>
+        <field name="uraian_dokumen">IJIN BAPETEN</field>
+    </record>
+    <record id="ref_dokumen_bc911" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">911</field>
+        <field name="uraian_dokumen">SURAT KEPUTUSAN</field>
+    </record>
+    <record id="ref_dokumen_bc912" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">912</field>
+        <field name="uraian_dokumen">SKEP FASILITAS BKPM</field>
+    </record>
+    <record id="ref_dokumen_bc913" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">913</field>
+        <field name="uraian_dokumen">SKEP FASILITAS PERTAMBANGAN</field>
+    </record>
+    <record id="ref_dokumen_bc914" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">914</field>
+        <field name="uraian_dokumen">KITE IKM</field>
+    </record>
+    <record id="ref_dokumen_bc915" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">915</field>
+        <field name="uraian_dokumen">Skep Fasilitas Impor Sementara</field>
+    </record>
+    <record id="ref_dokumen_bc917" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">917</field>
+        <field name="uraian_dokumen">BPBC / BPPAI</field>
+    </record>
+    <record id="ref_dokumen_bc918" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">918</field>
+        <field name="uraian_dokumen">SK LABEL BAHASA INDONESIA</field>
+    </record>
+    <record id="ref_dokumen_bc936" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">936</field>
+        <field name="uraian_dokumen">KH-9a/Izin Impor Karantina Hewan</field>
+    </record>
+    <record id="ref_dokumen_bc937" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">937</field>
+        <field name="uraian_dokumen">KH-14/Izin Impor Karantina Hewan</field>
+    </record>
+    <record id="ref_dokumen_bc938" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">938</field>
+        <field name="uraian_dokumen">KH-17/Izin Impor Karantina Hewan</field>
+    </record>
+    <record id="ref_dokumen_bc939" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">939</field>
+        <field name="uraian_dokumen">KT-5/Izin Impor Karantina Pertanian</field>
+    </record>
+    <record id="ref_dokumen_bc940" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">940</field>
+        <field name="uraian_dokumen">KT-9/Izin Impor Karantina Pertanian</field>
+    </record>
+    <record id="ref_dokumen_bc941" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">941</field>
+        <field name="uraian_dokumen">KT-13/Izin Impor Karantina Pertanian</field>
+    </record>
+    <record id="ref_dokumen_bc942" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">942</field>
+        <field name="uraian_dokumen">IZIN IMPOR KARANTINA TUMBUHAN</field>
+    </record>
+    <record id="ref_dokumen_bc943" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">943</field>
+        <field name="uraian_dokumen">KH-5 / IZIN IMPOR KARANTINA HEWAN</field>
+    </record>
+    <record id="ref_dokumen_bc944" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">944</field>
+        <field name="uraian_dokumen">KH-7 / IZIN IMPOR KARANTINA HEWAN</field>
+    </record>
+    <record id="ref_dokumen_bc945" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">945</field>
+        <field name="uraian_dokumen">KH-12 / IZIN IMPOR KARANTINA HEWAN</field>
+    </record>
+    <record id="ref_dokumen_bc946" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">946</field>
+        <field name="uraian_dokumen">KID-3 / IZIN IMPOR KARANTINA IKAN</field>
+    </record>
+    <record id="ref_dokumen_bc947" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">947</field>
+        <field name="uraian_dokumen">KID-15 / IZIN IMPOR KARANTINA IKAN</field>
+    </record>
+    <record id="ref_dokumen_bc948" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">948</field>
+        <field name="uraian_dokumen">NPIK</field>
+    </record>
+    <record id="ref_dokumen_bc949" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">949</field>
+        <field name="uraian_dokumen">PENGAKUAN SBG IMPORTIR PRODUSEN</field>
+    </record>
+    <record id="ref_dokumen_bc950" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">950</field>
+        <field name="uraian_dokumen">KID-4/IZIN KARANTINA IKAN</field>
+    </record>
+    <record id="ref_dokumen_bc951" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">951</field>
+        <field name="uraian_dokumen">HC (HEALTH CERTIFICATE)</field>
+    </record>
+    <record id="ref_dokumen_bc956" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">956</field>
+        <field name="uraian_dokumen">PENGAKUAN SBG IMPORTIR TERDAFTAR</field>
+    </record>
+    <record id="ref_dokumen_bc957" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">957</field>
+        <field name="uraian_dokumen">SNI/SPB/DEPDAG</field>
+    </record>
+    <record id="ref_dokumen_bc958" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">958</field>
+        <field name="uraian_dokumen">LAPORAN SURVEYOR / DEPDAG</field>
+    </record>
+    <record id="ref_dokumen_bc959" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">959</field>
+        <field name="uraian_dokumen">SURAT PERSETUJUAN IMPOR DEP.DAG</field>
+    </record>
+    <record id="ref_dokumen_bc960" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">960</field>
+        <field name="uraian_dokumen">3D/PC dan/atau PFP</field>
+    </record>
+    <record id="ref_dokumen_bc961" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">961</field>
+        <field name="uraian_dokumen">Hasil Lab</field>
+    </record>
+    <record id="ref_dokumen_bc993" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">993</field>
+        <field name="uraian_dokumen">SURAT IJIN MENTERI PERTANIAN</field>
+    </record>
+    <record id="ref_dokumen_bc994" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">994</field>
+        <field name="uraian_dokumen">BUKTI PENERIMAAN JAMINAN (BPJ)</field>
+    </record>
+    <record id="ref_dokumen_bc995" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">995</field>
+        <field name="uraian_dokumen">STBS / SSP-E (PAJAK EKSPOR)</field>
+    </record>
+    <record id="ref_dokumen_bc996" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">996</field>
+        <field name="uraian_dokumen">SRT SANGGUP BAYAR (SSB)</field>
+    </record>
+    <record id="ref_dokumen_bc997" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">997</field>
+        <field name="uraian_dokumen">COSTOMS BOND / STTJ</field>
+    </record>
+    <record id="ref_dokumen_bc998" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">998</field>
+        <field name="uraian_dokumen">SKEP FASILITAS KEMUDAHAN EKSPOR</field>
+    </record>
+    <record id="ref_dokumen_bc999" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">999</field>
+        <field name="uraian_dokumen">LAINNYA</field>
+    </record>
+    <record id="ref_dokumen_bc03001" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03001</field>
+        <field name="uraian_dokumen">Izin Prinsip Pendirian Kawasan Berikat Sebelum Fisik Bangunan Berdiri</field>
+    </record>
+    <record id="ref_dokumen_bc03002" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03002</field>
+        <field name="uraian_dokumen">Keputusan Penetapan Tempat Sebagai Kawasan Berikat Dan Pemberian Izin Penyelenggara Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03003" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03003</field>
+        <field name="uraian_dokumen">Persetujuan Penetapan Tempat Sebagai Kawasan Berikat Dan Pemberian Izin Penyelenggara Kawasan Berikat Sekaligus Izin Pengusaha Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03004" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03004</field>
+        <field name="uraian_dokumen">Izin PDKB</field>
+    </record>
+    <record id="ref_dokumen_bc03005" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03005</field>
+        <field name="uraian_dokumen">Perpanjangan Penetapan Tempat Sebagai Kawasan Berikat Dan Izin Penyelenggara Kawasan Berikat, Izin Pengusaha Kawasan Berikat, Atau Izin PDKB Sebelum Jangka Waktu Izin Tersebut Berakhir</field>
+    </record>
+    <record id="ref_dokumen_bc03006" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03006</field>
+        <field name="uraian_dokumen">Perubahan Izin Penyelenggara Kawasan Berikat, Izin Pengusaha Kawasan Berikat, Atau Izin PDKB (Terdapat Perubahan Nama Perusahaan Yang Bukan Dikarenakan Merger Atau Diakuisisi, Jenis Hasil Produksi, Atau Luas Kawasan Berikat)</field>
+    </record>
+    <record id="ref_dokumen_bc03007" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03007</field>
+        <field name="uraian_dokumen">Perubahan Keputusan Izin Penyelenggara Kawasan Berikat, Izin Pengusaha Kawasan Berikat, Atau Izin PDKB</field>
+    </record>
+    <record id="ref_dokumen_bc03008" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03008</field>
+        <field name="uraian_dokumen">Pemberian Izin Penambahan Pintu Khusus Pemasukan Dan Pengeluaran Barang Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03009" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03009</field>
+        <field name="uraian_dokumen">Pemberian Izin Penambahan Pintu Khusus Orang Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03010" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03010</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Dari Kawasan Bebas Ke Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03011" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03011</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Modal Dari Luar Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03012" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03012</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Modal Dari Kawasan Berikat Lain</field>
+    </record>
+    <record id="ref_dokumen_bc03013" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03013</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Jadi Asal Luar Daerah Pabean Untuk Digabungkan Dengan Hasil Produksi Utama Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03014" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03014</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Peralatan Perkantoran Asal Luar Daerah Pabean Ke Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03015" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03015</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Contoh Asal Luar Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03016" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03016</field>
+        <field name="uraian_dokumen">Persetujuan Pembebasan Bea Masuk Untuk Barang Contoh Yang Akan Dikeluarkan Ke Tempat Lain Dalam Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03017" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03017</field>
+        <field name="uraian_dokumen">Persetujuan Mengeluarkan Hasil Produksi Kawasan Berikat Ke Tempat Penyelenggaraan Pameran Berikat (TPPB)</field>
+    </record>
+    <record id="ref_dokumen_bc03018" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03018</field>
+        <field name="uraian_dokumen">Persetujuan Untuk Mengeluarkan Bahan Baku Dan/Atau Bahan Rusak Dan/Atau Apkir (Reject) Yang Sama Sekali Tidak Diproses Ke Gudang Berikat Asal Barang</field>
+    </record>
+    <record id="ref_dokumen_bc03019" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03019</field>
+        <field name="uraian_dokumen">Persetujuan Untuk Mengeluarkan Barang Dan/Atau Bahan Rusak Dan/Atau Apkir (Reject) Asal Tlddp Ke TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03020" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03020</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Bahan Baku/Sisa Bahan Baku Asal Impor Untuk Direekspor</field>
+    </record>
+    <record id="ref_dokumen_bc03021" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03021</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Bahan Baku Dan/Atau Sisa Bahan Baku Asal Luar Daerah Pabean Ke Kawasan Berikat Lain</field>
+    </record>
+    <record id="ref_dokumen_bc03022" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03022</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Bahan Baku Dan/Atau Sisa Bahan Baku Asal Luar Daerah Pabean Ke Perusahaan Industri Di TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03023" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03023</field>
+        <field name="uraian_dokumen">Persetujuan Pemindahtanganan Barang Selain Hasil Produksi Dalam Rangka Saling Melengkapi Kebutuhan Dalam Proses Produksi Atau Peningkatan Produksi Ke Kawasan Berikat Lain Dalam Satu Manajemen</field>
+    </record>
+    <record id="ref_dokumen_bc03024" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03024</field>
+        <field name="uraian_dokumen">Persetujuan Pemindahtanganan Barang Selain Hasil Produksi Dalam Rangka Saling Melengkapi Kebutuhan Dalam Proses Produksi Atau Peningkatan Produksi Ke Kawasan Berikat Lain Dalam Satu PKB</field>
+    </record>
+    <record id="ref_dokumen_bc03025" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03025</field>
+        <field name="uraian_dokumen">Persetujuan Pemindahtanganan Barang Selain Hasil Produksi Dalam Rangka Saling Melengkapi Kebutuhan Dalam Proses Produksi Atau Peningkatan Produksi Ke Kawasan Berikat Lainnya</field>
+    </record>
+    <record id="ref_dokumen_bc03026" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03026</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Modal Asal Impor Yang Belum Dibayar BM-nya Untuk Direekspor</field>
+    </record>
+    <record id="ref_dokumen_bc03027" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03027</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Modal Asal Impor Yang Belum Diselesaikan Kewajiban BM-nya Ke Kawasan Berikat Lain Setelah Jangka Waktu 2 (Dua) Tahun Sejak Diimpor Dan Telahdipergunakan Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03028" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03028</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Modal Asal Impor Yang Belum Diselesaikan Kewajiban BM Ke Tempat Lain Dalam Daerah Pabean Sebelum Jangka Waktu 4 (Empat) Tahun Sejak Diimpor, Dan Telah Dipergunakan Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03029" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03029</field>
+        <field name="uraian_dokumen">Keputusan Pembebasan BM Atas Pengeluaran Barang Modal Asal Impor Yang Belum Diselesaikan Kewajiban Pembayaran Bm Ke TLDDP Setelah Jangka Waktu 4 (Empat) Tahun Sejak Diimpor, Dan Telah Dipergunakan Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03030" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03030</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Peralatan Perkantoran Asal Impor Yang Belum Lunas BM Untuk Direekspor</field>
+    </record>
+    <record id="ref_dokumen_bc03031" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03031</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Peralatan Perkantoran Asal Impor Yang Belum Diselesaikan Kewajiban Pembayaran Bm Ke Kawasan Berikat Lain Setelah Dipergunakan Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03032" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03032</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Peralatan Perkantoran Asal Impor Yang Belum Diselesaikan Kewajiban Pembayaran Bm Ke TLDDP Sebelum Jangka Waktu 4 (Empat) Tahun Sejak Diimpor, Dan Telah Dipergunakan Di Kawasan Berikat Yang Bersangkutan</field>
+    </record>
+    <record id="ref_dokumen_bc03033" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03033</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Peralatan Perkantoran Asal Impor Yang Belum Diselesaikan Kewajiban Pembayaran Bm Ke TLDDP Setelah Jangka Waktu 4 (Empat) Tahun Sejak Diimpor, Dan Telah Dipergunakan Di Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03034" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03034</field>
+        <field name="uraian_dokumen">Persetujuan Untuk Memindahtangankan Barang Modal Dan/Atau Peralatan Perkantoran Yang Telah Dilunasi BM Dan PDRI Pada Saat Pemasukan Ke Kawasan Berikat</field>
+    </record>
+    <record id="ref_dokumen_bc03035" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03035</field>
+        <field name="uraian_dokumen">Persetujuan Untuk Memindahtangankan Barang Modal Asal Tempat Lain Dalam Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03036" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03036</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Modal Untuk Perbaikan/Reparasi Ke Luar Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03037" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03037</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Modal Untuk Perbaikan/Reparasi Ke TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03038" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03038</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Modal Untuk Perbaikan/Reparasi Ke KB Lain</field>
+    </record>
+    <record id="ref_dokumen_bc03039" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03039</field>
+        <field name="uraian_dokumen">Persetujuan Subkontrak Kurang Dari 60 (Enam Puluh) Hari Ke TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03040" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03040</field>
+        <field name="uraian_dokumen">Persetujuan Subkontrak Kurang Dari 60 (Enam Puluh) Hari Ke KB Lain</field>
+    </record>
+    <record id="ref_dokumen_bc03041" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03041</field>
+        <field name="uraian_dokumen">Persetujuan Subkontrak Lebih Dari 60 (Enam Puluh) Hari Ke TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03042" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03042</field>
+        <field name="uraian_dokumen">Persetujuan Subkontrak Lebih Dari 60 (Enam Puluh) Hari Ke PDKB Lain</field>
+    </record>
+    <record id="ref_dokumen_bc03043" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03043</field>
+        <field name="uraian_dokumen">Persetujuan Meminjamkan Mesin/Cetakan (Moulding) Ke KB Lain Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03044" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03044</field>
+        <field name="uraian_dokumen">Persetujuan Meminjamkan Mesin/Cetakan (Moulding) Ke KB Lain Bukan Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03045" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03045</field>
+        <field name="uraian_dokumen">Persetujuan Meminjamkan Mesin/Cetakan (Moulding) Ke TLDDP Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03046" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03046</field>
+        <field name="uraian_dokumen">Persetujuan Meminjamkan Mesin/Cetakan (Moulding) Ke TLDDP Bukan Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03047" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03047</field>
+        <field name="uraian_dokumen">Persetujuan Perpanjangan Meminjamkan Mesin Dan/Atau Cetakan (Moulding) Ke PDKB Lain Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03048" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03048</field>
+        <field name="uraian_dokumen">Persetujuan Perpanjangan Meminjamkan Mesin Dan/Atau Cetakan (Moulding) Ke PDKB Lain Bukan Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03049" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03049</field>
+        <field name="uraian_dokumen">Persetujuan Perpanjangan Meminjamkan Mesin Dan/Atau Cetakan (Moulding) Ke TLDDP Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03050" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03050</field>
+        <field name="uraian_dokumen">Persetujuan Perpanjangan Meminjamkan Mesin Dan/Atau Cetakan (Moulding) Ke TLDDP Selain Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03051" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03051</field>
+        <field name="uraian_dokumen">Persetujuan Peminjaman Mesin Atau Cetakan (Moulding) Yang Melebihi Jangka Waktu</field>
+    </record>
+    <record id="ref_dokumen_bc03052" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03052</field>
+        <field name="uraian_dokumen">Persetujuan Pemusnahan Atas Barangbarang Yang Busuk Dan/Atau Yang Karena Sifat Dan Bentuknya Dapat Dimusnahkan</field>
+    </record>
+    <record id="ref_dokumen_bc03053" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03053</field>
+        <field name="uraian_dokumen">Persetujuan Perusakan Atas Barang Asal Luar Daerah Pabean Yang Karena Sifat Dan Bentuknya Tidak Dapat Dimusnahkan</field>
+    </record>
+    <record id="ref_dokumen_bc03054" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03054</field>
+        <field name="uraian_dokumen">Persetujuan Menerima Subkontrak Dari TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03055" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03055</field>
+        <field name="uraian_dokumen">Persetujuan Peminjaman Mesin/Cetakan (Moulding) Dari TLDDP Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03056" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03056</field>
+        <field name="uraian_dokumen">Persetujuan Peminjaman Mesin/Cetakan (Moulding) Dari TLDDP Bukan Dalam Rangka Subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc03057" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03057</field>
+        <field name="uraian_dokumen">Persetujuan Peminjaman Mesin/Peralatan Pabrik Dari TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03060" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03060</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Modal Berupa Peralatan Pabrik Dari Luar Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03061" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03061</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Barang Modal Berupa Suku Cadang Dari Luar Daerah Pabean Yang Dimasukkan Tidak Bersamaan Dengan Barang Modal</field>
+    </record>
+    <record id="ref_dokumen_bc03062" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03062</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Kembali (Reimpor) Barang Hasil Produksi Asal TPB</field>
+    </record>
+    <record id="ref_dokumen_bc03063" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03063</field>
+        <field name="uraian_dokumen">Persetujuan Pemasukan Kembali (Reimpor) Barang Modal Setelah Perbaikan/Reparasi Dari Luar Daerah Pabean</field>
+    </record>
+    <record id="ref_dokumen_bc03064" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03064</field>
+        <field name="uraian_dokumen">Persetujuan Perpanjangan Jangka Waktu Pengeluaran Barang Modal Keperluan Perbaikan/Reparasi Tujuan TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03065" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03065</field>
+        <field name="uraian_dokumen">Persetujuan Pengeluaran Barang Contoh/Sampel KB Dengan Tujuan TLDDP</field>
+    </record>
+    <record id="ref_dokumen_bc03066" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">03066</field>
+        <field name="uraian_dokumen">Rekomendasi Meminjamkan Barang Modal Ke TLDDP Dalam Rangka Subkontrak Atau Bukan Lebih Dari 6 Bulan</field>
+    </record>
+    <record id="ref_dokumen_bc640_sj" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">640</field>
+        <field name="uraian_dokumen">SURAT JALAN PENGIRIMMAN</field>
+    </record>
+    <record id="ref_dokumen_bc203" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">203</field>
+        <field name="uraian_dokumen">pengeluaran sementara - subkontrak</field>
+    </record>
+    <record id="ref_dokumen_bc370" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">370</field>
+        <field name="uraian_dokumen">PURCHASE ORDER</field>
+    </record>
+    <record id="ref_dokumen_bc920" model="ceisa.referensi.dokumen">
+        <field name="kode_dokumen">920</field>
+        <field name="uraian_dokumen">SKEP TPB</field>
+    </record>
+</odoo>

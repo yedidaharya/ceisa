@@ -1,0 +1,506 @@
+<odoo>
+    <record id="ref_kantor_pabean_124" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">130600</field>
+        <field name="uraian_kantor">KPPBC KUALA LANGSA</field>
+    </record>
+    <record id="ref_kantor_pabean_125" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">011200</field>
+        <field name="uraian_kantor">KPPBC KUALA TANJUNG</field>
+    </record>
+    <record id="ref_kantor_pabean_126" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">021300</field>
+        <field name="uraian_kantor">KPPBC SIAK SRI INDRAPURA</field>
+    </record>
+    <record id="ref_kantor_pabean_127" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">030100</field>
+        <field name="uraian_kantor">KPPBC PALEMBANG</field>
+    </record>
+    <record id="ref_kantor_pabean_128" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">160700</field>
+        <field name="uraian_kantor">KPPBC BANYUWANGI</field>
+    </record>
+    <record id="ref_kantor_pabean_129" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060200</field>
+        <field name="uraian_kantor">KPPBC PEKALONGAN</field>
+    </record>
+    <record id="ref_kantor_pabean_130" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">061000</field>
+        <field name="uraian_kantor">KPPBC TEGAL</field>
+    </record>
+    <record id="ref_kantor_pabean_131" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100200</field>
+        <field name="uraian_kantor">KPPBC KOTABARU</field>
+    </record>
+    <record id="ref_kantor_pabean_132" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">092000</field>
+        <field name="uraian_kantor">KPPBC JAGOI BABANG</field>
+    </record>
+    <record id="ref_kantor_pabean_133" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100300</field>
+        <field name="uraian_kantor">KPPBC BALIKPAPAN</field>
+    </record>
+    <record id="ref_kantor_pabean_134" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">040600</field>
+        <field name="uraian_kantor">KPPBC KANTOR POS PASAR BARU</field>
+    </record>
+    <record id="ref_kantor_pabean_135" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060400</field>
+        <field name="uraian_kantor">KPPBC CILACAP</field>
+    </record>
+    <record id="ref_kantor_pabean_136" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">130100</field>
+        <field name="uraian_kantor">KPPBC BANDA ACEH</field>
+    </record>
+    <record id="ref_kantor_pabean_137" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">010900</field>
+        <field name="uraian_kantor">KPPBC PANGKALAN SUSU</field>
+    </record>
+    <record id="ref_kantor_pabean_138" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">011100</field>
+        <field name="uraian_kantor">KPPBC TELUK NIBUNG</field>
+    </record>
+    <record id="ref_kantor_pabean_139" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020300</field>
+        <field name="uraian_kantor">KPPBC SELAT PANJANG</field>
+    </record>
+    <record id="ref_kantor_pabean_140" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">021700</field>
+        <field name="uraian_kantor">KPPBC TAREMPA</field>
+    </record>
+    <record id="ref_kantor_pabean_141" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">030500</field>
+        <field name="uraian_kantor">KPPBC TANJUNG PANDAN</field>
+    </record>
+    <record id="ref_kantor_pabean_142" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">080500</field>
+        <field name="uraian_kantor">KPPBC KUPANG</field>
+    </record>
+    <record id="ref_kantor_pabean_143" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060700</field>
+        <field name="uraian_kantor">KPPBC YOGYAKARTA</field>
+    </record>
+    <record id="ref_kantor_pabean_144" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">071300</field>
+        <field name="uraian_kantor">KPPBC PASURUAN</field>
+    </record>
+    <record id="ref_kantor_pabean_145" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070800</field>
+        <field name="uraian_kantor">KPPBC KEDIRI</field>
+    </record>
+    <record id="ref_kantor_pabean_146" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">071000</field>
+        <field name="uraian_kantor">KPPBC MADIUN</field>
+    </record>
+    <record id="ref_kantor_pabean_147" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050400</field>
+        <field name="uraian_kantor">KPPBC MERAK</field>
+    </record>
+    <record id="ref_kantor_pabean_148" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120300</field>
+        <field name="uraian_kantor">KPPBC SORONG</field>
+    </record>
+    <record id="ref_kantor_pabean_149" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120400</field>
+        <field name="uraian_kantor">KPPBC MANOKWARI</field>
+    </record>
+    <record id="ref_kantor_pabean_150" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120500</field>
+        <field name="uraian_kantor">KPPBC FAK-FAK</field>
+    </record>
+    <record id="ref_kantor_pabean_151" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120800</field>
+        <field name="uraian_kantor">KPPBC AMAMAPARE</field>
+    </record>
+    <record id="ref_kantor_pabean_152" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120900</field>
+        <field name="uraian_kantor">KPPBC BIAK</field>
+    </record>
+    <record id="ref_kantor_pabean_153" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120700</field>
+        <field name="uraian_kantor">KPPBC MERAUKE</field>
+    </record>
+    <record id="ref_kantor_pabean_154" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020400</field>
+        <field name="uraian_kantor">KPU BATAM</field>
+    </record>
+    <record id="ref_kantor_pabean_155" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110700</field>
+        <field name="uraian_kantor">KPPBC POMALAA</field>
+    </record>
+    <record id="ref_kantor_pabean_156" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110800</field>
+        <field name="uraian_kantor">KPPBC PANTOLOAN</field>
+    </record>
+    <record id="ref_kantor_pabean_157" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">111000</field>
+        <field name="uraian_kantor">KPPBC LUWUK</field>
+    </record>
+    <record id="ref_kantor_pabean_158" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">111200</field>
+        <field name="uraian_kantor">KPPBC MANADO</field>
+    </record>
+    <record id="ref_kantor_pabean_159" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">111300</field>
+        <field name="uraian_kantor">KPPBC GORONTALO</field>
+    </record>
+    <record id="ref_kantor_pabean_160" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120100</field>
+        <field name="uraian_kantor">KPPBC AMBON</field>
+    </record>
+    <record id="ref_kantor_pabean_161" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">121000</field>
+        <field name="uraian_kantor">KPPBC TUAL</field>
+    </record>
+    <record id="ref_kantor_pabean_162" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100800</field>
+        <field name="uraian_kantor">KPPBC TARAKAN</field>
+    </record>
+    <record id="ref_kantor_pabean_163" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">101000</field>
+        <field name="uraian_kantor">KPPBC SANGATA</field>
+    </record>
+    <record id="ref_kantor_pabean_164" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110400</field>
+        <field name="uraian_kantor">KPPBC MALILI</field>
+    </record>
+    <record id="ref_kantor_pabean_165" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110600</field>
+        <field name="uraian_kantor">KPPBC KENDARI</field>
+    </record>
+    <record id="ref_kantor_pabean_166" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090200</field>
+        <field name="uraian_kantor">KPPBC ENTIKONG</field>
+    </record>
+    <record id="ref_kantor_pabean_167" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090900</field>
+        <field name="uraian_kantor">KPPBC PULANG PISAU</field>
+    </record>
+    <record id="ref_kantor_pabean_168" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050900</field>
+        <field name="uraian_kantor">KPPBC BEKASI</field>
+    </record>
+    <record id="ref_kantor_pabean_169" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050700</field>
+        <field name="uraian_kantor">KPPBC CIREBON</field>
+    </record>
+    <record id="ref_kantor_pabean_170" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050300</field>
+        <field name="uraian_kantor">KPPBC BOGOR</field>
+    </record>
+    <record id="ref_kantor_pabean_171" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060300</field>
+        <field name="uraian_kantor">KPPBC KUDUS</field>
+    </record>
+    <record id="ref_kantor_pabean_172" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070100</field>
+        <field name="uraian_kantor">KPPBC TANJUNG PERAK</field>
+    </record>
+    <record id="ref_kantor_pabean_173" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">080100</field>
+        <field name="uraian_kantor">KPPBC NGURAH RAI</field>
+    </record>
+    <record id="ref_kantor_pabean_174" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">011000</field>
+        <field name="uraian_kantor">KPPBC PEMATANG SIANTAR</field>
+    </record>
+    <record id="ref_kantor_pabean_175" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">021100</field>
+        <field name="uraian_kantor">KPPBC BENGKALIS</field>
+    </record>
+    <record id="ref_kantor_pabean_176" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">030200</field>
+        <field name="uraian_kantor">KPPBC BENGKULU</field>
+    </record>
+    <record id="ref_kantor_pabean_177" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">081200</field>
+        <field name="uraian_kantor">KPPBC BENOA</field>
+    </record>
+    <record id="ref_kantor_pabean_178" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070400</field>
+        <field name="uraian_kantor">KPPBC BOJONEGORO</field>
+    </record>
+    <record id="ref_kantor_pabean_179" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">071100</field>
+        <field name="uraian_kantor">KPPBC PANARUKAN</field>
+    </record>
+    <record id="ref_kantor_pabean_180" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050600</field>
+        <field name="uraian_kantor">KPPBC TASIKMALAYA</field>
+    </record>
+    <record id="ref_kantor_pabean_181" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">130500</field>
+        <field name="uraian_kantor">KPPBC LHOK SEUMAWE</field>
+    </record>
+    <record id="ref_kantor_pabean_182" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">011300</field>
+        <field name="uraian_kantor">KPPBC SIBOLGA</field>
+    </record>
+    <record id="ref_kantor_pabean_183" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020900</field>
+        <field name="uraian_kantor">KPPBC DUMAI</field>
+    </record>
+    <record id="ref_kantor_pabean_184" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">021000</field>
+        <field name="uraian_kantor">KPPBC BAGAN SIAPIAPI</field>
+    </record>
+    <record id="ref_kantor_pabean_185" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020200</field>
+        <field name="uraian_kantor">KPPBC SAMBU BELAKANG PADANG</field>
+    </record>
+    <record id="ref_kantor_pabean_186" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">030700</field>
+        <field name="uraian_kantor">KPPBC BANDAR LAMPUNG</field>
+    </record>
+    <record id="ref_kantor_pabean_187" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">080300</field>
+        <field name="uraian_kantor">KPPBC MATARAM</field>
+    </record>
+    <record id="ref_kantor_pabean_188" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">080700</field>
+        <field name="uraian_kantor">KPPBC MAUMERE</field>
+    </record>
+    <record id="ref_kantor_pabean_189" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070300</field>
+        <field name="uraian_kantor">KPPBC GRESIK</field>
+    </record>
+    <record id="ref_kantor_pabean_190" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100600</field>
+        <field name="uraian_kantor">KPPBC BONTANG</field>
+    </record>
+    <record id="ref_kantor_pabean_191" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110300</field>
+        <field name="uraian_kantor">KPPBC PARE-PARE</field>
+    </record>
+    <record id="ref_kantor_pabean_192" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090500</field>
+        <field name="uraian_kantor">KPPBC SINTETE</field>
+    </record>
+    <record id="ref_kantor_pabean_193" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100900</field>
+        <field name="uraian_kantor">KPPBC NUNUKAN</field>
+    </record>
+    <record id="ref_kantor_pabean_194" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090700</field>
+        <field name="uraian_kantor">KPPBC SAMPIT</field>
+    </record>
+    <record id="ref_kantor_pabean_195" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060500</field>
+        <field name="uraian_kantor">KPPBC PURWOKERTO</field>
+    </record>
+    <record id="ref_kantor_pabean_196" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">091000</field>
+        <field name="uraian_kantor">KPPBC NANGA BADAU</field>
+    </record>
+    <record id="ref_kantor_pabean_197" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020100</field>
+        <field name="uraian_kantor">KPPBC TANJUNG BALAI KARIMUN</field>
+    </record>
+    <record id="ref_kantor_pabean_198" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">030300</field>
+        <field name="uraian_kantor">KPPBC PANGKAL PINANG</field>
+    </record>
+    <record id="ref_kantor_pabean_199" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050100</field>
+        <field name="uraian_kantor">KPU SOEKARNO-HATTA</field>
+    </record>
+    <record id="ref_kantor_pabean_200" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070500</field>
+        <field name="uraian_kantor">KPPBC JUANDA</field>
+    </record>
+    <record id="ref_kantor_pabean_201" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070700</field>
+        <field name="uraian_kantor">KPPBC BLITAR</field>
+    </record>
+    <record id="ref_kantor_pabean_202" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090100</field>
+        <field name="uraian_kantor">KPPBC PONTIANAK</field>
+    </record>
+    <record id="ref_kantor_pabean_203" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090800</field>
+        <field name="uraian_kantor">KPPBC PANGKALAN BUN</field>
+    </record>
+    <record id="ref_kantor_pabean_204" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110100</field>
+        <field name="uraian_kantor">KPPBC MAKASSAR</field>
+    </record>
+    <record id="ref_kantor_pabean_205" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120600</field>
+        <field name="uraian_kantor">KPPBC JAYAPURA</field>
+    </record>
+    <record id="ref_kantor_pabean_206" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">160200</field>
+        <field name="uraian_kantor">KPPBC MARUNDA</field>
+    </record>
+    <record id="ref_kantor_pabean_207" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">081400</field>
+        <field name="uraian_kantor">KPPBC ATAMBUA</field>
+    </record>
+    <record id="ref_kantor_pabean_208" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">010100</field>
+        <field name="uraian_kantor">KPPBC KUALA NAMU</field>
+    </record>
+    <record id="ref_kantor_pabean_209" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">051000</field>
+        <field name="uraian_kantor">KPPBC CIKARANG</field>
+    </record>
+    <record id="ref_kantor_pabean_210" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">130300</field>
+        <field name="uraian_kantor">KPPBC SABANG</field>
+    </record>
+    <record id="ref_kantor_pabean_211" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">010800</field>
+        <field name="uraian_kantor">KPPBC MEDAN</field>
+    </record>
+    <record id="ref_kantor_pabean_212" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">021500</field>
+        <field name="uraian_kantor">KPPBC TEMBILAHAN</field>
+    </record>
+    <record id="ref_kantor_pabean_213" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020500</field>
+        <field name="uraian_kantor">KPPBC TANJUNG PINANG</field>
+    </record>
+    <record id="ref_kantor_pabean_214" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">080400</field>
+        <field name="uraian_kantor">KPPBC SUMBAWA</field>
+    </record>
+    <record id="ref_kantor_pabean_215" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070600</field>
+        <field name="uraian_kantor">KPPBC MALANG</field>
+    </record>
+    <record id="ref_kantor_pabean_216" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">040400</field>
+        <field name="uraian_kantor">KPPBC JAKARTA</field>
+    </record>
+    <record id="ref_kantor_pabean_217" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050500</field>
+        <field name="uraian_kantor">KPPBC BANDUNG</field>
+    </record>
+    <record id="ref_kantor_pabean_218" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">010700</field>
+        <field name="uraian_kantor">KPPBC BELAWAN</field>
+    </record>
+    <record id="ref_kantor_pabean_219" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">021200</field>
+        <field name="uraian_kantor">KPPBC PEKANBARU</field>
+    </record>
+    <record id="ref_kantor_pabean_220" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">011500</field>
+        <field name="uraian_kantor">KPPBC TELUK BAYUR</field>
+    </record>
+    <record id="ref_kantor_pabean_221" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">030600</field>
+        <field name="uraian_kantor">KPPBC JAMBI</field>
+    </record>
+    <record id="ref_kantor_pabean_222" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">071200</field>
+        <field name="uraian_kantor">KPPBC PROBOLINGGO</field>
+    </record>
+    <record id="ref_kantor_pabean_223" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">062000</field>
+        <field name="uraian_kantor">KPPBC PURWOKERTO</field>
+    </record>
+    <record id="ref_kantor_pabean_224" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070200</field>
+        <field name="uraian_kantor">KPPBC MADURA</field>
+    </record>
+    <record id="ref_kantor_pabean_225" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">070900</field>
+        <field name="uraian_kantor">KPPBC TULUNG AGUNG</field>
+    </record>
+    <record id="ref_kantor_pabean_226" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">150300</field>
+        <field name="uraian_kantor">KPPBC TANGERANG</field>
+    </record>
+    <record id="ref_kantor_pabean_227" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">122000</field>
+        <field name="uraian_kantor">KPPBC BINTUNI</field>
+    </record>
+    <record id="ref_kantor_pabean_228" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">122100</field>
+        <field name="uraian_kantor">KPPBC KAIMANA</field>
+    </record>
+    <record id="ref_kantor_pabean_229" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">122200</field>
+        <field name="uraian_kantor">KPPBC NABIRE</field>
+    </record>
+    <record id="ref_kantor_pabean_230" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">040300</field>
+        <field name="uraian_kantor">KPU TANJUNG PRIOK</field>
+    </record>
+    <record id="ref_kantor_pabean_231" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110900</field>
+        <field name="uraian_kantor">KPPBC POSO</field>
+    </record>
+    <record id="ref_kantor_pabean_232" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">111100</field>
+        <field name="uraian_kantor">KPPBC BITUNG</field>
+    </record>
+    <record id="ref_kantor_pabean_233" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">120200</field>
+        <field name="uraian_kantor">KPPBC TERNATE</field>
+    </record>
+    <record id="ref_kantor_pabean_234" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100100</field>
+        <field name="uraian_kantor">KPPBC BANJARMASIN</field>
+    </record>
+    <record id="ref_kantor_pabean_235" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">090400</field>
+        <field name="uraian_kantor">KPPBC KETAPANG</field>
+    </record>
+    <record id="ref_kantor_pabean_236" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">100500</field>
+        <field name="uraian_kantor">KPPBC SAMARINDA</field>
+    </record>
+    <record id="ref_kantor_pabean_237" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">050800</field>
+        <field name="uraian_kantor">KPPBC PURWAKARTA</field>
+    </record>
+    <record id="ref_kantor_pabean_238" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060100</field>
+        <field name="uraian_kantor">KPPBC TANJUNG EMAS</field>
+    </record>
+    <record id="ref_kantor_pabean_239" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060600</field>
+        <field name="uraian_kantor">KPPBC TMP B SURAKARTA </field>
+    </record>
+    <record id="ref_kantor_pabean_240" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">130400</field>
+        <field name="uraian_kantor">KPPBC MEULABOH</field>
+    </record>
+    <record id="ref_kantor_pabean_241" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">020800</field>
+        <field name="uraian_kantor">KPPBC DABO SINGKEP</field>
+    </record>
+    <record id="ref_kantor_pabean_242" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">081300</field>
+        <field name="uraian_kantor">KPPBC ATAPUPU</field>
+    </record>
+    <record id="ref_kantor_pabean_243" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">110500</field>
+        <field name="uraian_kantor">KPPBC BAJOE</field>
+    </record>
+    <record id="ref_kantor_pabean_244" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">060800</field>
+        <field name="uraian_kantor">KPPBC SEMARANG</field>
+    </record>
+    <record id="ref_kantor_pabean_245" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">071500</field>
+        <field name="uraian_kantor">KPPBC SIDOARJO</field>
+    </record>
+    <record id="ref_kantor_pabean_246" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">080200</field>
+        <field name="uraian_kantor">KPPBC DENPASAR</field>
+    </record>
+    <record id="ref_kantor_pabean_247" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">122300</field>
+        <field name="uraian_kantor">KPPBC BABO</field>
+    </record>
+    <record id="ref_kantor_pabean_248" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">071236</field>
+        <field name="uraian_kantor">KPPBC BLITAR</field>
+    </record>
+    <record id="ref_kantor_pabean_300" model="ceisa.referensi.kantor.pabean">
+        <field name="kode_kantor">061100</field>
+        <field name="uraian_kantor">KPBC TMP C MAGELANG</field>
+    </record>
+</odoo>

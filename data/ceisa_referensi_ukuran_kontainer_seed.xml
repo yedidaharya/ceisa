@@ -1,0 +1,18 @@
+<odoo>
+    <record id="ref_ukuran_kontainer_1_20" model="ceisa.referensi.ukuran.kontainer">
+        <field name="kode_ukuran_kontainer">20</field>
+        <field name="uraian_ukuran_kontainer">20 FEET</field>
+    </record>
+    <record id="ref_ukuran_kontainer_2_40" model="ceisa.referensi.ukuran.kontainer">
+        <field name="kode_ukuran_kontainer">40</field>
+        <field name="uraian_ukuran_kontainer">40 FEET</field>
+    </record>
+    <record id="ref_ukuran_kontainer_3_45" model="ceisa.referensi.ukuran.kontainer">
+        <field name="kode_ukuran_kontainer">45</field>
+        <field name="uraian_ukuran_kontainer">45 FEET</field>
+    </record>
+    <record id="ref_ukuran_kontainer_5_60" model="ceisa.referensi.ukuran.kontainer">
+        <field name="kode_ukuran_kontainer">60</field>
+        <field name="uraian_ukuran_kontainer">60 FEET</field>
+    </record>
+</odoo>

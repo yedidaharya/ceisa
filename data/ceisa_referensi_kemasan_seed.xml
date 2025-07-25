@@ -1,0 +1,1530 @@
+<odoo>
+    <record id="ref_kemasan_1_1A" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">1A</field>
+        <field name="uraian_kemasan">Drum, steel</field>
+    </record>
+    <record id="ref_kemasan_2_1B" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">1B</field>
+        <field name="uraian_kemasan">Drum, aluminium</field>
+    </record>
+    <record id="ref_kemasan_3_1D" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">1D</field>
+        <field name="uraian_kemasan">Drum, plywood</field>
+    </record>
+    <record id="ref_kemasan_4_1F" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">1F</field>
+        <field name="uraian_kemasan">Container, flexible</field>
+    </record>
+    <record id="ref_kemasan_5_1G" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">1G</field>
+        <field name="uraian_kemasan">Drum, fibre</field>
+    </record>
+    <record id="ref_kemasan_6_1W" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">1W</field>
+        <field name="uraian_kemasan">Drum, wooden</field>
+    </record>
+    <record id="ref_kemasan_7_2C" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">2C</field>
+        <field name="uraian_kemasan">Barrel, wooden</field>
+    </record>
+    <record id="ref_kemasan_8_3A" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">3A</field>
+        <field name="uraian_kemasan">Jerrican, steel</field>
+    </record>
+    <record id="ref_kemasan_9_3H" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">3H</field>
+        <field name="uraian_kemasan">Jerrican, plastic</field>
+    </record>
+    <record id="ref_kemasan_10_43" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">43</field>
+        <field name="uraian_kemasan">Bag, super bulk</field>
+    </record>
+    <record id="ref_kemasan_11_44" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">44</field>
+        <field name="uraian_kemasan">Bag, polybag</field>
+    </record>
+    <record id="ref_kemasan_12_4A" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4A</field>
+        <field name="uraian_kemasan">Box, steel</field>
+    </record>
+    <record id="ref_kemasan_13_4B" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4B</field>
+        <field name="uraian_kemasan">Box, aluminium</field>
+    </record>
+    <record id="ref_kemasan_14_4C" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4C</field>
+        <field name="uraian_kemasan">Box, natural wood</field>
+    </record>
+    <record id="ref_kemasan_15_4D" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4D</field>
+        <field name="uraian_kemasan">Box, plywood</field>
+    </record>
+    <record id="ref_kemasan_16_4F" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4F</field>
+        <field name="uraian_kemasan">Box, reconstituted wood</field>
+    </record>
+    <record id="ref_kemasan_17_4G" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4G</field>
+        <field name="uraian_kemasan">Box, fibreboard</field>
+    </record>
+    <record id="ref_kemasan_18_4H" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">4H</field>
+        <field name="uraian_kemasan">Box, plastic</field>
+    </record>
+    <record id="ref_kemasan_19_5H" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">5H</field>
+        <field name="uraian_kemasan">Bag, woven plastic</field>
+    </record>
+    <record id="ref_kemasan_20_5L" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">5L</field>
+        <field name="uraian_kemasan">Bag, textile</field>
+    </record>
+    <record id="ref_kemasan_21_5M" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">5M</field>
+        <field name="uraian_kemasan">Bag, paper</field>
+    </record>
+    <record id="ref_kemasan_22_6H" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">6H</field>
+        <field name="uraian_kemasan">Composite packaging, plastic receptacle</field>
+    </record>
+    <record id="ref_kemasan_23_6P" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">6P</field>
+        <field name="uraian_kemasan">Composite packaging, glass receptacle</field>
+    </record>
+    <record id="ref_kemasan_24_7A" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">7A</field>
+        <field name="uraian_kemasan">Case, car</field>
+    </record>
+    <record id="ref_kemasan_25_7B" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">7B</field>
+        <field name="uraian_kemasan">Case, wooden</field>
+    </record>
+    <record id="ref_kemasan_26_8A" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">8A</field>
+        <field name="uraian_kemasan">Pallet, wooden</field>
+    </record>
+    <record id="ref_kemasan_27_8B" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">8B</field>
+        <field name="uraian_kemasan">Crate, wooden</field>
+    </record>
+    <record id="ref_kemasan_28_8C" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">8C</field>
+        <field name="uraian_kemasan">Bundle, wooden</field>
+    </record>
+    <record id="ref_kemasan_29_AA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AA</field>
+        <field name="uraian_kemasan">Intermediate bulk container, rigid plastic</field>
+    </record>
+    <record id="ref_kemasan_30_AB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AB</field>
+        <field name="uraian_kemasan">Receptacle, fibre</field>
+    </record>
+    <record id="ref_kemasan_31_AC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AC</field>
+        <field name="uraian_kemasan">Receptacle, paper</field>
+    </record>
+    <record id="ref_kemasan_32_AD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AD</field>
+        <field name="uraian_kemasan">Receptacle, wooden</field>
+    </record>
+    <record id="ref_kemasan_33_AE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AE</field>
+        <field name="uraian_kemasan">Aerosol</field>
+    </record>
+    <record id="ref_kemasan_34_AF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AF</field>
+        <field name="uraian_kemasan">Pallet, modular, collars 80cms * 60cms</field>
+    </record>
+    <record id="ref_kemasan_35_AG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AG</field>
+        <field name="uraian_kemasan">Pallet, shrinkwrapped</field>
+    </record>
+    <record id="ref_kemasan_36_AH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AH</field>
+        <field name="uraian_kemasan">Pallet, 100cms * 110cms</field>
+    </record>
+    <record id="ref_kemasan_37_AI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AI</field>
+        <field name="uraian_kemasan">Clamshell</field>
+    </record>
+    <record id="ref_kemasan_38_AJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AJ</field>
+        <field name="uraian_kemasan">Cone</field>
+    </record>
+    <record id="ref_kemasan_39_AL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AL</field>
+        <field name="uraian_kemasan">Ball</field>
+    </record>
+    <record id="ref_kemasan_40_AM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AM</field>
+        <field name="uraian_kemasan">Ampoule, non protected</field>
+    </record>
+    <record id="ref_kemasan_41_AP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AP</field>
+        <field name="uraian_kemasan">Ampoule, protected</field>
+    </record>
+    <record id="ref_kemasan_42_AT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AT</field>
+        <field name="uraian_kemasan">Atomizer</field>
+    </record>
+    <record id="ref_kemasan_43_AV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">AV</field>
+        <field name="uraian_kemasan">Capsule</field>
+    </record>
+    <record id="ref_kemasan_44_B4" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">B4</field>
+        <field name="uraian_kemasan">Belt</field>
+    </record>
+    <record id="ref_kemasan_45_BA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BA</field>
+        <field name="uraian_kemasan">Barrel</field>
+    </record>
+    <record id="ref_kemasan_46_BB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BB</field>
+        <field name="uraian_kemasan">Bobbin</field>
+    </record>
+    <record id="ref_kemasan_47_BC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BC</field>
+        <field name="uraian_kemasan">Bottlecrate, bottlerack</field>
+    </record>
+    <record id="ref_kemasan_48_BD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BD</field>
+        <field name="uraian_kemasan">Board</field>
+    </record>
+    <record id="ref_kemasan_49_BE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BE</field>
+        <field name="uraian_kemasan">Bundle</field>
+    </record>
+    <record id="ref_kemasan_50_BF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BF</field>
+        <field name="uraian_kemasan">Balloon, non-protected</field>
+    </record>
+    <record id="ref_kemasan_51_BG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BG</field>
+        <field name="uraian_kemasan">Bag</field>
+    </record>
+    <record id="ref_kemasan_52_BH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BH</field>
+        <field name="uraian_kemasan">Bunch</field>
+    </record>
+    <record id="ref_kemasan_53_BI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BI</field>
+        <field name="uraian_kemasan">Bin</field>
+    </record>
+    <record id="ref_kemasan_54_BJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BJ</field>
+        <field name="uraian_kemasan">Bucket</field>
+    </record>
+    <record id="ref_kemasan_55_BK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BK</field>
+        <field name="uraian_kemasan">Basket</field>
+    </record>
+    <record id="ref_kemasan_56_BL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BL</field>
+        <field name="uraian_kemasan">Bale, compressed</field>
+    </record>
+    <record id="ref_kemasan_57_BM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BM</field>
+        <field name="uraian_kemasan">Basin</field>
+    </record>
+    <record id="ref_kemasan_58_BN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BN</field>
+        <field name="uraian_kemasan">Bale, non -compressed</field>
+    </record>
+    <record id="ref_kemasan_59_BO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BO</field>
+        <field name="uraian_kemasan">Bottle, non-protected, cylindrical</field>
+    </record>
+    <record id="ref_kemasan_60_BP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BP</field>
+        <field name="uraian_kemasan">Balloon, protected</field>
+    </record>
+    <record id="ref_kemasan_61_BQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BQ</field>
+        <field name="uraian_kemasan">Bottle, protected cylindrical</field>
+    </record>
+    <record id="ref_kemasan_62_BR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BR</field>
+        <field name="uraian_kemasan">Bar</field>
+    </record>
+    <record id="ref_kemasan_63_BS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BS</field>
+        <field name="uraian_kemasan">Bottle, non-protected, bulbous</field>
+    </record>
+    <record id="ref_kemasan_64_BT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BT</field>
+        <field name="uraian_kemasan">Bolt</field>
+    </record>
+    <record id="ref_kemasan_65_BU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BU</field>
+        <field name="uraian_kemasan">Butt</field>
+    </record>
+    <record id="ref_kemasan_66_BV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BV</field>
+        <field name="uraian_kemasan">Bottle, protected bulbous</field>
+    </record>
+    <record id="ref_kemasan_67_BW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BW</field>
+        <field name="uraian_kemasan">Box, for liquids</field>
+    </record>
+    <record id="ref_kemasan_68_BX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BX</field>
+        <field name="uraian_kemasan">Box</field>
+    </record>
+    <record id="ref_kemasan_69_BY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BY</field>
+        <field name="uraian_kemasan">Board, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_70_BZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">BZ</field>
+        <field name="uraian_kemasan">Bars, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_71_CA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CA</field>
+        <field name="uraian_kemasan">Can, rectangular</field>
+    </record>
+    <record id="ref_kemasan_72_CB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CB</field>
+        <field name="uraian_kemasan">Beer crate</field>
+    </record>
+    <record id="ref_kemasan_73_CC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CC</field>
+        <field name="uraian_kemasan">Churn</field>
+    </record>
+    <record id="ref_kemasan_74_CD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CD</field>
+        <field name="uraian_kemasan">Can, with handle and spout</field>
+    </record>
+    <record id="ref_kemasan_75_CE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CE</field>
+        <field name="uraian_kemasan">Creel</field>
+    </record>
+    <record id="ref_kemasan_76_CF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CF</field>
+        <field name="uraian_kemasan">Coffer</field>
+    </record>
+    <record id="ref_kemasan_77_CG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CG</field>
+        <field name="uraian_kemasan">Cage</field>
+    </record>
+    <record id="ref_kemasan_78_CH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CH</field>
+        <field name="uraian_kemasan">Chest</field>
+    </record>
+    <record id="ref_kemasan_79_CI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CI</field>
+        <field name="uraian_kemasan">Canister</field>
+    </record>
+    <record id="ref_kemasan_80_CJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CJ</field>
+        <field name="uraian_kemasan">Coffin</field>
+    </record>
+    <record id="ref_kemasan_81_CK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CK</field>
+        <field name="uraian_kemasan">Cask</field>
+    </record>
+    <record id="ref_kemasan_82_CL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CL</field>
+        <field name="uraian_kemasan">Coil</field>
+    </record>
+    <record id="ref_kemasan_83_CM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CM</field>
+        <field name="uraian_kemasan">Card</field>
+    </record>
+    <record id="ref_kemasan_84_CN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CN</field>
+        <field name="uraian_kemasan">Cont,not otherwise specfied as transport equipment</field>
+    </record>
+    <record id="ref_kemasan_85_CO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CO</field>
+        <field name="uraian_kemasan">Carboy, non-protected</field>
+    </record>
+    <record id="ref_kemasan_86_CP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CP</field>
+        <field name="uraian_kemasan">Carboy, protected</field>
+    </record>
+    <record id="ref_kemasan_87_CQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CQ</field>
+        <field name="uraian_kemasan">Cartridge</field>
+    </record>
+    <record id="ref_kemasan_88_CR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CR</field>
+        <field name="uraian_kemasan">Crate</field>
+    </record>
+    <record id="ref_kemasan_89_CS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CS</field>
+        <field name="uraian_kemasan">Case</field>
+    </record>
+    <record id="ref_kemasan_90_CT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CT</field>
+        <field name="uraian_kemasan">Carton</field>
+    </record>
+    <record id="ref_kemasan_91_CU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CU</field>
+        <field name="uraian_kemasan">Cup</field>
+    </record>
+    <record id="ref_kemasan_92_CV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CV</field>
+        <field name="uraian_kemasan">Cover</field>
+    </record>
+    <record id="ref_kemasan_93_CW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CW</field>
+        <field name="uraian_kemasan">Cage, roll</field>
+    </record>
+    <record id="ref_kemasan_94_CX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CX</field>
+        <field name="uraian_kemasan">Can, cylindical</field>
+    </record>
+    <record id="ref_kemasan_95_CY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CY</field>
+        <field name="uraian_kemasan">Cylinder</field>
+    </record>
+    <record id="ref_kemasan_96_CZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">CZ</field>
+        <field name="uraian_kemasan">Canvas</field>
+    </record>
+    <record id="ref_kemasan_97_DA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DA</field>
+        <field name="uraian_kemasan">Crate, multiple layer, plastic</field>
+    </record>
+    <record id="ref_kemasan_98_DB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DB</field>
+        <field name="uraian_kemasan">Crate, multiple layer, wooden</field>
+    </record>
+    <record id="ref_kemasan_99_DC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DC</field>
+        <field name="uraian_kemasan">Crate, multiple layer, cardboard</field>
+    </record>
+    <record id="ref_kemasan_100_DG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DG</field>
+        <field name="uraian_kemasan">Cage, Commonwealth Handling Equipment Pool (CHEP)</field>
+    </record>
+    <record id="ref_kemasan_101_DH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DH</field>
+        <field name="uraian_kemasan">Box,Commnwealth Hndling Equipmnt Pool/CHEP,Eurobox</field>
+    </record>
+    <record id="ref_kemasan_102_DI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DI</field>
+        <field name="uraian_kemasan">Drum, iron</field>
+    </record>
+    <record id="ref_kemasan_103_DJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DJ</field>
+        <field name="uraian_kemasan">Demijohn, non-protected</field>
+    </record>
+    <record id="ref_kemasan_104_DK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DK</field>
+        <field name="uraian_kemasan">Crate, bulk, cardboard</field>
+    </record>
+    <record id="ref_kemasan_105_DL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DL</field>
+        <field name="uraian_kemasan">Crate, bulk, plastic</field>
+    </record>
+    <record id="ref_kemasan_106_DM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DM</field>
+        <field name="uraian_kemasan">Crate, bulk, wooden</field>
+    </record>
+    <record id="ref_kemasan_107_DN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DN</field>
+        <field name="uraian_kemasan">Dispenser</field>
+    </record>
+    <record id="ref_kemasan_108_DP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DP</field>
+        <field name="uraian_kemasan">Demijohn, protected</field>
+    </record>
+    <record id="ref_kemasan_109_DR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DR</field>
+        <field name="uraian_kemasan">Drum</field>
+    </record>
+    <record id="ref_kemasan_110_DS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DS</field>
+        <field name="uraian_kemasan">Tray, one layer no cover, plastic</field>
+    </record>
+    <record id="ref_kemasan_111_DT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DT</field>
+        <field name="uraian_kemasan">Tray, one layer no cover, wooden</field>
+    </record>
+    <record id="ref_kemasan_112_DU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DU</field>
+        <field name="uraian_kemasan">Tray, one layer no cover, polystyrene</field>
+    </record>
+    <record id="ref_kemasan_113_DV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DV</field>
+        <field name="uraian_kemasan">Tray, one layer no cover, cardboard</field>
+    </record>
+    <record id="ref_kemasan_114_DW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DW</field>
+        <field name="uraian_kemasan">Tray, two layers no cover, plastic tray</field>
+    </record>
+    <record id="ref_kemasan_115_DX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DX</field>
+        <field name="uraian_kemasan">Tray, two layers no cover, wooden</field>
+    </record>
+    <record id="ref_kemasan_116_DY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">DY</field>
+        <field name="uraian_kemasan">Tray, two layers no cover, cardboard</field>
+    </record>
+    <record id="ref_kemasan_117_EC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EC</field>
+        <field name="uraian_kemasan">Bag, plastic</field>
+    </record>
+    <record id="ref_kemasan_118_ED" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ED</field>
+        <field name="uraian_kemasan">Case, with pallet base</field>
+    </record>
+    <record id="ref_kemasan_119_EE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EE</field>
+        <field name="uraian_kemasan">Case, with pallet base, wooden</field>
+    </record>
+    <record id="ref_kemasan_120_EF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EF</field>
+        <field name="uraian_kemasan">Case, with pallet base, cardboard</field>
+    </record>
+    <record id="ref_kemasan_121_EG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EG</field>
+        <field name="uraian_kemasan">Case, with pallet base, plastic</field>
+    </record>
+    <record id="ref_kemasan_122_EH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EH</field>
+        <field name="uraian_kemasan">Case, with pallet base, metal</field>
+    </record>
+    <record id="ref_kemasan_123_EI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EI</field>
+        <field name="uraian_kemasan">Case, isothermic</field>
+    </record>
+    <record id="ref_kemasan_124_EN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">EN</field>
+        <field name="uraian_kemasan">Envelope</field>
+    </record>
+    <record id="ref_kemasan_125_FB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FB</field>
+        <field name="uraian_kemasan">Flexibag</field>
+    </record>
+    <record id="ref_kemasan_126_FC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FC</field>
+        <field name="uraian_kemasan">Fruit crate</field>
+    </record>
+    <record id="ref_kemasan_127_FD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FD</field>
+        <field name="uraian_kemasan">Framed crate</field>
+    </record>
+    <record id="ref_kemasan_128_FE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FE</field>
+        <field name="uraian_kemasan">Flexitank</field>
+    </record>
+    <record id="ref_kemasan_129_FI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FI</field>
+        <field name="uraian_kemasan">Firkin</field>
+    </record>
+    <record id="ref_kemasan_130_FL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FL</field>
+        <field name="uraian_kemasan">Flask</field>
+    </record>
+    <record id="ref_kemasan_131_FO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FO</field>
+        <field name="uraian_kemasan">Footlocker</field>
+    </record>
+    <record id="ref_kemasan_132_FP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FP</field>
+        <field name="uraian_kemasan">Filmpack</field>
+    </record>
+    <record id="ref_kemasan_133_FR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FR</field>
+        <field name="uraian_kemasan">Frame</field>
+    </record>
+    <record id="ref_kemasan_134_FT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FT</field>
+        <field name="uraian_kemasan">Foodtainer</field>
+    </record>
+    <record id="ref_kemasan_135_FW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FW</field>
+        <field name="uraian_kemasan">Cart, flatbed</field>
+    </record>
+    <record id="ref_kemasan_136_FX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">FX</field>
+        <field name="uraian_kemasan">Bag, flexible container</field>
+    </record>
+    <record id="ref_kemasan_137_GB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GB</field>
+        <field name="uraian_kemasan">Gas bottle</field>
+    </record>
+    <record id="ref_kemasan_138_GI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GI</field>
+        <field name="uraian_kemasan">Girder</field>
+    </record>
+    <record id="ref_kemasan_139_GL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GL</field>
+        <field name="uraian_kemasan">Container, gallon</field>
+    </record>
+    <record id="ref_kemasan_140_GR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GR</field>
+        <field name="uraian_kemasan">Receptacle, glass</field>
+    </record>
+    <record id="ref_kemasan_141_GU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GU</field>
+        <field name="uraian_kemasan">Tray, containing horizontally stacked flat items</field>
+    </record>
+    <record id="ref_kemasan_142_GY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GY</field>
+        <field name="uraian_kemasan">Bag, gunny</field>
+    </record>
+    <record id="ref_kemasan_143_GZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">GZ</field>
+        <field name="uraian_kemasan">Girders, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_144_HA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HA</field>
+        <field name="uraian_kemasan">Basket, with handle, plastic</field>
+    </record>
+    <record id="ref_kemasan_145_HB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HB</field>
+        <field name="uraian_kemasan">Basket, with handle, wooden</field>
+    </record>
+    <record id="ref_kemasan_146_HC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HC</field>
+        <field name="uraian_kemasan">Basket, with handle, cardboard</field>
+    </record>
+    <record id="ref_kemasan_147_HG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HG</field>
+        <field name="uraian_kemasan">Hogshead</field>
+    </record>
+    <record id="ref_kemasan_148_HN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HN</field>
+        <field name="uraian_kemasan">Hanger</field>
+    </record>
+    <record id="ref_kemasan_149_HR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HR</field>
+        <field name="uraian_kemasan">Hamper</field>
+    </record>
+    <record id="ref_kemasan_150_HZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">HZ</field>
+        <field name="uraian_kemasan">bukan kaleng kaleng</field>
+    </record>
+    <record id="ref_kemasan_151_IA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IA</field>
+        <field name="uraian_kemasan">Package, display, wooden</field>
+    </record>
+    <record id="ref_kemasan_152_IB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IB</field>
+        <field name="uraian_kemasan">Package, display, cardboard</field>
+    </record>
+    <record id="ref_kemasan_153_IC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IC</field>
+        <field name="uraian_kemasan">Package, display, plastic</field>
+    </record>
+    <record id="ref_kemasan_154_ID" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ID</field>
+        <field name="uraian_kemasan">Package, display, metal</field>
+    </record>
+    <record id="ref_kemasan_155_IE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IE</field>
+        <field name="uraian_kemasan">Package, show</field>
+    </record>
+    <record id="ref_kemasan_156_IF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IF</field>
+        <field name="uraian_kemasan">Package, flow</field>
+    </record>
+    <record id="ref_kemasan_157_IG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IG</field>
+        <field name="uraian_kemasan">Package, paper wrapped</field>
+    </record>
+    <record id="ref_kemasan_158_IH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IH</field>
+        <field name="uraian_kemasan">Drum, plastic</field>
+    </record>
+    <record id="ref_kemasan_159_IK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IK</field>
+        <field name="uraian_kemasan">Package, cardboard, with bottle grip-holes</field>
+    </record>
+    <record id="ref_kemasan_160_IL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IL</field>
+        <field name="uraian_kemasan">Tray, rigid, lidded stackable (CEN TS 14482:2002)</field>
+    </record>
+    <record id="ref_kemasan_161_IN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IN</field>
+        <field name="uraian_kemasan">Ingot</field>
+    </record>
+    <record id="ref_kemasan_162_IZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">IZ</field>
+        <field name="uraian_kemasan">ingots, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_163_JB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">JB</field>
+        <field name="uraian_kemasan">Bag, jumbo</field>
+    </record>
+    <record id="ref_kemasan_164_JC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">JC</field>
+        <field name="uraian_kemasan">Jerrican, rectangular</field>
+    </record>
+    <record id="ref_kemasan_165_JG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">JG</field>
+        <field name="uraian_kemasan">Jug</field>
+    </record>
+    <record id="ref_kemasan_166_JR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">JR</field>
+        <field name="uraian_kemasan">Jar</field>
+    </record>
+    <record id="ref_kemasan_167_JT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">JT</field>
+        <field name="uraian_kemasan">Jutebag</field>
+    </record>
+    <record id="ref_kemasan_168_JY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">JY</field>
+        <field name="uraian_kemasan">Jerrican, cylindrical</field>
+    </record>
+    <record id="ref_kemasan_169_KG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">KG</field>
+        <field name="uraian_kemasan">Keg</field>
+    </record>
+    <record id="ref_kemasan_170_KI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">KI</field>
+        <field name="uraian_kemasan">Kit</field>
+    </record>
+    <record id="ref_kemasan_171_KR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">KR</field>
+        <field name="uraian_kemasan">karung</field>
+    </record>
+    <record id="ref_kemasan_172_LE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">LE</field>
+        <field name="uraian_kemasan">Luggage</field>
+    </record>
+    <record id="ref_kemasan_173_LG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">LG</field>
+        <field name="uraian_kemasan">Log</field>
+    </record>
+    <record id="ref_kemasan_174_LT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">LT</field>
+        <field name="uraian_kemasan">Lot</field>
+    </record>
+    <record id="ref_kemasan_175_LU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">LU</field>
+        <field name="uraian_kemasan">Lug</field>
+    </record>
+    <record id="ref_kemasan_176_LV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">LV</field>
+        <field name="uraian_kemasan">Liftvan</field>
+    </record>
+    <record id="ref_kemasan_177_LZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">LZ</field>
+        <field name="uraian_kemasan">Logs, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_178_MA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MA</field>
+        <field name="uraian_kemasan">Crate, metal</field>
+    </record>
+    <record id="ref_kemasan_179_MB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MB</field>
+        <field name="uraian_kemasan">Multiply bag</field>
+    </record>
+    <record id="ref_kemasan_180_MC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MC</field>
+        <field name="uraian_kemasan">milk crate</field>
+    </record>
+    <record id="ref_kemasan_181_ME" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ME</field>
+        <field name="uraian_kemasan">Container, metal</field>
+    </record>
+    <record id="ref_kemasan_182_MR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MR</field>
+        <field name="uraian_kemasan">Receptacle, metal</field>
+    </record>
+    <record id="ref_kemasan_183_MS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MS</field>
+        <field name="uraian_kemasan">Multiwall sack</field>
+    </record>
+    <record id="ref_kemasan_184_MT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MT</field>
+        <field name="uraian_kemasan">Mat</field>
+    </record>
+    <record id="ref_kemasan_185_MW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MW</field>
+        <field name="uraian_kemasan">Receptacle, plastic wrapped</field>
+    </record>
+    <record id="ref_kemasan_186_MX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">MX</field>
+        <field name="uraian_kemasan">Macth box</field>
+    </record>
+    <record id="ref_kemasan_187_NA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NA</field>
+        <field name="uraian_kemasan">Not available</field>
+    </record>
+    <record id="ref_kemasan_188_NE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NE</field>
+        <field name="uraian_kemasan">Unpacked or unpackaged</field>
+    </record>
+    <record id="ref_kemasan_189_NF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NF</field>
+        <field name="uraian_kemasan">Unpacked or unpackaged, single unit</field>
+    </record>
+    <record id="ref_kemasan_190_NG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NG</field>
+        <field name="uraian_kemasan">Unpacked or unpackaged, multiple units</field>
+    </record>
+    <record id="ref_kemasan_191_NS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NS</field>
+        <field name="uraian_kemasan">Nest</field>
+    </record>
+    <record id="ref_kemasan_192_NT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NT</field>
+        <field name="uraian_kemasan">Net</field>
+    </record>
+    <record id="ref_kemasan_193_NU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NU</field>
+        <field name="uraian_kemasan">Net, tube, plastic</field>
+    </record>
+    <record id="ref_kemasan_194_NV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">NV</field>
+        <field name="uraian_kemasan">Net, tube, textile</field>
+    </record>
+    <record id="ref_kemasan_195_OA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OA</field>
+        <field name="uraian_kemasan">Pallet, CHEP 40 cm x 60 cm</field>
+    </record>
+    <record id="ref_kemasan_196_OB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OB</field>
+        <field name="uraian_kemasan">Pallet, CHEP 80 cm x 120 cm</field>
+    </record>
+    <record id="ref_kemasan_197_OC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OC</field>
+        <field name="uraian_kemasan">Pallet, CHEP 100 cm x 120 cm</field>
+    </record>
+    <record id="ref_kemasan_198_OD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OD</field>
+        <field name="uraian_kemasan">Pallet, AS 4068-1993</field>
+    </record>
+    <record id="ref_kemasan_199_OE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OE</field>
+        <field name="uraian_kemasan">Pallet, ISO T11</field>
+    </record>
+    <record id="ref_kemasan_200_OF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OF</field>
+        <field name="uraian_kemasan">Platform, unspecified weight or dimension</field>
+    </record>
+    <record id="ref_kemasan_201_OK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OK</field>
+        <field name="uraian_kemasan">Block</field>
+    </record>
+    <record id="ref_kemasan_202_OT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OT</field>
+        <field name="uraian_kemasan">Octabin</field>
+    </record>
+    <record id="ref_kemasan_203_OU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">OU</field>
+        <field name="uraian_kemasan">Container, outer</field>
+    </record>
+    <record id="ref_kemasan_204_P2" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">P2</field>
+        <field name="uraian_kemasan">Pan</field>
+    </record>
+    <record id="ref_kemasan_205_PA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PA</field>
+        <field name="uraian_kemasan">Packet</field>
+    </record>
+    <record id="ref_kemasan_206_PB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PB</field>
+        <field name="uraian_kemasan">Pallet, box Combined open-ended box and pallet</field>
+    </record>
+    <record id="ref_kemasan_207_PC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PC</field>
+        <field name="uraian_kemasan">Parcel</field>
+    </record>
+    <record id="ref_kemasan_208_PD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PD</field>
+        <field name="uraian_kemasan">Pallet, modular, collars 80cms * 100cms</field>
+    </record>
+    <record id="ref_kemasan_209_PE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PE</field>
+        <field name="uraian_kemasan">Pallet, modular, collars 80cms * 120cms</field>
+    </record>
+    <record id="ref_kemasan_210_PF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PF</field>
+        <field name="uraian_kemasan">Pen</field>
+    </record>
+    <record id="ref_kemasan_211_PG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PG</field>
+        <field name="uraian_kemasan">Plate</field>
+    </record>
+    <record id="ref_kemasan_212_PH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PH</field>
+        <field name="uraian_kemasan">Pitcher</field>
+    </record>
+    <record id="ref_kemasan_213_PI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PI</field>
+        <field name="uraian_kemasan">Pipe</field>
+    </record>
+    <record id="ref_kemasan_214_PJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PJ</field>
+        <field name="uraian_kemasan">Punnet</field>
+    </record>
+    <record id="ref_kemasan_215_PK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PK</field>
+        <field name="uraian_kemasan">Package</field>
+    </record>
+    <record id="ref_kemasan_216_PL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PL</field>
+        <field name="uraian_kemasan">Pail</field>
+    </record>
+    <record id="ref_kemasan_217_PN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PN</field>
+        <field name="uraian_kemasan">Plank</field>
+    </record>
+    <record id="ref_kemasan_218_PO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PO</field>
+        <field name="uraian_kemasan">Pouch</field>
+    </record>
+    <record id="ref_kemasan_219_PP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PP</field>
+        <field name="uraian_kemasan">Piece</field>
+    </record>
+    <record id="ref_kemasan_220_PR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PR</field>
+        <field name="uraian_kemasan">Receptacle, plastic</field>
+    </record>
+    <record id="ref_kemasan_221_PT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PT</field>
+        <field name="uraian_kemasan">Pot</field>
+    </record>
+    <record id="ref_kemasan_222_PU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PU</field>
+        <field name="uraian_kemasan">Tray</field>
+    </record>
+    <record id="ref_kemasan_223_PV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PV</field>
+        <field name="uraian_kemasan">Pipes, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_224_PX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PX</field>
+        <field name="uraian_kemasan">Pallet</field>
+    </record>
+    <record id="ref_kemasan_225_PY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PY</field>
+        <field name="uraian_kemasan">Plates, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_226_PZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">PZ</field>
+        <field name="uraian_kemasan">Pipes, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_227_QA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QA</field>
+        <field name="uraian_kemasan">Drum, steel, non-removable head</field>
+    </record>
+    <record id="ref_kemasan_228_QB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QB</field>
+        <field name="uraian_kemasan">Drum, steel, removable head</field>
+    </record>
+    <record id="ref_kemasan_229_QC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QC</field>
+        <field name="uraian_kemasan">Drum, aluminium, non-removable head</field>
+    </record>
+    <record id="ref_kemasan_230_QD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QD</field>
+        <field name="uraian_kemasan">Drum, aluminium, removable head</field>
+    </record>
+    <record id="ref_kemasan_231_QF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QF</field>
+        <field name="uraian_kemasan">Drum, plastic, non-removable head</field>
+    </record>
+    <record id="ref_kemasan_232_QG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QG</field>
+        <field name="uraian_kemasan">Drum, plastic, removable head</field>
+    </record>
+    <record id="ref_kemasan_233_QH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QH</field>
+        <field name="uraian_kemasan">Barrel, wooden, bung type</field>
+    </record>
+    <record id="ref_kemasan_234_QJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QJ</field>
+        <field name="uraian_kemasan">Barrel, wooden, removable head</field>
+    </record>
+    <record id="ref_kemasan_235_QK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QK</field>
+        <field name="uraian_kemasan">Jerrican, steel, non-removable head</field>
+    </record>
+    <record id="ref_kemasan_236_QL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QL</field>
+        <field name="uraian_kemasan">Jerrican, steel, removable head</field>
+    </record>
+    <record id="ref_kemasan_237_QM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QM</field>
+        <field name="uraian_kemasan">Jerrican, plastic, non-removable head</field>
+    </record>
+    <record id="ref_kemasan_238_QN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QN</field>
+        <field name="uraian_kemasan">Jerrican, plastic, removable head</field>
+    </record>
+    <record id="ref_kemasan_239_QP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QP</field>
+        <field name="uraian_kemasan">Box, wooden, natural wood, ordinary</field>
+    </record>
+    <record id="ref_kemasan_240_QQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QQ</field>
+        <field name="uraian_kemasan">Box, wooden, natural wood, with sift proof walls</field>
+    </record>
+    <record id="ref_kemasan_241_QR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QR</field>
+        <field name="uraian_kemasan">Box, plastic, expanded</field>
+    </record>
+    <record id="ref_kemasan_242_QS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">QS</field>
+        <field name="uraian_kemasan">Box, plastic, solid</field>
+    </record>
+    <record id="ref_kemasan_243_RD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RD</field>
+        <field name="uraian_kemasan">Rod</field>
+    </record>
+    <record id="ref_kemasan_244_RG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RG</field>
+        <field name="uraian_kemasan">Ring</field>
+    </record>
+    <record id="ref_kemasan_245_RJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RJ</field>
+        <field name="uraian_kemasan">Rack, clothing hanger</field>
+    </record>
+    <record id="ref_kemasan_246_RK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RK</field>
+        <field name="uraian_kemasan">Rack</field>
+    </record>
+    <record id="ref_kemasan_247_RL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RL</field>
+        <field name="uraian_kemasan">Reel</field>
+    </record>
+    <record id="ref_kemasan_248_RO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RO</field>
+        <field name="uraian_kemasan">Roll</field>
+    </record>
+    <record id="ref_kemasan_249_RT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RT</field>
+        <field name="uraian_kemasan">Rednet</field>
+    </record>
+    <record id="ref_kemasan_250_RZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">RZ</field>
+        <field name="uraian_kemasan">Rods, in bundle/ bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_251_SA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SA</field>
+        <field name="uraian_kemasan">Sack</field>
+    </record>
+    <record id="ref_kemasan_252_SB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SB</field>
+        <field name="uraian_kemasan">Slab</field>
+    </record>
+    <record id="ref_kemasan_253_SC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SC</field>
+        <field name="uraian_kemasan">Shallow crate</field>
+    </record>
+    <record id="ref_kemasan_254_SD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SD</field>
+        <field name="uraian_kemasan">Spindle</field>
+    </record>
+    <record id="ref_kemasan_255_SE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SE</field>
+        <field name="uraian_kemasan">Sea-chest</field>
+    </record>
+    <record id="ref_kemasan_256_SH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SH</field>
+        <field name="uraian_kemasan">Sachet</field>
+    </record>
+    <record id="ref_kemasan_257_SI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SI</field>
+        <field name="uraian_kemasan">Skid</field>
+    </record>
+    <record id="ref_kemasan_258_SK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SK</field>
+        <field name="uraian_kemasan">Skeleton case</field>
+    </record>
+    <record id="ref_kemasan_259_SL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SL</field>
+        <field name="uraian_kemasan">Slipsheet</field>
+    </record>
+    <record id="ref_kemasan_260_SM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SM</field>
+        <field name="uraian_kemasan">Sheetmetal</field>
+    </record>
+    <record id="ref_kemasan_261_SO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SO</field>
+        <field name="uraian_kemasan">Spool</field>
+    </record>
+    <record id="ref_kemasan_262_SP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SP</field>
+        <field name="uraian_kemasan">Sheet, plastic wrapping</field>
+    </record>
+    <record id="ref_kemasan_263_SS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SS</field>
+        <field name="uraian_kemasan">Case, steel</field>
+    </record>
+    <record id="ref_kemasan_264_ST" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ST</field>
+        <field name="uraian_kemasan">Sheet</field>
+    </record>
+    <record id="ref_kemasan_265_SU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SU</field>
+        <field name="uraian_kemasan">Suitcase</field>
+    </record>
+    <record id="ref_kemasan_266_SV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SV</field>
+        <field name="uraian_kemasan">Envelope, steel</field>
+    </record>
+    <record id="ref_kemasan_267_SW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SW</field>
+        <field name="uraian_kemasan">Shrinkwrapped</field>
+    </record>
+    <record id="ref_kemasan_268_SX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SX</field>
+        <field name="uraian_kemasan">Set</field>
+    </record>
+    <record id="ref_kemasan_269_SY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SY</field>
+        <field name="uraian_kemasan">Sleeve</field>
+    </record>
+    <record id="ref_kemasan_270_SZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">SZ</field>
+        <field name="uraian_kemasan">Sheets, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_271_T1" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">T1</field>
+        <field name="uraian_kemasan">Tablet</field>
+    </record>
+    <record id="ref_kemasan_272_TB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TB</field>
+        <field name="uraian_kemasan">Tub</field>
+    </record>
+    <record id="ref_kemasan_273_TC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TC</field>
+        <field name="uraian_kemasan">Tea-chest</field>
+    </record>
+    <record id="ref_kemasan_274_TD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TD</field>
+        <field name="uraian_kemasan">Collapsible tube</field>
+    </record>
+    <record id="ref_kemasan_275_TE" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TE</field>
+        <field name="uraian_kemasan">Tyre</field>
+    </record>
+    <record id="ref_kemasan_276_TG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TG</field>
+        <field name="uraian_kemasan">Tank container, generic</field>
+    </record>
+    <record id="ref_kemasan_277_TI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TI</field>
+        <field name="uraian_kemasan">Tierce</field>
+    </record>
+    <record id="ref_kemasan_278_TK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TK</field>
+        <field name="uraian_kemasan">Tank, rectangular</field>
+    </record>
+    <record id="ref_kemasan_279_TL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TL</field>
+        <field name="uraian_kemasan">Tub, with lid</field>
+    </record>
+    <record id="ref_kemasan_280_TN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TN</field>
+        <field name="uraian_kemasan">Tin</field>
+    </record>
+    <record id="ref_kemasan_281_TO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TO</field>
+        <field name="uraian_kemasan">Tun</field>
+    </record>
+    <record id="ref_kemasan_282_TP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TP</field>
+        <field name="uraian_kemasan">Tray</field>
+    </record>
+    <record id="ref_kemasan_283_TR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TR</field>
+        <field name="uraian_kemasan">Trunk</field>
+    </record>
+    <record id="ref_kemasan_284_TS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TS</field>
+        <field name="uraian_kemasan">Truss</field>
+    </record>
+    <record id="ref_kemasan_285_TT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TT</field>
+        <field name="uraian_kemasan">Bag, tote</field>
+    </record>
+    <record id="ref_kemasan_286_TU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TU</field>
+        <field name="uraian_kemasan">Tube</field>
+    </record>
+    <record id="ref_kemasan_287_TV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TV</field>
+        <field name="uraian_kemasan">Tube, with nozzle</field>
+    </record>
+    <record id="ref_kemasan_288_TW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TW</field>
+        <field name="uraian_kemasan">Pallet, triwall</field>
+    </record>
+    <record id="ref_kemasan_289_TY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TY</field>
+        <field name="uraian_kemasan">Tank, cylindrical</field>
+    </record>
+    <record id="ref_kemasan_290_TZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">TZ</field>
+        <field name="uraian_kemasan">Tubes, in bundle/bunch/truss</field>
+    </record>
+    <record id="ref_kemasan_291_UC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">UC</field>
+        <field name="uraian_kemasan">Uncaged</field>
+    </record>
+    <record id="ref_kemasan_292_UN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">UN</field>
+        <field name="uraian_kemasan">Unpackage</field>
+    </record>
+    <record id="ref_kemasan_293_VA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VA</field>
+        <field name="uraian_kemasan">Vat</field>
+    </record>
+    <record id="ref_kemasan_294_VG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VG</field>
+        <field name="uraian_kemasan">Bulk, gas ( at 1031 mbar and 15C )</field>
+    </record>
+    <record id="ref_kemasan_295_VI" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VI</field>
+        <field name="uraian_kemasan">Vial</field>
+    </record>
+    <record id="ref_kemasan_296_VK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VK</field>
+        <field name="uraian_kemasan">Vanpack</field>
+    </record>
+    <record id="ref_kemasan_297_VL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VL</field>
+        <field name="uraian_kemasan">Bulk, liquid</field>
+    </record>
+    <record id="ref_kemasan_298_VN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VN</field>
+        <field name="uraian_kemasan">Vehicle</field>
+    </record>
+    <record id="ref_kemasan_299_VO" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VO</field>
+        <field name="uraian_kemasan">Bulk, solid, large particles ("nodules")</field>
+    </record>
+    <record id="ref_kemasan_300_VP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VP</field>
+        <field name="uraian_kemasan">Vacuumpacked</field>
+    </record>
+    <record id="ref_kemasan_301_VQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VQ</field>
+        <field name="uraian_kemasan">Bulk,liquefied gas (at abnorml temprture/pressure)</field>
+    </record>
+    <record id="ref_kemasan_302_VR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VR</field>
+        <field name="uraian_kemasan">Bulk, solid, granular particles ("grains")</field>
+    </record>
+    <record id="ref_kemasan_303_VS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VS</field>
+        <field name="uraian_kemasan">Bulk, scrap metal</field>
+    </record>
+    <record id="ref_kemasan_304_VY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">VY</field>
+        <field name="uraian_kemasan">Bulk, solid, fine particles ("powders")</field>
+    </record>
+    <record id="ref_kemasan_305_WA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WA</field>
+        <field name="uraian_kemasan">Intermediate bulk container</field>
+    </record>
+    <record id="ref_kemasan_306_WB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WB</field>
+        <field name="uraian_kemasan">Wickerbottle</field>
+    </record>
+    <record id="ref_kemasan_307_WC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WC</field>
+        <field name="uraian_kemasan">Intermediate bulk container, steel</field>
+    </record>
+    <record id="ref_kemasan_308_WD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WD</field>
+        <field name="uraian_kemasan">Intermediate bulk container, aluminium</field>
+    </record>
+    <record id="ref_kemasan_309_WF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WF</field>
+        <field name="uraian_kemasan">Intermediate bulk container, metal</field>
+    </record>
+    <record id="ref_kemasan_310_WG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WG</field>
+        <field name="uraian_kemasan">Intermediate bulk cont,steel,pressurised >10 kpa</field>
+    </record>
+    <record id="ref_kemasan_311_WH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WH</field>
+        <field name="uraian_kemasan">Intermedt bulk cont,aluminium,pressurised >10 kpa</field>
+    </record>
+    <record id="ref_kemasan_312_WJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WJ</field>
+        <field name="uraian_kemasan">Intermediate bulk container,metal, pressure 10 kpa</field>
+    </record>
+    <record id="ref_kemasan_313_WK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WK</field>
+        <field name="uraian_kemasan">Intermediate bulk container, steel, liquid</field>
+    </record>
+    <record id="ref_kemasan_314_WL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WL</field>
+        <field name="uraian_kemasan">Intermediate bulk container, aluminium, liquid</field>
+    </record>
+    <record id="ref_kemasan_315_WM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WM</field>
+        <field name="uraian_kemasan">Intermediate bulk container, metal, liquid</field>
+    </record>
+    <record id="ref_kemasan_316_WN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WN</field>
+        <field name="uraian_kemasan">Intermd bulk cont,woven plastic,without coat/liner</field>
+    </record>
+    <record id="ref_kemasan_317_WP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WP</field>
+        <field name="uraian_kemasan">Intermediate bulk container, woven plastic, coated</field>
+    </record>
+    <record id="ref_kemasan_318_WQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WQ</field>
+        <field name="uraian_kemasan">Intermediate bulk cont,woven plastic,with liner</field>
+    </record>
+    <record id="ref_kemasan_319_WR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WR</field>
+        <field name="uraian_kemasan">Intermedt bulk cont,woven plastic,coated and liner</field>
+    </record>
+    <record id="ref_kemasan_320_WS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WS</field>
+        <field name="uraian_kemasan">Intermediate bulk container, plastic film</field>
+    </record>
+    <record id="ref_kemasan_321_WT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WT</field>
+        <field name="uraian_kemasan">Intermediate bulk cont,textile with out coat/liner</field>
+    </record>
+    <record id="ref_kemasan_322_WU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WU</field>
+        <field name="uraian_kemasan">Intermdte bulk cont,natural wood,with inner liner</field>
+    </record>
+    <record id="ref_kemasan_323_WV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WV</field>
+        <field name="uraian_kemasan">Intermediate bulk container, textile, coated</field>
+    </record>
+    <record id="ref_kemasan_324_WW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WW</field>
+        <field name="uraian_kemasan">Intermediate bulk container, textile, with liner</field>
+    </record>
+    <record id="ref_kemasan_325_WX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WX</field>
+        <field name="uraian_kemasan">Intermediate bulk cont,textile,coated and liner</field>
+    </record>
+    <record id="ref_kemasan_326_WY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WY</field>
+        <field name="uraian_kemasan">Intermediate bulk cont,plywood,with inner liner</field>
+    </record>
+    <record id="ref_kemasan_327_WZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">WZ</field>
+        <field name="uraian_kemasan">Intermd bulk cont,reconstttd wood,with inner liner</field>
+    </record>
+    <record id="ref_kemasan_328_XA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XA</field>
+        <field name="uraian_kemasan">Bag, woven plastic, without inner coat/liner</field>
+    </record>
+    <record id="ref_kemasan_329_XB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XB</field>
+        <field name="uraian_kemasan">Bag, woven plastic, sift proof</field>
+    </record>
+    <record id="ref_kemasan_330_XC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XC</field>
+        <field name="uraian_kemasan">Bag, woven plastic, water resistant</field>
+    </record>
+    <record id="ref_kemasan_331_XD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XD</field>
+        <field name="uraian_kemasan">Bag, plastics film</field>
+    </record>
+    <record id="ref_kemasan_332_XF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XF</field>
+        <field name="uraian_kemasan">Bag, textile, without inner coat/liner</field>
+    </record>
+    <record id="ref_kemasan_333_XG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XG</field>
+        <field name="uraian_kemasan">Bag, textile, sift proof</field>
+    </record>
+    <record id="ref_kemasan_334_XH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XH</field>
+        <field name="uraian_kemasan">Bag, textile, water resistant</field>
+    </record>
+    <record id="ref_kemasan_335_XJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XJ</field>
+        <field name="uraian_kemasan">Bag, paper, multi-wall</field>
+    </record>
+    <record id="ref_kemasan_336_XK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XK</field>
+        <field name="uraian_kemasan">Bag, paper, multi-wall, water resistant</field>
+    </record>
+    <record id="ref_kemasan_337_XN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">XN</field>
+        <field name="uraian_kemasan">test</field>
+    </record>
+    <record id="ref_kemasan_338_YA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YA</field>
+        <field name="uraian_kemasan">Compsite packging,plastic receptacle in steel drum</field>
+    </record>
+    <record id="ref_kemasan_339_YB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YB</field>
+        <field name="uraian_kemasan">Compste packgng,plastc recptcle in steel crate box</field>
+    </record>
+    <record id="ref_kemasan_340_YC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YC</field>
+        <field name="uraian_kemasan">Compste packgng,plastic recptcle in aluminium drum</field>
+    </record>
+    <record id="ref_kemasan_341_YD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YD</field>
+        <field name="uraian_kemasan">Compste packgng,plastic recptcle in alumnium crate</field>
+    </record>
+    <record id="ref_kemasan_342_YF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YF</field>
+        <field name="uraian_kemasan">Compsite packging,plastic receptacle in wooden box</field>
+    </record>
+    <record id="ref_kemasan_343_YG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YG</field>
+        <field name="uraian_kemasan">Compste packgng,plastic receptacle in plywood drum</field>
+    </record>
+    <record id="ref_kemasan_344_YH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YH</field>
+        <field name="uraian_kemasan">Compste packging,plastic receptacle in plywood box</field>
+    </record>
+    <record id="ref_kemasan_345_YJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YJ</field>
+        <field name="uraian_kemasan">Compsite packging,plastic receptacle in fibre drum</field>
+    </record>
+    <record id="ref_kemasan_346_YK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YK</field>
+        <field name="uraian_kemasan">Compste packgng,plastic recptcle in fibreboard box</field>
+    </record>
+    <record id="ref_kemasan_347_YL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YL</field>
+        <field name="uraian_kemasan">Compste packgng,plastic receptacle in plastic drum</field>
+    </record>
+    <record id="ref_kemasan_348_YM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YM</field>
+        <field name="uraian_kemasan">Compsite packgng,plstc recptcle in solid plstc box</field>
+    </record>
+    <record id="ref_kemasan_349_YN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YN</field>
+        <field name="uraian_kemasan">Composite packaging,glass receptacle in steel drum</field>
+    </record>
+    <record id="ref_kemasan_350_YP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YP</field>
+        <field name="uraian_kemasan">Compste packgng,glass recptacle in steel crate box</field>
+    </record>
+    <record id="ref_kemasan_351_YQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YQ</field>
+        <field name="uraian_kemasan">Compste packgng,glass receptacle in aluminium drum</field>
+    </record>
+    <record id="ref_kemasan_352_YR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YR</field>
+        <field name="uraian_kemasan">Compste packgng,glass recptacle in aluminium crate</field>
+    </record>
+    <record id="ref_kemasan_353_YS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YS</field>
+        <field name="uraian_kemasan">Composite packaging,glass receptacle in wooden box</field>
+    </record>
+    <record id="ref_kemasan_354_YT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YT</field>
+        <field name="uraian_kemasan">Compsite packging,glass receptacle in plywood drum</field>
+    </record>
+    <record id="ref_kemasan_355_YV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YV</field>
+        <field name="uraian_kemasan">Compste packgng,glass recptcle in wickrwork hamper</field>
+    </record>
+    <record id="ref_kemasan_356_YW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YW</field>
+        <field name="uraian_kemasan">Composite packaging,glass receptacle in fibre drum</field>
+    </record>
+    <record id="ref_kemasan_357_YX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YX</field>
+        <field name="uraian_kemasan">Compste packgng,glass receptacle in fibreboard box</field>
+    </record>
+    <record id="ref_kemasan_358_YY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YY</field>
+        <field name="uraian_kemasan">Compste pckgng,glss recptcl in expndbl plastc pack</field>
+    </record>
+    <record id="ref_kemasan_359_YZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">YZ</field>
+        <field name="uraian_kemasan">Compsite packgng,glass recptcle in solid plstc pck</field>
+    </record>
+    <record id="ref_kemasan_360_ZA" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZA</field>
+        <field name="uraian_kemasan">Intermediate bulk container, paper, multi-wall</field>
+    </record>
+    <record id="ref_kemasan_361_ZB" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZB</field>
+        <field name="uraian_kemasan">Bag, large</field>
+    </record>
+    <record id="ref_kemasan_362_ZC" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZC</field>
+        <field name="uraian_kemasan">Intermd bulk cont,paper,multi-wall,water resistant</field>
+    </record>
+    <record id="ref_kemasan_363_ZD" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZD</field>
+        <field name="uraian_kemasan">Intermd bulk cont,rgd plstc,w/strctrl equipm,solid</field>
+    </record>
+    <record id="ref_kemasan_364_ZF" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZF</field>
+        <field name="uraian_kemasan">Intermd bulk cont,rgid plstc,freestandng,solds</field>
+    </record>
+    <record id="ref_kemasan_365_ZG" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZG</field>
+        <field name="uraian_kemasan">Intermdbulk cnt,rgd plstc,w/strctrl equipm,pressrd</field>
+    </record>
+    <record id="ref_kemasan_366_ZH" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZH</field>
+        <field name="uraian_kemasan">Intermd bulk cont,rgd plstc,freestnd,pressurised</field>
+    </record>
+    <record id="ref_kemasan_367_ZJ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZJ</field>
+        <field name="uraian_kemasan">Intermd bulk cont,rgd plstc,w/strctrl equipm,lquid</field>
+    </record>
+    <record id="ref_kemasan_368_ZK" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZK</field>
+        <field name="uraian_kemasan">Intermd bulk cont,rgid plstc,freestanding,liquids</field>
+    </record>
+    <record id="ref_kemasan_369_ZL" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZL</field>
+        <field name="uraian_kemasan">Intermd bulk cont,composite,rigid plastic,solids</field>
+    </record>
+    <record id="ref_kemasan_370_ZM" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZM</field>
+        <field name="uraian_kemasan">Intermd bulk cont,compste,flexbl plastic, solids</field>
+    </record>
+    <record id="ref_kemasan_371_ZN" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZN</field>
+        <field name="uraian_kemasan">Intermd bulk cont,compsit,rgid plstc,pressurised</field>
+    </record>
+    <record id="ref_kemasan_372_ZP" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZP</field>
+        <field name="uraian_kemasan">Intermd bulk cont,compsit,flexbl plstc,pressurised</field>
+    </record>
+    <record id="ref_kemasan_373_ZQ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZQ</field>
+        <field name="uraian_kemasan">Intermd bulk cont,composite,rigid plastic,liquids</field>
+    </record>
+    <record id="ref_kemasan_374_ZR" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZR</field>
+        <field name="uraian_kemasan">Intermd bulk cont,compsite,flexible plastc,liquids</field>
+    </record>
+    <record id="ref_kemasan_375_ZS" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZS</field>
+        <field name="uraian_kemasan">Intermediate bulk container, composite</field>
+    </record>
+    <record id="ref_kemasan_376_ZT" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZT</field>
+        <field name="uraian_kemasan">Intermediate bulk container, fibreboard</field>
+    </record>
+    <record id="ref_kemasan_377_ZU" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZU</field>
+        <field name="uraian_kemasan">Intermediate bulk container, flexible</field>
+    </record>
+    <record id="ref_kemasan_378_ZV" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZV</field>
+        <field name="uraian_kemasan">Intermediate bulk container,metal,other than steel</field>
+    </record>
+    <record id="ref_kemasan_379_ZW" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZW</field>
+        <field name="uraian_kemasan">Intermediate bulk container, natural wood</field>
+    </record>
+    <record id="ref_kemasan_380_ZX" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZX</field>
+        <field name="uraian_kemasan">Intermediate bulk container, plywood</field>
+    </record>
+    <record id="ref_kemasan_381_ZY" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZY</field>
+        <field name="uraian_kemasan">Intermediate bulk container, reconstituted wood</field>
+    </record>
+    <record id="ref_kemasan_382_ZZ" model="ceisa.referensi.kemasan">
+        <field name="kode_kemasan">ZZ</field>
+        <field name="uraian_kemasan">Mutually defined</field>
+    </record>
+</odoo>

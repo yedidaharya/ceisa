@@ -1,0 +1,14 @@
+<odoo>
+    <record id="ref_jenis_kontainer_1_4" model="ceisa.referensi.jenis.kontainer">
+        <field name="kode_jenis_kontainer">4</field>
+        <field name="uraian_jenis_kontainer">EMPTY</field>
+    </record>
+    <record id="ref_jenis_kontainer_2_7" model="ceisa.referensi.jenis.kontainer">
+        <field name="kode_jenis_kontainer">7</field>
+        <field name="uraian_jenis_kontainer">LCL</field>
+    </record>
+    <record id="ref_jenis_kontainer_3_8" model="ceisa.referensi.jenis.kontainer">
+        <field name="kode_jenis_kontainer">8</field>
+        <field name="uraian_jenis_kontainer">FCL</field>
+    </record>
+</odoo>

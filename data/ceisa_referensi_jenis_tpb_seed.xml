@@ -1,0 +1,38 @@
+<odoo>
+    <record id="ref_jenis_tpb_1" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">1</field>
+        <field name="uraian_jenis_tpb">Kawasan Berikat</field>
+    </record>
+    <record id="ref_jenis_tpb_2" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">2</field>
+        <field name="uraian_jenis_tpb">Gudang Berikat</field>
+    </record>
+    <record id="ref_jenis_tpb_3" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">3</field>
+        <field name="uraian_jenis_tpb">TPPB</field>
+    </record>
+    <record id="ref_jenis_tpb_4" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">4</field>
+        <field name="uraian_jenis_tpb">TBB</field>
+    </record>
+    <record id="ref_jenis_tpb_5" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">5</field>
+        <field name="uraian_jenis_tpb">TLB</field>
+    </record>
+    <record id="ref_jenis_tpb_6" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">6</field>
+        <field name="uraian_jenis_tpb">KDUB</field>
+    </record>
+    <record id="ref_jenis_tpb_7" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">7</field>
+        <field name="uraian_jenis_tpb">Lainnya</field>
+    </record>
+    <record id="ref_jenis_tpb_8" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">8</field>
+        <field name="uraian_jenis_tpb">Kawasan Bebas</field>
+    </record>
+        <record id="ref_jenis_tpb_9" model="ceisa.referensi.jenis.tpb">
+        <field name="kode_jenis_tpb">10</field>
+        <field name="uraian_jenis_tpb">KAWASAN EKONOMI LAINNYA</field>
+    </record>
+</odoo>

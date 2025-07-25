@@ -1,0 +1,17 @@
+<odoo>
+    <data noupdate="1">
+        <record id="ref_company_1" model="ceisa.company.master">
+            <field name="nama_perusahaan">PT. MARVEL SPORTS INTERNATIONAL</field>
+            <field name="npwp_perusahaan">0710432832543000</field>
+            <field name="alamat_perusahaan">SUNGAPAN DUKUH, KEL. ARGODADI KEC. SEDAYU KAB BANTUL</field>
+            <field name="kota_perusahaan">YOGYAKARTA</field>
+            <field name="kode_kantor">060700</field>
+            <field name="username_ceisa">marvelsports</field>
+            <field name="password_ceisa">Alhamdulillah88</field>
+            <field name="nomor_ijin_entitas">247/WBC.10/2019</field>
+            <field name="tanggal_ijin_entitas">2019-11-27</field>
+            <field name="nitku">0710432832543000000000</field>
+            <field name="nib">8120003702077</field>
+        </record>
+    </data>
+</odoo>

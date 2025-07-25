@@ -1,0 +1,38 @@
+<odoo>
+    <record id="ref_fasilitas_tarif_1" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">1</field>
+        <field name="uraian_fasilitas_tarif">DIBAYAR</field>
+    </record>
+    <record id="ref_fasilitas_tarif_2" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">2</field>
+        <field name="uraian_fasilitas_tarif">DITANGGUNG PEMERINTAH</field>
+    </record>
+    <record id="ref_fasilitas_tarif_3" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">3</field>
+        <field name="uraian_fasilitas_tarif">DITANGGUHKAN</field>
+    </record>
+    <record id="ref_fasilitas_tarif_4" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">4</field>
+        <field name="uraian_fasilitas_tarif">BERKALA</field>
+    </record>
+    <record id="ref_fasilitas_tarif_5" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">5</field>
+        <field name="uraian_fasilitas_tarif">DIBEBASKAN</field>
+    </record>
+    <record id="ref_fasilitas_tarif_6" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">6</field>
+        <field name="uraian_fasilitas_tarif">TIDAK DIPUNGUT</field>
+    </record>
+    <record id="ref_fasilitas_tarif_7" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">7</field>
+        <field name="uraian_fasilitas_tarif">SUDAH DILUNASI</field>
+    </record>
+    <record id="ref_fasilitas_tarif_8" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">8</field>
+        <field name="uraian_fasilitas_tarif">DIJAMINKAN</field>
+    </record>
+        <record id="ref_fasilitas_tarif_9" model="ceisa.referensi.fasilitas.tarif">
+        <field name="kode_fasilitas_tarif">9</field>
+        <field name="uraian_fasilitas_tarif">DITUNDA</field>
+    </record>
+</odoo>

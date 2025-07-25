@@ -1,0 +1,22 @@
+<odoo>
+    <record id="ref_identitas_1" model="ceisa.referensi.jenis.identitas">
+        <field name="kode_jenis_identitas">2</field>
+        <field name="uraian_jenis_identitas">PASPOR</field>
+    </record>
+    <record id="ref_identitas_2" model="ceisa.referensi.jenis.identitas">
+        <field name="kode_jenis_identitas">3</field>
+        <field name="uraian_jenis_identitas">KTP</field>
+    </record>
+    <record id="ref_identitas_3" model="ceisa.referensi.jenis.identitas">
+        <field name="kode_jenis_identitas">4</field>
+        <field name="uraian_jenis_identitas">LAINNYA</field>
+    </record>
+    <record id="ref_identitas_4" model="ceisa.referensi.jenis.identitas">
+        <field name="kode_jenis_identitas">5</field>
+        <field name="uraian_jenis_identitas">NPWP 15 DIGIT</field>
+    </record>
+        <record id="ref_identitas_5" model="ceisa.referensi.jenis.identitas">
+        <field name="kode_jenis_identitas">6</field>
+        <field name="uraian_jenis_identitas">NPWP 16 DIGIT</field>
+    </record>
+</odoo>
