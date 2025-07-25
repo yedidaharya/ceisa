@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- ===== FORM VIEW: DOKUMEN 23 ===== -->
+    <record id="view_ceisa_form_23" model="ir.ui.view">
+        <field name="name">ceisa.header.form.23</field>
+        <field name="model">ceisa.header</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="kode_dokumen" readonly="1" />
+                        <field name="nomor_aju" string="Nomor Pengajuan 23"
+                            placeholder="Automatic from system" />
+                        <field name="kode_kantor" string="Kantor Pabean" />
+                        <field name="jenis_tpb_lookup" string="Jenis TPB" /> <!-- dropdown -->
+                        <field name="kode_jenis_tpb" string="Kode Jenis TPB" invisible="1" /> <!-- kolom yang benar-benar
+                        disimpan -->
+                    </group>
+                    <notebook>
+                        <page string="Entitas">
+                            <group>
+                                <group col="3" colspan="4">
+                                    <group string="Pengusaha TPB / PKP">
+                                        <field name="entitas_1_nomor_identitas" />
+                                        <field name="entitas_1_nama" />
+                                        <field name="entitas_1_alamat" />
+                                    </group>
+                                    <group string="Pengirim / Penjual / Penerima JKP">
+                                        <field name="entitas_2_nomor_identitas" />
+                                        <field name="entitas_2_nama" />
+                                        <field name="entitas_2_alamat" />
+                                    </group>
+                                    <group string="Pemilik Barang">
+                                        <field name="entitas_3_nomor_identitas" />
+                                        <field name="entitas_3_nama" />
+                                        <field name="entitas_3_alamat" />
+                                    </group>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Dokumen">
+                            <field name="dokumen_ids"
+                                mode="list,form"
+                                context="{
+                                    'form_view_ref': 'ceisa.view_ceisa_dokumen_form_23',
+                                    'list_view_ref': 'ceisa.view_ceisa_dokumen_list_23'
+                                }"
+                                options="{'no_create_edit': False, 'no_open': False}" />
+                        </page>
+                        <page string="Pengangkut">
+                            <field name="pengangkut_ids" />
+                        </page>
+                        <page string="Kemasan dan Peti Kemas">
+                            <field name="kemasan_ids" />
+                        </page>
+                        <page string="Barang">
+                            <field name="barang_ids" />
+                        </page>
+                        <page string="Pungutan">
+                            <field name="pungutan_ids" />
+                        </page>
+
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- ===== FORM VIEW: CEISA DOKUMEN FOR 23===== -->
+    <record id="view_ceisa_dokumen_list_23" model="ir.ui.view">
+        <field name="name">ceisa.dokumen.list.23</field>
+        <field name="model">ceisa.dokumen</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="seri_dokumen" string="Seri" />
+                <field name="dokumen_lookup" string="Jenis" />
+                <field name="nomor_dokumen" string="Nomor" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_ceisa_dokumen_form_23" model="ir.ui.view">
+        <field name="name">ceisa.dokumen.form.23</field>
+        <field name="model">ceisa.dokumen</field>
+        <field name="arch" type="xml">
+            <form string="Dokumen">
+                <sheet>
+                    <group>
+                        <field name="header_id" invisible="1" />
+                        <field name="seri_dokumen" string="Seri" readonly="1" />
+                        <field name="dokumen_lookup" string="Jenis Dokumen" />
+                        <field name="kode_dokumen" invisible="1" />
+                        <field name="nomor_dokumen" string="Nomor Dokumen" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+    <!-- ===== ACTION for Dokumen 23 ===== -->
+    <record id="action_ceisa_dokumen_23" model="ir.actions.act_window">
+        <field name="name">Dokumen 23</field>
+        <field name="res_model">ceisa.header</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[("kode_dokumen", "=", "23")]</field>
+        <field name="context">{"default_kode_dokumen": "23"}</field>
+        <field name="view_ids"
+            eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'list', 'view_id': ref('view_ceisa_header_list')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('view_ceisa_form_23')})]" />
+    </record>
+
+    <!-- ===== MENU ===== -->
+    <menuitem id="menu_ceisa_23" name="Dokumen 23" parent="menu_ceisa_root" action="action_ceisa_dokumen_23" />
+
+
+
+
+</odoo>

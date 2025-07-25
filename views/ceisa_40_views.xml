@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- ===== FORM VIEW: DOKUMEN 40 ===== -->
+    <record id="view_ceisa_form_40" model="ir.ui.view">
+        <field name="name">ceisa.header.form.40</field>
+        <field name="model">ceisa.header</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <div class="oe_title">
+                            <h2>BC 4.0 - Pemberitahuan Pemasukan Barang Asal Tempat Lain Dalam Daerah Pabean ke Tempat Penimbunan Berikat</h2>
+                        </div>
+                    </group>
+                    <notebook>
+                        <page string="Header">
+                            <group>
+                                <group col="3" colspan="4">
+                                    <group string="Pengajuan">
+                                        <field name="nomor_aju" string="Nomor Pengajuan" />
+                                    </group>
+                                    <group string="Kantor Pabean">
+                                        <field name="kantor_pabean_lookup" string="Kantor Pabean" readonly="1"
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                    </group>
+                                    <group string="Keterangan Lain">
+                                        <field name="jenis_tpb_lookup" string="Jenis TPB"
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                        <field name="tujuan_pengiriman_lookup" string="Tujuan Pengiriman"
+                                            domain="[('kode_dokumen', '=', kode_dokumen)]"
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                    </group>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Entitas">
+                            <group>
+                                <group col="3" colspan="4">
+                                    <group string="Pengusaha TPB / Pengusaha Kena Pajak">
+                                        <field name="entitas_1_jenis_identitas_lookup" string="Jenis Identitas" 
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                        <field name="entitas_1_nomor_identitas" />
+                                        <field name="entitas_1_nitku" />
+                                        <field name="entitas_1_nama" />
+                                        <field name="entitas_1_alamat" widget="text" />
+                                        <field name="entitas_1_nomor_ijin_entitas" />
+                                        <field name="entitas_1_tanggal_ijin_entitas" />
+                                        <field name="entitas_1_nib_entitas" />
+                                    </group>
+                                    <group
+                                        string="Pengirim Barang / Penjual Barang Kena Pajak / Penerima Jasa Kena Pajak">
+                                        <field name="entitas_2_jenis_identitas_lookup" string="Jenis Identitas" 
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                        <field name="entitas_2_nomor_identitas" />
+                                        <field name="entitas_2_nitku" />
+                                        <field name="entitas_2_nama" />
+                                        <field name="entitas_2_alamat" widget="text" />
+                                    </group>
+                                    <group string="Pemilik Barang">
+                                        <field name="entitas_3_jenis_identitas_lookup" string="Jenis Identitas" 
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                        <field name="entitas_3_nomor_identitas" />
+                                        <field name="entitas_3_nitku" />
+                                        <field name="entitas_3_nama" />
+                                        <field name="entitas_3_alamat" widget="text" />
+                                    </group>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Dokumen">
+                            <field name="dokumen_ids"
+                                mode="list,form"
+                                context="{
+                                    'form_view_ref': 'ceisa.view_ceisa_dokumen_form_40',
+                                    'list_view_ref': 'ceisa.view_ceisa_dokumen_list_40'
+                                }"
+                                options="{'no_create': True,'no_create_edit': true}" />
+                        </page>
+                        <page string="Pengangkut">
+                            <field name="pengangkut_ids"
+                                mode="list,form"
+                                context="{
+                                    'form_view_ref': 'ceisa.view_ceisa_pengangkut_form_40',
+                                    'list_view_ref': 'ceisa.view_ceisa_pengangkut_list_40'
+                                }"
+                                options="{'no_create': True,'no_create_edit': true}" />
+                        </page>
+                        <page string="Kemasan">
+                            <field name="kemasan_ids"
+                                mode="list,form"
+                                context="{
+                                    'form_view_ref': 'ceisa.view_ceisa_kemasan_form_40',
+                                    'list_view_ref': 'ceisa.view_ceisa_kemasan_list_40'
+                                }" />
+                        </page>
+                        <page string="Peti Kemas">
+                            <field name="kontainer_ids"
+                                mode="list,form"
+                                context="{
+                                    'form_view_ref': 'ceisa.view_ceisa_kontainer_form_40',
+                                    'list_view_ref': 'ceisa.view_ceisa_kontainer_list_40'
+                                }" />
+                        </page>
+                        <page string="Transaksi">
+                            <group>
+                                <group col="2" colspan="4">
+                                    <group string="Harga">
+                                        <field name="harga_penyerahan" readonly="1" />
+                                        <field name="nilai_jasa" />
+                                        <field name="uang_muka" />
+                                        <field name="harga_perolehan" />
+                                    </group>
+                                    <group string="Berat">
+                                        <field name="volume" />
+                                        <field name="bruto" />
+                                        <field name="netto" />
+                                    </group>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Barang">
+                            <button name="action_open_item_reference_wizard"
+                                    type="object"
+                                    string="Tambah Barang dari Referensi"
+                                    class="btn-primary"
+                                    context="{'default_header_id': id}"/>
+
+
+                            <field name="barang_ids"
+                                mode="list,form"
+                                context="{
+                                    'form_view_ref': 'ceisa.view_ceisa_barang_form_40',
+                                    'list_view_ref': 'ceisa.view_ceisa_barang_list_40'
+                                }" />
+                        </page>
+
+                        <page string="Pungutan">
+                                <button name="action_generate_pungutan"
+                                        type="object"
+                                        string="Generate"
+                                        class="btn btn-primary"/>
+                                <field name="pungutan_ids" invisible="1"/>
+                                <field name="pungutan_pivot_ids"
+                                    mode="list"
+                                    view_id="ceisa.view_vw_pungutan_pivot_list"
+                                    domain="[('header_id', '=', id)]"
+                                    options="{'no_create': True, 'no_create_edit': True, 'no_open': True}"/>
+
+
+                        </page>
+                        <page string="Pernyataan">
+                            <group>
+                                <group col="2" colspan="4">
+                                    <group string="Tempat &amp; Tanggal">
+                                        <field name="kota_ttd" />
+                                        <field name="tanggal_ttd" readonly="1" />
+                                    </group>
+                                    <group string="Nama &amp; Jabatan">
+                                        <field name="nama_ttd" />
+                                        <field name="jabatan_ttd" />
+                                    </group>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ===== FORM VIEW: CEISA DOKUMEN FOR  40===== -->
+    <record id="view_ceisa_dokumen_list_40" model="ir.ui.view">
+        <field name="name">ceisa.dokumen.list.40</field>
+        <field name="model">ceisa.dokumen</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="seri_dokumen" string="Seri" />
+                <field name="dokumen_lookup" string="Jenis" />
+                <field name="nomor_dokumen" string="Nomor" />
+                <field name="tanggal_dokumen" string="Tanggal" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_ceisa_dokumen_form_40" model="ir.ui.view">
+        <field name="name">ceisa.dokumen.form.40</field>
+        <field name="model">ceisa.dokumen</field>
+        <field name="arch" type="xml">
+            <form string="Dokumen">
+                <sheet>
+                    <group>
+                        <field name="header_id" invisible="1" />
+                        <field name="seri_dokumen" string="Seri" readonly="1" />
+                        <field name="dokumen_lookup" string="Jenis Dokumen"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                        <field name="kode_dokumen" invisible="1" />
+                        <field name="nomor_dokumen" string="Nomor Dokumen" />
+                        <field name="tanggal_dokumen" string="Tanggal" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ===== FORM VIEW: CEISA PENGANGKUT FOR  40===== -->
+    <record id="view_ceisa_pengangkut_list_40" model="ir.ui.view">
+        <field name="name">ceisa.pengangkut.list.40</field>
+        <field name="model">ceisa.pengangkut</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="seri_pengangkut" string="Seri" />
+                <field name="cara_angkut_lookup" string="Cara Angkut" />
+                <!-- <field name="bendera_lookup" string="Negara Pengangkut" /> -->
+                <field name="nama_pengangkut" string="Nama Sarana Pengangkut" />
+                <field name="nomor_pengangkut" string="Nomor Sarana Pengangkut" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_ceisa_pengangkut_form_40" model="ir.ui.view">
+        <field name="name">ceisa.pengangkut.form.40</field>
+        <field name="model">ceisa.pengangkut</field>
+        <field name="arch" type="xml">
+            <form string="Pengangkut">
+                <sheet>
+                    <group>
+                        <field name="header_id" invisible="1" />
+                        <field name="seri_pengangkut" string="Seri" readonly="1" />
+                        <field name="cara_angkut_lookup" string="Cara Angkut"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                        <field name="kode_cara_angkut" invisible="1" />
+                        <field name="bendera_lookup" string="Negara Pengangkut" invisible="1" />
+                        <field name="kode_bendera" invisible="1" />
+                        <field name="nama_pengangkut" string="Nama Sarana Pengangkut" />
+                        <field name="nomor_pengangkut" string="Nomor Sarana Pengangkut" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ===== FORM VIEW: CEISA KEMASAN FOR  40===== -->
+    <record id="view_ceisa_kemasan_list_40" model="ir.ui.view">
+        <field name="name">ceisa.kemasan.list.40</field>
+        <field name="model">ceisa.kemasan</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="seri_kemasan" string="Seri" />
+                <field name="jumlah_kemasan" string="Jumlah" />
+                <field name="kemasan_lookup" string="Jenis Kemasan" />
+                <field name="merk_kemasan" string="Merek" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_ceisa_kemasan_form_40" model="ir.ui.view">
+        <field name="name">ceisa.kemasan.form.40</field>
+        <field name="model">ceisa.kemasan</field>
+        <field name="arch" type="xml">
+            <form string="Kemasan">
+                <sheet>
+                    <group>
+                        <field name="header_id" invisible="1" />
+                        <field name="seri_kemasan" string="Seri" readonly="1" />
+                        <field name="jumlah_kemasan" string="Jumlah" />
+                        <field name="kemasan_lookup" string="Jenis Kemasan"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                        <field name="kode_jenis_kemasan" invisible="1" />
+                        <field name="merk_kemasan" string="Merek" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ===== FORM VIEW: CEISA KONTAINER FOR 40===== -->
+    <record id="view_ceisa_kontainer_list_40" model="ir.ui.view">
+        <field name="name">ceisa.kontainer.list.40</field>
+        <field name="model">ceisa.kontainer</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="seri_kontainer" string="Seri" />
+                <field name="nomor_kontainer" string="Nomor" />
+                <field name="ukuran_kontainer_lookup" string="Ukuran" />
+                <field name="jenis_kontainer_lookup" string="Jenis" />
+                <field name="tipe_kontainer_lookup" string="Tipe" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_ceisa_kontainer_form_40" model="ir.ui.view">
+        <field name="name">ceisa.kontainer.form.40</field>
+        <field name="model">ceisa.kontainer</field>
+        <field name="arch" type="xml">
+            <form string="Kemasan">
+                <sheet>
+                    <group>
+                        <field name="seri_kontainer" string="Seri" readonly="1"/>
+                        <field name="nomor_kontainer" string="Nomor" />
+                        <field name="ukuran_kontainer_lookup" string="Ukuran"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                        <field name="kode_ukuran_kontainer" invisible="1" />
+                        <field name="jenis_kontainer_lookup" string="Jenis"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                        <field name="kode_jenis_kontainer" invisible="1" />
+                        <field name="tipe_kontainer_lookup" string="Tipe"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                        <field name="kode_tipe_kontainer" invisible="1" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- ===== FORM VIEW: CEISA BARANG FOR 40===== -->
+    <record id="view_ceisa_barang_list_40" model="ir.ui.view">
+        <field name="name">ceisa.barang.list.40</field>
+        <field name="model">ceisa.barang</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="seri_barang" string="Seri" />
+                <field name="pos_tarif" string="Pos Tarif/HS" />
+                <field name="uraian" string="Uraian Jenis Barang" />
+                <field name="harga_penyerahan" string="Harga Penyerahan" />
+                <field name="jumlah_satuan" string="Jumlah Satuan" />
+                <field name="satuan_barang_lookup" string="Jenis Satuan" />
+            </list>
+        </field>
+    </record>
+
+        <record id="view_item_reference_wizard_form" model="ir.ui.view">
+        <field name="name">item.reference.wizard.form</field>
+        <field name="model">item.reference.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Pilih Barang Referensi">
+                <group>
+                    <field name="source"/>
+                        <field name="po_id" />
+                        <field name="nomor_po" string=""/>
+                            <button name="action_search"
+                                    type="object"
+                                    string="Cari Barang"
+                                    class="btn-primary"/>
+                            <button name="action_toggle_select"
+                                    type="object"
+                                    string="Select/Unselect All"
+                                    class="btn-secondary"/>
+                </group>
+
+                <field name="reference_ids">
+                    <list create="0" delete="0" editable="bottom">
+                        <field name="selected"/>
+                        <field name="kode_barang"/>
+                        <field name="uraian"/>
+                        <field name="jumlah_satuan"/>
+                        <field name="nilai_barang"/>
+                    </list>
+                </field>
+
+                <footer>
+                    <button name="action_add_to_barang"
+                            type="object"
+                            string="Tambahkan ke Barang"
+                            class="btn-success"/>
+                    <button string="Batal" special="cancel" class="btn-secondary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_open_item_reference_wizard" model="ir.actions.act_window">
+        <field name="name">Pilih Barang Referensi</field>
+        <field name="res_model">item.reference.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_item_reference_wizard_form"/>
+        <field name="target">new</field>
+    </record>
+
+
+
+    <record id="view_ceisa_barang_form_40" model="ir.ui.view">
+        <field name="name">ceisa.barang.form.40</field>
+        <field name="model">ceisa.barang</field>
+        <field name="arch" type="xml">
+            <form string="Barang">
+                <sheet>
+                    <group col="3" colspan="4">
+                        <group string="Jenis">
+                            <field name="seri_barang" string="Seri" readonly="1" />
+                            <field name="pos_tarif" string="Pos Tarif/HS" />
+                            <field name="kode_barang" string="Kode Barang" />
+                            <field name="uraian" string="Uraian Jenis Barang" />
+                            <field name="merk" string="Merek" />
+                            <field name="tipe" string="Tipe" />
+                            <field name="ukuran" string="Ukuran" />
+                            <field name="spesifikasi_lain" string="Spesifikasi Lain" />
+                        </group>
+                        <group string="Jumlah &amp; Berat">
+                            <field name="jumlah_satuan" string="Jumlah Satuan" />
+                            <field name="satuan_barang_lookup" string="Satuan Barang" 
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}"/>
+                            <field name="kode_satuan_barang" invisible="1"/>
+                            <field name="jumlah_kemasan" string="Jumlah Kemasan" />
+                            <field name="kemasan_lookup" string="Satuan Kemasan"
+                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                            <field name="kode_jenis_kemasan" invisible="1" />
+                            <field name="volume" string="Volume (M3)" />
+                            <field name="netto" string="Berat Bersih (Kg)" />
+                            
+                        </group>
+                        <group string="Harga">
+                            <field name="harga_penyerahan" string="Harga Penyerahan/Harga Jual" />
+                            <field name="nilai_jasa" string="Nilai Penggantian/Nilai Jasa" />
+                            <field name="diskon" string="Diskon" />
+                        </group>
+
+                    </group>
+                    <group string="Pungutan">
+                        <field name="barang_tarif_ids" string="" 
+                            mode="list"
+                            options="{'no_open': True}"
+                            context="{
+                                'list_view_ref': 'ceisa.view_ceisa_barang_tarif_list_40'
+                            }">
+                        </field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+        <!-- ===== FORM VIEW: CEISA BARANG TARIF FOR 40===== -->
+    <record id="view_ceisa_barang_tarif_list_40" model="ir.ui.view">
+        <field name="name">ceisa.barang.tarif.list.40</field>
+        <field name="model">ceisa.barang.tarif</field>
+        <field name="arch" type="xml">
+            <list create="0" delete="0" editable="bottom">
+                <field name="kode_jenis_pungutan" string="" readonly="1" />
+                <field name="kode_jenis_pungutan" string="" invisible="1" /> <!-- ==Biar tersimpan ke DB ketika add=== -->
+                <field name="tarif_scaled" string="" widget="percentage"/>
+                <field name="tarif" string="" invisible="1"/>
+                <field name="fasilitas_tarif_lookup" string="" 
+                options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                <field name="kode_fasilitas_tarif" string="" invisible="1"/>
+                <field name="tarif_fasilitas_scaled" string="" widget="percentage"/>
+                 <field name="tarif_fasilitas" string="" invisible="1"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- ===== FORM VIEW: CEISA PUNGUTAN FOR 40===== -->
+    <record id="view_vw_pungutan_pivot_list" model="ir.ui.view">
+        <field name="name">vw.pungutan.pivot.list</field>
+        <field name="model">vw.pungutan.pivot</field>
+        <field name="arch" type="xml">
+            <list string="Pungutan Pivot" editable="bottom">
+                <field name="kode_jenis_pungutan" string="Pungutan"/>
+                <field name="ditangguhkan" widget="monetary" sum="Total Ditangguhkan"/>
+                <field name="sudah_dilunasi" widget="monetary" sum="Total Dilunasi"/>
+                <field name="dibebaskan" widget="monetary" sum="Total Dibebaskan"/>
+                <field name="tidak_dipungut" widget="monetary" sum="Total Tidak Dipungut"/>
+            </list>
+        </field>
+    </record>
+
+        <!-- ===== ACTION for Dokumen 40 ===== -->
+    <record id="action_ceisa_dokumen_40" model="ir.actions.act_window">
+        <field name="name">Dokumen 40</field>
+        <field name="res_model">ceisa.header</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('kode_dokumen','=','40')]</field>
+        <field name="context">{'default_kode_dokumen': '40'}</field>
+        <field name="view_ids"
+            eval="[(5, 0, 0),
+            (0, 0, {'view_mode': 'list', 'view_id': ref('view_ceisa_header_list')}),
+            (0, 0, {'view_mode': 'form', 'view_id': ref('view_ceisa_form_40')})]" />
+    </record>
+    <!-- ===== MENU ===== -->
+    <menuitem id="menu_ceisa_40" name="Dokumen 40" parent="menu_ceisa_root" action="action_ceisa_dokumen_40" />
+
+
+
+</odoo>

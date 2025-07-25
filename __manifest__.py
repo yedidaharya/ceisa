@@ -8,6 +8,9 @@
     'data': [
         'security/ir.model.access.csv',
         'views/ceisa_views.xml',
+        'views/ceisa_40_views.xml',
+        'views/ceisa_23_views.xml',
+        'views/ceisa_config_views.xml',
         'data/ceisa_referensi_jenis_tpb_seed.xml',
         'data/ceisa_referensi_tujuan_pengiriman_seed.xml',
         'data/ceisa_referensi_kantor_pabean_seed.xml',

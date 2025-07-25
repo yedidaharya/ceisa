@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- ===== FORM VIEW: CEISA Config===== -->
+    <record id="view_ceisa_config_list" model="ir.ui.view">
+        <field name="name">ceisa.config.list</field>
+        <field name="model">ceisa.company.master</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="nama_perusahaan" string="Nama" />
+                <field name="npwp_perusahaan" string="NPWP" />
+                <field name="alamat_perusahaan" string="Alamat" />
+                <field name="kota_perusahaan" string="Kota" />
+                <field name="kantor_pabean_lookup" string="Kantor Pabean" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_ceisa_config_form" model="ir.ui.view">
+        <field name="name">ceisa.config.form</field>
+        <field name="model">ceisa.company.master</field>
+        <field name="arch" type="xml">
+            <form string="CEISA Configuration">
+                <sheet>
+                    <notebook>
+                        <page string="Company Setting">
+                            <group>
+                                <field name="nama_perusahaan"/>
+                                <field name="npwp_perusahaan"/>
+                                <field name="alamat_perusahaan" widget="text"/>
+                                <field name="kota_perusahaan"/>
+                                <field name="kantor_pabean_lookup"/>
+                                <field name="nomor_ijin_entitas"/>
+                                <field name="tanggal_ijin_entitas"/>
+                                <field name="nitku" string="NITKU"/>
+                                <field name="nib" string="NIB"/>
+                                <field name="username_ceisa"/>
+                                <field name="password_ceisa" widget="password"/>
+                            </group>
+                        </page>
+                        <page string="Numbering Setting">
+                            <field name="numbering_ids">
+                                <list editable="bottom">
+                                    <field name="kode_dokumen"/>
+                                    <field name="counter" string="No Urut"/>
+
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+        <!-- ===== ACTION for Config ===== -->
+    <record id="action_ceisa_config" model="ir.actions.act_window">
+        <field name="name">CEISA Config</field>
+        <field name="res_model">ceisa.company.master</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_ids"
+            eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'list', 'view_id': ref('view_ceisa_config_list')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('view_ceisa_config_form')})]" />
+
+    </record>
+
+</odoo>
