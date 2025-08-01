@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <data noupdate="1">
+    <record id="ceisa_referensi_kena_pajak_1" model="ceisa.referensi.kena.pajak">
+      <field name="kode_kena_pajak">1</field>
+      <field name="uraian_kena_pajak">PEMBELIAN BKP</field>
+    </record>
+    <record id="ceisa_referensi_kena_pajak_2" model="ceisa.referensi.kena.pajak">
+      <field name="kode_kena_pajak">2</field>
+      <field name="uraian_kena_pajak">PENERIMA JASA BKP</field>
+    </record>
+  </data>
+</odoo>

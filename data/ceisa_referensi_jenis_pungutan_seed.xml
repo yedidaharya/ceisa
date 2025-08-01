@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <data noupdate="1">
+    <record id="ceisa_referensi_jenis_pungutan_1" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">PPN</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_2" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">PPH</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_3" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">BM</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_4" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">PPNBM</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_5" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">BMAD</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_6" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">BMTP</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_7" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">BMI</field>
+    </record>
+    <record id="ceisa_referensi_jenis_pungutan_8" model="ceisa.referensi.jenis.pungutan">
+      <field name="kode_jenis_pungutan">BMP</field>
+    </record>
+  </data>
+</odoo>

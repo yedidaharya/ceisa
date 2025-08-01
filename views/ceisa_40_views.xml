@@ -30,6 +30,7 @@
                                         <field name="tujuan_pengiriman_lookup" string="Tujuan Pengiriman"
                                             domain="[('kode_dokumen', '=', kode_dokumen)]"
                                             options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
+                                        <field name="tanggal_aju" string="Tanggal Pengajuan" />
                                     </group>
                                 </group>
                             </group>
@@ -38,6 +39,8 @@
                             <group>
                                 <group col="3" colspan="4">
                                     <group string="Pengusaha TPB / Pengusaha Kena Pajak">
+                                        <field name="entitas_1_entitas_lookup" string="Entitas" 
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
                                         <field name="entitas_1_jenis_identitas_lookup" string="Jenis Identitas" 
                                             options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
                                         <field name="entitas_1_nomor_identitas" />
@@ -49,7 +52,9 @@
                                         <field name="entitas_1_nib_entitas" />
                                     </group>
                                     <group
-                                        string="Pengirim Barang / Penjual Barang Kena Pajak / Penerima Jasa Kena Pajak">
+                                        string="Pengirim Barang">
+                                        <field name="entitas_2_entitas_lookup" string="Entitas" 
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
                                         <field name="entitas_2_jenis_identitas_lookup" string="Jenis Identitas" 
                                             options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
                                         <field name="entitas_2_nomor_identitas" />
@@ -58,6 +63,8 @@
                                         <field name="entitas_2_alamat" widget="text" />
                                     </group>
                                     <group string="Pemilik Barang">
+                                        <field name="entitas_3_entitas_lookup" string="Entitas" 
+                                            options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
                                         <field name="entitas_3_jenis_identitas_lookup" string="Jenis Identitas" 
                                             options="{'no_create': True, 'no_create_edit': true, 'no_open': true}" />
                                         <field name="entitas_3_nomor_identitas" />
@@ -143,9 +150,10 @@
                                 <field name="pungutan_ids" invisible="1"/>
                                 <field name="pungutan_pivot_ids"
                                     mode="list"
-                                    view_id="ceisa.view_vw_pungutan_pivot_list"
                                     domain="[('header_id', '=', id)]"
-                                    options="{'no_create': True, 'no_create_edit': True, 'no_open': True}"/>
+                                    context="{
+                                    'list_view_ref': 'ceisa.view_vw_pungutan_pivot_list_40'
+                                    }"/>
 
 
                         </page>
@@ -389,7 +397,7 @@
                             <field name="seri_barang" string="Seri" readonly="1" />
                             <field name="pos_tarif" string="Pos Tarif/HS" />
                             <field name="kode_barang" string="Kode Barang" />
-                            <field name="uraian" string="Uraian Jenis Barang" />
+                            <field name="uraian" string="Uraian Jenis Barang" widget="text" />
                             <field name="merk" string="Merek" />
                             <field name="tipe" string="Tipe" />
                             <field name="ukuran" string="Ukuran" />
@@ -449,16 +457,16 @@
     </record>
 
     <!-- ===== FORM VIEW: CEISA PUNGUTAN FOR 40===== -->
-    <record id="view_vw_pungutan_pivot_list" model="ir.ui.view">
-        <field name="name">vw.pungutan.pivot.list</field>
+    <record id="view_vw_pungutan_pivot_list_40" model="ir.ui.view">
+        <field name="name">vw.pungutan.pivot.list.40</field>
         <field name="model">vw.pungutan.pivot</field>
         <field name="arch" type="xml">
             <list string="Pungutan Pivot" editable="bottom">
-                <field name="kode_jenis_pungutan" string="Pungutan"/>
-                <field name="ditangguhkan" widget="monetary" sum="Total Ditangguhkan"/>
-                <field name="sudah_dilunasi" widget="monetary" sum="Total Dilunasi"/>
-                <field name="dibebaskan" widget="monetary" sum="Total Dibebaskan"/>
-                <field name="tidak_dipungut" widget="monetary" sum="Total Tidak Dipungut"/>
+                <field name="kode_jenis_pungutan" string="Pungutan" width="150"/>
+                <field name="ditangguhkan" sum="Total Ditangguhkan" width="150"/>
+                <field name="sudah_dilunasi" sum="Total Dilunasi" width="150"/>
+                <field name="dibebaskan" sum="Total Dibebaskan" width="150"/>
+                <field name="tidak_dipungut" sum="Total Tidak Dipungut" width="150"/>
             </list>
         </field>
     </record>

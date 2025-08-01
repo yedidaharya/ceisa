@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <record id="ceisa_referensi_incoterm_cfr" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">CFR</field>
+            <field name="uraian_incoterm">Cost and Freight</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_cif" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">CIF</field>
+            <field name="uraian_incoterm">Cost, Insurance and Freight</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_cip" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">CIP</field>
+            <field name="uraian_incoterm">Carriage and Insurance Paid to</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_cpt" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">CPT</field>
+            <field name="uraian_incoterm">Carriage Paid To</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_daf" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DAF</field>
+            <field name="uraian_incoterm">Delivered At Frontier</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_dap" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DAP</field>
+            <field name="uraian_incoterm">Delivered At Place</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_dat" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DAT</field>
+            <field name="uraian_incoterm">Delivered At Terminal</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_ddp" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DDP</field>
+            <field name="uraian_incoterm">Delivered Duty Paid</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_ddu" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DDU</field>
+            <field name="uraian_incoterm">Delivered Duty Unpaid</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_deq" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DEQ</field>
+            <field name="uraian_incoterm">Delivered Ex Quay</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_des" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">DES</field>
+            <field name="uraian_incoterm">Delivered Ex Ship</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_exw" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">EXW</field>
+            <field name="uraian_incoterm">Ex Works</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_fas" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">FAS</field>
+            <field name="uraian_incoterm">Free Alongside Ship</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_fca" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">FCA</field>
+            <field name="uraian_incoterm">Free Carrier</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_fob" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">FOB</field>
+            <field name="uraian_incoterm">Free on Board</field>
+        </record>
+        <record id="ceisa_referensi_incoterm_lan" model="ceisa.referensi.incoterm">
+            <field name="kode_incoterm">LAN</field>
+            <field name="uraian_incoterm">LAINNYA</field>
+        </record>
+    </data>
+</odoo>

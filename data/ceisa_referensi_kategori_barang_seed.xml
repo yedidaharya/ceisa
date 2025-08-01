@@ -1,0 +1,92 @@
+<odoo>
+    <data noupdate="1">
+        <record id="kategori_barang_11" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">11</field>
+            <field name="uraian_kategori_barang">BAHAN BAKU / BAHAN PENOLONG</field>
+        </record>
+        <record id="kategori_barang_12" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">12</field>
+            <field name="uraian_kategori_barang">PENGEMAS/ALAT BANTU PENGEMAS</field>
+        </record>
+        <record id="kategori_barang_13" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">13</field>
+            <field name="uraian_kategori_barang">PERALATAN UNTUK PEMBANGUNAN, PERLUASAN, ATAU KONSTRUKSI KB</field>
+        </record>
+        <record id="kategori_barang_14" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">14</field>
+            <field name="uraian_kategori_barang">BARANG MODAL DAN/ATAU SPAREPARTS BARANG MODAL</field>
+        </record>
+        <record id="kategori_barang_15" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">15</field>
+            <field name="uraian_kategori_barang">BARANG CONTOH</field>
+        </record>
+        <record id="kategori_barang_16" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">16</field>
+            <field name="uraian_kategori_barang">BARANG JADI GUNA DIGABUNG DENGAN HASIL PRODUKSI</field>
+        </record>
+        <record id="kategori_barang_17" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">17</field>
+            <field name="uraian_kategori_barang">BARANG REIMPOR</field>
+        </record>
+        <record id="kategori_barang_18" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">18</field>
+            <field name="uraian_kategori_barang">PERALATAN PERKANTORAN</field>
+        </record>
+        <record id="kategori_barang_21" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">21</field>
+            <field name="uraian_kategori_barang">BARANG YANG DITIMBUN DI GB</field>
+        </record>
+        <record id="kategori_barang_22" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">22</field>
+            <field name="uraian_kategori_barang">BARANG REIMPOR</field>
+        </record>
+        <record id="kategori_barang_31" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">31</field>
+            <field name="uraian_kategori_barang">BARANG UNTUK DIPAMERKAN</field>
+        </record>
+        <record id="kategori_barang_32" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">32</field>
+            <field name="uraian_kategori_barang">BARANG UNTUK MENDUKUNG KEPERLUAN PAMERAN</field>
+        </record>
+        <record id="kategori_barang_33" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">33</field>
+            <field name="uraian_kategori_barang">BARANG REIMPOR</field>
+        </record>
+        <record id="kategori_barang_41" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">41</field>
+            <field name="uraian_kategori_barang">BARANG YANG DITIMBUN DI TBB</field>
+        </record>
+        <record id="kategori_barang_42" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">42</field>
+            <field name="uraian_kategori_barang">BARANG REIMPOR</field>
+        </record>
+        <record id="kategori_barang_51" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">51</field>
+            <field name="uraian_kategori_barang">BARANG LELANG</field>
+        </record>
+        <record id="kategori_barang_52" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">52</field>
+            <field name="uraian_kategori_barang">SPAREPARTS</field>
+        </record>
+        <record id="kategori_barang_53" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">53</field>
+            <field name="uraian_kategori_barang">BARANG REIMPOR</field>
+        </record>
+        <record id="kategori_barang_61" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">61</field>
+            <field name="uraian_kategori_barang">BARANG YANG DITIMBUN DI KDUB</field>
+        </record>
+        <record id="kategori_barang_62" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">62</field>
+            <field name="uraian_kategori_barang">BARANG REIMPOR</field>
+        </record>
+        <record id="kategori_barang_1" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">1</field>
+            <field name="uraian_kategori_barang">BARANG UNTUK DITIMBUN</field>
+        </record>
+        <record id="kategori_barang_2" model="ceisa.referensi.kategori.barang">
+            <field name="kode_kategori_barang">2</field>
+            <field name="uraian_kategori_barang">BARANG UNTUK KEPERLUAN PENGUSAHAAN</field>
+        </record>
+    </data>
+</odoo>

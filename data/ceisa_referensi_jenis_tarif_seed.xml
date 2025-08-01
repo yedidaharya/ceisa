@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <data noupdate="1">
+    <record id="ceisa_referensi_jenis_tarif_1" model="ceisa.referensi.jenis.tarif">
+      <field name="kode_jenis_tarif">1</field>
+      <field name="uraian_jenis_tarif">ADVOLORUM</field>
+    </record>
+    <record id="ceisa_referensi_jenis_tarif_2" model="ceisa.referensi.jenis.tarif">
+      <field name="kode_jenis_tarif">2</field>
+      <field name="uraian_jenis_tarif">SPESIFIK</field>
+    </record>
+  </data>
+</odoo>

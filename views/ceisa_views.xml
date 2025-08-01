@@ -11,9 +11,9 @@
                 <field name="nomor_daftar" />
                 <field name="tanggal_daftar" />
                 <!-- Kolom dropdown aksi -->
-                
-                <button name="action_post_document_ceisa" type="object" string="Kirim" class="oe_highlight" icon="fa-paper-plane"/>
-                <!-- <button name="action_get_status_document_ceisa" type="object" string="Get Status" class="oe_highlight" icon="fa-check"/> -->
+                <button name="action_generate_json_document_ceisa" type="object" string="Generate" class="oe_highlight" icon="fa-check-circle"/>
+                <button name="action_post_document_ceisa" type="object" string="Send" class="oe_highlight" icon="fa-paper-plane" confirm="Apakah Anda yakin ingin mengirim dokumen ini ke Portal Bea Cukai?"/>
+                <!-- <button name="action_get_status_document_ceisa" type="object" string="Get Status" class="oe_highlight" icon="fa-compress"/> -->
             </list>
         </field>
     </record>

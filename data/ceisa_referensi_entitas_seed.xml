@@ -1,0 +1,46 @@
+<odoo>
+    <record id="entitas_1" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">1</field>
+        <field name="uraian_entitas">IMPORTIR</field>
+    </record>
+    <record id="entitas_2" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">2</field>
+        <field name="uraian_entitas">EKSPORTIR</field>
+    </record>
+    <record id="entitas_3" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">3</field>
+        <field name="uraian_entitas">PENGUSAHA</field>
+    </record>
+    <record id="entitas_4" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">4</field>
+        <field name="uraian_entitas">PPJK</field>
+    </record>
+    <record id="entitas_5" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">5</field>
+        <field name="uraian_entitas">PEMASOK</field>
+    </record>
+    <record id="entitas_6" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">6</field>
+        <field name="uraian_entitas">PEMBELI</field>
+    </record>
+    <record id="entitas_7" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">7</field>
+        <field name="uraian_entitas">PEMILIK</field>
+    </record>
+    <record id="entitas_8" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">8</field>
+        <field name="uraian_entitas">PENERIMA</field>
+    </record>
+    <record id="entitas_9" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">9</field>
+        <field name="uraian_entitas">PENGIRIM</field>
+    </record>
+    <record id="entitas_10" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">10</field>
+        <field name="uraian_entitas">PENJUAL</field>
+    </record>
+    <record id="entitas_11" model="ceisa.referensi.entitas">
+        <field name="kode_entitas">11</field>
+        <field name="uraian_entitas">PEMUSATAN</field>
+    </record>
+</odoo>

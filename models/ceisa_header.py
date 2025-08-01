@@ -40,6 +40,30 @@ class CeisaHeader(models.Model):
             if rec.jenis_tpb_lookup:
                 rec.kode_jenis_tpb = rec.jenis_tpb_lookup.kode_jenis_tpb
 
+
+    kode_tujuan_tpb = fields.Char(string='Kode Tujuan TPB', default='')
+
+    tujuan_tpb_lookup = fields.Many2one(
+        'ceisa.referensi.jenis.tpb',
+        string='Tujuan TPB',
+        compute='_compute_tujuan_tpb_lookup',
+        inverse='_inverse_tujuan_tpb_lookup',
+        store=False
+    )
+
+    @api.depends('kode_tujuan_tpb')
+    def _compute_tujuan_tpb_lookup(self):
+        for rec in self:
+            rec.tujuan_tpb_lookup = self.env['ceisa.referensi.jenis.tpb'].search(
+                [('kode_jenis_tpb', '=', rec.kode_tujuan_tpb)],
+                limit=1
+            )
+
+    def _inverse_tujuan_tpb_lookup(self):
+        for rec in self:
+            if rec.tujuan_tpb_lookup:
+                rec.kode_tujuan_tpb = rec.tujuan_tpb_lookup.kode_jenis_tpb
+
     freight = fields.Float(digits=(18, 2), default=0.00)
     harga_penyerahan = fields.Float(string="Harga Penyerahan", digits=(18, 4), default=0.0000)
     id_pengguna = fields.Char(default='')
@@ -48,6 +72,8 @@ class CeisaHeader(models.Model):
     kode_dokumen = fields.Char(default='')
 
     kode_kantor = fields.Char(string='Kode Kantor', default='')
+    
+    kode_kantor_bongkar = fields.Char(string='Kode Kantor Bongkar', default='')
 
     kantor_pabean_lookup = fields.Many2one(
         'ceisa.referensi.kantor.pabean',
@@ -56,6 +82,7 @@ class CeisaHeader(models.Model):
         inverse='_inverse_kantor_lookup',
         store=False
     )
+
 
     @api.depends('kode_kantor')
     def _compute_kantor_lookup(self):
@@ -68,6 +95,61 @@ class CeisaHeader(models.Model):
         for rec in self:
             if rec.kantor_pabean_lookup:
                 rec.kode_kantor = rec.kantor_pabean_lookup.kode_kantor
+
+
+    kantor_bongkar_lookup = fields.Many2one(
+        'ceisa.referensi.kantor.pabean',
+        string='Kantor Bongkar',
+        compute='_compute_kantor_bongkar_lookup',
+        inverse='_inverse_kantor_bongkar_lookup',
+        store=False
+    )
+
+    @api.depends('kode_kantor_bongkar')
+    def _compute_kantor_bongkar_lookup(self):
+        for rec in self:
+            rec.kantor_bongkar_lookup = self.env['ceisa.referensi.kantor.pabean'].search([
+                ('kode_kantor', '=', rec.kode_kantor_bongkar)
+            ], limit=1)
+
+
+
+    def _inverse_kantor_bongkar_lookup(self):
+        for rec in self:
+            if rec.kantor_bongkar_lookup:
+                rec.kode_kantor_bongkar = rec.kantor_bongkar_lookup.kode_kantor
+
+    kode_pel_bongkar = fields.Char(string='Kode Pelabuhan Bongkar', default='')
+
+    pelabuhan_bongkar_lookup = fields.Many2one(
+        'ceisa.referensi.pelabuhan',
+        string='Pelabuhan Bongkar',
+        compute='_compute_pelabuhan_bongkar_lookup',
+        inverse='_inverse_pelabuhan_bongkar_lookup',
+        store=False,
+    )
+
+
+    @api.onchange('pelabuhan_bongkar_lookup')
+    def _onchange_pelabuhan_bongkar(self):
+        for rec in self:
+            if rec.pelabuhan_bongkar_lookup:
+                rec.kode_pel_bongkar = rec.pelabuhan_bongkar_lookup.kode_pelabuhan
+
+
+    @api.depends('kode_pel_bongkar')
+    def _compute_pelabuhan_bongkar_lookup(self):
+        for rec in self:
+            rec.pelabuhan_bongkar_lookup = self.env['ceisa.referensi.pelabuhan'].search([
+                ('kode_pelabuhan', '=', rec.kode_pel_bongkar)
+            ], limit=1)
+
+
+    def _inverse_pelabuhan_bongkar_lookup(self):
+        for rec in self:
+            if rec.pelabuhan_bongkar_lookup:
+                rec.kode_pel_bongkar = rec.pelabuhan_bongkar_lookup.kode_pelabuhan
+    
 
     kode_tujuan_pengiriman = fields.Char(string='Kode Tujuan Pengiriman', default='')
 
@@ -113,6 +195,134 @@ class CeisaHeader(models.Model):
     tanggal_daftar = fields.Date()
     kode_status = fields.Char(default='')
     jsonresult = fields.Json()
+    #Tambahan BC 23
+    nomor_bc11 = fields.Char(default='')
+    pos_bc11 = fields.Char(default='', size=4)
+    tanggal_bc11 = fields.Date()
+    kode_tutup_pu = fields.Char(default='')
+    tanggal_tiba = fields.Date()
+    tutup_pu_lookup = fields.Many2one('ceisa.referensi.tutup.pu', string='TutupPu', compute='_compute_tutup_pu_lookup', inverse='_inverse_tutup_pu_lookup', store=False)
+    @api.depends('kode_tutup_pu')
+    def _compute_tutup_pu_lookup(self):
+        for rec in self:
+            rec.tutup_pu_lookup = self.env['ceisa.referensi.tutup.pu'].search([
+                ('kode_tutup_pu', '=', rec.kode_tutup_pu)
+            ], limit=1)
+
+    def _inverse_tutup_pu_lookup(self):
+        for rec in self:
+            if rec.tutup_pu_lookup:
+                rec.kode_tutup_pu = rec.tutup_pu_lookup.kode_tutup_pu
+    
+    kode_pel_muat = fields.Char(default='')
+    pelabuhan_muat_lookup = fields.Many2one('ceisa.referensi.pelabuhan', string='Pelabuhan Muat', compute='_compute_pelabuhan_muat_lookup', inverse='_inverse_pelabuhan_muat_lookup', store=False)
+    
+    @api.depends('kode_pel_muat')
+    def _compute_pelabuhan_muat_lookup(self):
+        for rec in self:
+            rec.pelabuhan_muat_lookup = self.env['ceisa.referensi.pelabuhan'].search([
+                ('kode_pelabuhan', '=', rec.kode_pel_muat)
+            ], limit=1)
+
+    def _inverse_pelabuhan_muat_lookup(self):
+        for rec in self:
+            if rec.pelabuhan_muat_lookup:
+                rec.kode_pel_muat = rec.pelabuhan_muat_lookup.kode_pelabuhan
+
+
+    kode_pel_transit = fields.Char(default='')
+    pelabuhan_transit_lookup = fields.Many2one('ceisa.referensi.pelabuhan', string='Pelabuhan Transit', compute='_compute_pelabuhan_transit_lookup', inverse='_inverse_pelabuhan_transit_lookup', store=False)
+    @api.depends('kode_pel_transit')
+    def _compute_pelabuhan_transit_lookup(self):
+        for rec in self:
+            rec.pelabuhan_transit_lookup = self.env['ceisa.referensi.pelabuhan'].search([
+                ('kode_pelabuhan', '=', rec.kode_pel_transit)
+            ], limit=1)
+
+    def _inverse_pelabuhan_transit_lookup(self):
+        for rec in self:
+            if rec.pelabuhan_transit_lookup:
+                rec.kode_pel_transit = rec.pelabuhan_transit_lookup.kode_pelabuhan
+
+    kode_tps = fields.Char(default='')
+    tps_lookup = fields.Many2one('ceisa.referensi.tps', string='Tempat Penimbunan', compute='_compute_tps_lookup', inverse='_inverse_tps_lookup', store=False)
+    @api.depends('kode_tps')
+    def _compute_tps_lookup(self):
+        for rec in self:
+            rec.tps_lookup = self.env['ceisa.referensi.tps'].search([
+                ('kode_tps', '=', rec.kode_tps)
+            ], limit=1)
+
+    def _inverse_tps_lookup(self):
+        for rec in self:
+            if rec.tps_lookup:
+                rec.kode_tps = rec.tps_lookup.kode_tps
+
+    kode_valuta = fields.Char(default='')
+    valuta_lookup = fields.Many2one('ceisa.referensi.valuta', string='Jenis Valuta', compute='_compute_valuta_lookup', inverse='_inverse_valuta_lookup', store=False)
+    @api.depends('kode_valuta')
+    def _compute_valuta_lookup(self):
+        for rec in self:
+            rec.valuta_lookup = self.env['ceisa.referensi.valuta'].search([
+                ('kode_valuta', '=', rec.kode_valuta)
+            ], limit=1)
+
+    def _inverse_valuta_lookup(self):
+        for rec in self:
+            if rec.valuta_lookup:
+                rec.kode_valuta = rec.valuta_lookup.kode_valuta
+    
+    kode_incoterm = fields.Char(default='')
+    incoterm_lookup = fields.Many2one('ceisa.referensi.incoterm', string='Jenis Harga', compute='_compute_incoterm_lookup', inverse='_inverse_incoterm_lookup', store=False)
+    @api.depends('kode_incoterm')
+    def _compute_incoterm_lookup(self):
+        for rec in self:
+            rec.incoterm_lookup = self.env['ceisa.referensi.incoterm'].search([
+                ('kode_incoterm', '=', rec.kode_incoterm)
+            ], limit=1)
+
+    def _inverse_incoterm_lookup(self):
+        for rec in self:
+            if rec.incoterm_lookup:
+                rec.kode_incoterm = rec.incoterm_lookup.kode_incoterm
+  
+    nilai_barang = fields.Float(digits=(38, 2), default=0.00)
+    ndpbm = fields.Float(digits=(10, 4), default=0.0000)
+    fob = fields.Float(digits=(18, 2), default=0.00)
+    kode_asuransi = fields.Char(default='')
+    asuransi_lookup = fields.Many2one('ceisa.referensi.asuransi', string='Jenis Asuransi', compute='_compute_asuransi_lookup', inverse='_inverse_asuransi_lookup', store=False)
+    @api.depends('kode_asuransi')
+    def _compute_asuransi_lookup(self):
+        for rec in self:
+            rec.asuransi_lookup = self.env['ceisa.referensi.asuransi'].search([
+                ('kode_asuransi', '=', rec.kode_asuransi)
+            ], limit=1)
+
+    def _inverse_asuransi_lookup(self):
+        for rec in self:
+            if rec.asuransi_lookup:
+                rec.kode_asuransi = rec.asuransi_lookup.kode_asuransi
+    
+    kode_kena_pajak = fields.Char(default='')
+    kena_pajak_lookup = fields.Many2one('ceisa.referensi.kena.pajak', string='Jasa Kena Pajak', compute='_compute_kena_pajak_lookup', inverse='_inverse_kena_pajak_lookup', store=False)
+    @api.depends('kode_kena_pajak')
+    def _compute_kena_pajak_lookup(self):
+        for rec in self:
+            rec.kena_pajak_lookup = self.env['ceisa.referensi.kena.pajak'].search([
+                ('kode_kena_pajak', '=', rec.kode_kena_pajak)
+            ], limit=1)
+
+    def _inverse_kena_pajak_lookup(self):
+        for rec in self:
+            if rec.kena_pajak_lookup:
+                rec.kode_kena_pajak = rec.kena_pajak_lookup.kode_kena_pajak
+
+    subpos_bc11_1 = fields.Char(string='Subpos 1', size=4)
+    subpos_bc11_2 = fields.Char(string='Subpos 2', size=4)
+
+
+
+
 
     entitas_ids = fields.One2many('ceisa.entitas', 'header_id', string='Entitas')
     kemasan_ids = fields.One2many('ceisa.kemasan', 'header_id', string='Kemasan')
@@ -122,122 +332,28 @@ class CeisaHeader(models.Model):
     pengangkut_ids = fields.One2many('ceisa.pengangkut', 'header_id', string='Pengangkut')
     barang_ids = fields.One2many('ceisa.barang', 'header_id', string='Barang')
 
-
-    entitas_1_nomor_identitas = fields.Char(
-        string="Nomor Identitas",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_nama = fields.Char(
-        string="Nama",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_alamat = fields.Char(
-        string="Alamat",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_nomor_ijin_entitas = fields.Char(
-        string="Nomor Ijin TPB",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_tanggal_ijin_entitas = fields.Char(
-        string="Tanggal Skep TPB",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_nib_entitas = fields.Char(
-        string="NIB",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_nitku = fields.Char(
-        string="NITKU",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_1_jenis_identitas_lookup = fields.Many2one(
-    'ceisa.referensi.jenis.identitas',
-    string='Jenis Identitas',
-    compute='_compute_entitas_display',
-    inverse='_inverse_entitas_display',
-    store=False,
-    )
-
-
-    entitas_2_nomor_identitas = fields.Char(
-        string="NPWP",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_2_nama = fields.Char(
-        string="Nama",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_2_alamat = fields.Char(
-        string="Alamat",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_2_nitku = fields.Char(
-        string="NITKU",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-
-    entitas_2_jenis_identitas_lookup = fields.Many2one(
-    'ceisa.referensi.jenis.identitas',
-    string='Jenis Identitas',
-    compute='_compute_entitas_display',
-    inverse='_inverse_entitas_display',
-    store=False,
-    )
-
-    entitas_3_nomor_identitas = fields.Char(
-        string="NPWP",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_3_nama = fields.Char(
-        string="Nama",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_3_alamat = fields.Char(
-        string="Alamat",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_3_nitku = fields.Char(
-        string="NITKU",
-        compute='_compute_entitas_display',
-        inverse='_inverse_entitas_display',
-        store=False,
-    )
-    entitas_3_jenis_identitas_lookup = fields.Many2one(
-    'ceisa.referensi.jenis.identitas',
-    string='Jenis Identitas',
-    compute='_compute_entitas_display',
-    inverse='_inverse_entitas_display',
-    store=False,
-    )
+    entitas_1_nomor_identitas = fields.Char(string="Nomor Identitas", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_nama = fields.Char(string="Nama", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_alamat = fields.Char(string="Alamat", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_nomor_ijin_entitas = fields.Char(string="Nomor Ijin TPB", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_tanggal_ijin_entitas = fields.Date(string="Tanggal Skep TPB", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_nib_entitas = fields.Char(string="NIB", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_nitku = fields.Char(string="NITKU", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_jenis_identitas_lookup = fields.Many2one('ceisa.referensi.jenis.identitas', string='Jenis Identitas', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_1_entitas_lookup = fields.Many2one('ceisa.referensi.entitas', string='Jenis Entitas', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_nomor_identitas = fields.Char(string="NPWP", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_nama = fields.Char(string="Nama", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_alamat = fields.Char(string="Alamat", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_nitku = fields.Char(string="NITKU", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_jenis_identitas_lookup = fields.Many2one('ceisa.referensi.jenis.identitas', string='Jenis Identitas', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_entitas_lookup = fields.Many2one('ceisa.referensi.entitas', string='Jenis Entitas', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_2_kode_negara_lookup = fields.Many2one('ceisa.referensi.negara', string='Negara', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_3_nomor_identitas = fields.Char(string="NPWP", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_3_nama = fields.Char(string="Nama", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_3_alamat = fields.Char(string="Alamat", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_3_nitku = fields.Char(string="NITKU", compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_3_jenis_identitas_lookup = fields.Many2one('ceisa.referensi.jenis.identitas', string='Jenis Identitas', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
+    entitas_3_entitas_lookup = fields.Many2one('ceisa.referensi.entitas', string='Jenis Entitas', compute='_compute_entitas_display', inverse='_inverse_entitas_display', store=True)
 
     @api.depends('entitas_ids')
     def _compute_entitas_display(self):
@@ -253,14 +369,15 @@ class CeisaHeader(models.Model):
                 rec.entitas_1_tanggal_ijin_entitas = ents[0].tanggal_ijin_entitas
                 rec.entitas_1_nib_entitas = ents[0].nib_entitas
                 rec.entitas_1_nitku = ents[0].nitku
+                rec.entitas_1_jenis_identitas_lookup = self.env['ceisa.referensi.jenis.identitas'].search([
+                    ('kode_jenis_identitas', '=', ents[0].kode_jenis_identitas)
+                ], limit=1)
+                rec.entitas_1_entitas_lookup = self.env['ceisa.referensi.entitas'].search([
+                    ('kode_entitas', '=', ents[0].kode_entitas)
+                ], limit=1)
 
-                # Perbaikan disini — ambil dari entitas, bukan dari header
-                if ents[0].kode_jenis_identitas:
-                    rec.entitas_1_jenis_identitas_lookup = self.env['ceisa.referensi.jenis.identitas'].search([
-                        ('kode_jenis_identitas', '=', ents[0].kode_jenis_identitas)
-                    ], limit=1)
-                else:
-                    rec.entitas_1_jenis_identitas_lookup = False
+
+                
             else:
                 rec.entitas_1_nomor_identitas = False
                 rec.entitas_1_nama = False
@@ -270,69 +387,153 @@ class CeisaHeader(models.Model):
                 rec.entitas_1_nib_entitas = False
                 rec.entitas_1_nitku = False
                 rec.entitas_1_jenis_identitas_lookup = False
-
+                rec.entitas_1_entitas_lookup = False
             # ENTITAS 2
             if len(ents) > 1:
                 rec.entitas_2_nomor_identitas = ents[1].nomor_identitas
                 rec.entitas_2_nama = ents[1].nama_entitas
                 rec.entitas_2_alamat = ents[1].alamat_entitas
                 rec.entitas_2_nitku = ents[1].nitku
-                if ents[1].kode_jenis_identitas:
-                    rec.entitas_2_jenis_identitas_lookup = self.env['ceisa.referensi.jenis.identitas'].search([
-                        ('kode_jenis_identitas', '=', ents[1].kode_jenis_identitas)
-                    ], limit=1)
-                else:
-                    rec.entitas_2_jenis_identitas_lookup = False
+                rec.entitas_2_jenis_identitas_lookup = self.env['ceisa.referensi.jenis.identitas'].search([
+                    ('kode_jenis_identitas', '=', ents[1].kode_jenis_identitas)
+                ], limit=1)
+                rec.entitas_2_entitas_lookup = self.env['ceisa.referensi.entitas'].search([
+                    ('kode_entitas', '=', ents[1].kode_entitas)
+                ], limit=1)
+                rec.entitas_2_kode_negara_lookup = self.env['ceisa.referensi.negara'].search([
+                    ('kode_negara', '=', ents[1].kode_negara)
+                ], limit=1)
             else:
                 rec.entitas_2_nomor_identitas = False
                 rec.entitas_2_nama = False
                 rec.entitas_2_alamat = False
                 rec.entitas_2_nitku = False
-
+                rec.entitas_2_jenis_identitas_lookup = False
+                rec.entitas_2_entitas_lookup = False
+                rec.entitas_2_kode_negara_lookup = False
             # ENTITAS 3
             if len(ents) > 2:
                 rec.entitas_3_nomor_identitas = ents[2].nomor_identitas
                 rec.entitas_3_nama = ents[2].nama_entitas
                 rec.entitas_3_alamat = ents[2].alamat_entitas
                 rec.entitas_3_nitku = ents[2].nitku
-                if ents[2].kode_jenis_identitas:
-                    rec.entitas_3_jenis_identitas_lookup = self.env['ceisa.referensi.jenis.identitas'].search([
-                        ('kode_jenis_identitas', '=', ents[2].kode_jenis_identitas)
-                    ], limit=1)
-                else:
-                    rec.entitas_3_jenis_identitas_lookup = False
+                rec.entitas_3_jenis_identitas_lookup = self.env['ceisa.referensi.jenis.identitas'].search([
+                    ('kode_jenis_identitas', '=', ents[2].kode_jenis_identitas)
+                ], limit=1)
+                rec.entitas_3_entitas_lookup = self.env['ceisa.referensi.entitas'].search([
+                    ('kode_entitas', '=', ents[2].kode_entitas)
+                ], limit=1)
             else:
                 rec.entitas_3_nomor_identitas = False
                 rec.entitas_3_nama = False
                 rec.entitas_3_alamat = False
                 rec.entitas_3_nitku = False
-
-
+                rec.entitas_3_jenis_identitas_lookup = False
+                rec.entitas_3_entitas_lookup = False
 
     def _inverse_entitas_display(self):
         for rec in self:
             ents = rec.entitas_ids.sorted(lambda e: e.id)
-            if ents and rec.entitas_1_nama:
-                ents[0].nomor_identitas = rec.entitas_1_nomor_identitas
-                ents[0].nama_entitas = rec.entitas_1_nama
-                ents[0].alamat_entitas = rec.entitas_1_alamat
-                ents[0].nomor_ijin_entitas = rec.entitas_1_nomor_ijin_entitas
-                ents[0].tanggal_ijin_entitas = rec.entitas_1_tanggal_ijin_entitas
-                ents[0].nib_entitas = rec.entitas_1_nib_entitas
-                ents[0].nitku = rec.entitas_1_nitku
-                ents[0].kode_jenis_identitas = rec.entitas_1_jenis_identitas_lookup
+            # ENTITAS 1
+            if ents:
+                if rec.entitas_1_nomor_identitas:
+                    ents[0].nomor_identitas = rec.entitas_1_nomor_identitas
+                if rec.entitas_1_nama:
+                    ents[0].nama_entitas = rec.entitas_1_nama
+                if rec.entitas_1_alamat:
+                    ents[0].alamat_entitas = rec.entitas_1_alamat
+                if rec.entitas_1_nomor_ijin_entitas:
+                    ents[0].nomor_ijin_entitas = rec.entitas_1_nomor_ijin_entitas
+                if rec.entitas_1_tanggal_ijin_entitas:
+                    ents[0].tanggal_ijin_entitas = rec.entitas_1_tanggal_ijin_entitas
+                if rec.entitas_1_nib_entitas:
+                    ents[0].nib_entitas = rec.entitas_1_nib_entitas
+                if rec.entitas_1_nitku:
+                    ents[0].nitku = rec.entitas_1_nitku
+                if rec.entitas_1_jenis_identitas_lookup:
+                    ents[0].kode_jenis_identitas = rec.entitas_1_jenis_identitas_lookup.kode_jenis_identitas
+                if rec.entitas_1_entitas_lookup:
+                    ents[0].kode_entitas = rec.entitas_1_entitas_lookup.kode_entitas
                 
-            if len(ents) > 1 and rec.entitas_2_nama:
-                ents[1].nomor_identitas = rec.entitas_2_nomor_identitas
-                ents[1].nama_entitas = rec.entitas_2_nama
-                ents[1].alamat_entitas = rec.entitas_2_alamat
-                ents[1].nitku = rec.entitas_2_nitku
 
-            if len(ents) > 2 and rec.entitas_3_nama:
-                ents[2].nomor_identitas = rec.entitas_3_nomor_identitas
-                ents[2].nama_entitas = rec.entitas_3_nama
-                ents[2].alamat_entitas = rec.entitas_3_alamat
-                ents[2].nitku = rec.entitas_3_nitku
+            # ENTITAS 2
+            if len(ents) > 1:
+                if rec.entitas_2_nomor_identitas:
+                    ents[1].nomor_identitas = rec.entitas_2_nomor_identitas
+                if rec.entitas_2_nama:
+                    ents[1].nama_entitas = rec.entitas_2_nama
+                if rec.entitas_2_alamat:
+                    ents[1].alamat_entitas = rec.entitas_2_alamat
+                if rec.entitas_2_nitku:
+                    ents[1].nitku = rec.entitas_2_nitku
+                if rec.entitas_2_jenis_identitas_lookup:
+                    ents[1].kode_jenis_identitas = rec.entitas_2_jenis_identitas_lookup.kode_jenis_identitas
+                if rec.entitas_2_entitas_lookup:
+                    ents[1].kode_entitas = rec.entitas_2_entitas_lookup.kode_entitas
+                if rec.entitas_2_kode_negara_lookup:
+                    ents[1].kode_negara = rec.entitas_2_kode_negara_lookup.kode_negara
+
+            # ENTITAS 3
+            if len(ents) > 2:
+                if rec.entitas_3_nomor_identitas:
+                    ents[2].nomor_identitas = rec.entitas_3_nomor_identitas
+                if rec.entitas_3_nama:
+                    ents[2].nama_entitas = rec.entitas_3_nama
+                if rec.entitas_3_alamat:
+                    ents[2].alamat_entitas = rec.entitas_3_alamat
+                if rec.entitas_3_nitku:
+                    ents[2].nitku = rec.entitas_3_nitku
+                if rec.entitas_3_jenis_identitas_lookup:
+                    ents[2].kode_jenis_identitas = rec.entitas_3_jenis_identitas_lookup.kode_jenis_identitas
+                if rec.entitas_3_entitas_lookup:
+                    ents[2].kode_entitas = rec.entitas_3_entitas_lookup.kode_entitas
+
+
+
+
+    
+    pengangkut_kode_cara_angkut_lookup = fields.Many2one('ceisa.referensi.cara.angkut', string='Cara Pengangkutan', compute='_compute_pengangkut_display', inverse='_inverse_pengangkut_display', store=True)
+    pengangkut_nama_pengangkut = fields.Char(string='Nama Sarana Angkut', compute='_compute_pengangkut_display', inverse='_inverse_pengangkut_display', store=True)
+    pengangkut_nomor_pengangkut = fields.Char(string='Nomor Sarana Angkut', compute='_compute_pengangkut_display', inverse='_inverse_pengangkut_display', store=True)
+    pengangkut_kode_negara_lookup = fields.Many2one('ceisa.referensi.negara', string='Bendera', compute='_compute_pengangkut_display', inverse='_inverse_pengangkut_display', store=True)
+
+    @api.depends('pengangkut_ids', 'kode_dokumen')
+    def _compute_pengangkut_display(self):
+        for rec in self:
+            # Reset default dulu
+            rec.pengangkut_kode_cara_angkut_lookup = False
+            rec.pengangkut_nama_pengangkut = False
+            rec.pengangkut_nomor_pengangkut = False
+            rec.pengangkut_kode_negara_lookup = False
+
+            if rec.kode_dokumen == '23':
+                pengs = rec.pengangkut_ids.sorted(lambda e: e.id)
+
+                if len(pengs) > 0:
+                    rec.pengangkut_kode_cara_angkut_lookup = self.env['ceisa.referensi.cara.angkut'].search([
+                        ('kode_cara_angkut', '=', pengs[0].kode_cara_angkut)
+                    ], limit=1)
+
+                    rec.pengangkut_nama_pengangkut = pengs[0].nama_pengangkut
+                    rec.pengangkut_nomor_pengangkut = pengs[0].nomor_pengangkut
+
+                    rec.pengangkut_kode_negara_lookup = self.env['ceisa.referensi.negara'].search([
+                        ('kode_negara', '=', pengs[0].kode_bendera)
+                    ], limit=1)
+    
+    def _inverse_pengangkut_display(self):
+        for rec in self:
+            if rec.kode_dokumen == '23':
+                pengs = rec.pengangkut_ids.sorted(lambda e: e.id)
+                if pengs:
+                    if rec.pengangkut_kode_cara_angkut_lookup:
+                        pengs[0].kode_cara_angkut = rec.pengangkut_kode_cara_angkut_lookup.kode_cara_angkut
+                    if rec.pengangkut_nama_pengangkut:
+                        pengs[0].nama_pengangkut = rec.pengangkut_nama_pengangkut
+                    if rec.pengangkut_nomor_pengangkut:
+                        pengs[0].nomor_pengangkut = rec.pengangkut_nomor_pengangkut
+                    if rec.pengangkut_kode_negara_lookup:
+                        pengs[0].kode_bendera = rec.pengangkut_kode_negara_lookup.kode_negara
 
 
     @api.model
@@ -344,73 +545,139 @@ class CeisaHeader(models.Model):
             res['kota_ttd'] = company.kota_perusahaan
         return res
 
+
     @api.model_create_multi
     def create(self, vals_list):
         company = self.env['ceisa.company.master'].search([], limit=1)
         records = super().create(vals_list)
 
-
         for rec in records:
-            # Default jika belum ada
+            # Set default values if not provided
             if not rec.kode_kantor and company:
                 rec.kode_kantor = company.kode_kantor
             if not rec.kota_ttd and company:
                 rec.kota_ttd = company.kota_perusahaan     
-            # Tentukan kode_entitas berdasarkan dokumen
+
+            # Determine kode_entitas based on dokumen code
             kode_dok = (rec.kode_dokumen or '').strip()
             if kode_dok == '40':
                 kode_entitas = [3, 7, 9]
             elif kode_dok == '23':
-                kode_entitas = [3, 5, 9]
+                kode_entitas = [3, 5, 7]
             else:
                 kode_entitas = [3, 7, 9]  # default fallback
 
-            # Tambahkan entitas 1, 2, dan 3
-            entitas_vals = []
-
-            # Entitas 1 -
-            entitas_vals.append({
-                'header_id': rec.id,
-                'seri_entitas': 1,
-                'kode_entitas': kode_entitas[0],
-                'kode_jenis_identitas': '6',
-                'nomor_identitas': company.npwp_perusahaan if company else '',
-                'nama_entitas': company.nama_perusahaan if company else '',
-                'alamat_entitas': company.alamat_perusahaan if company else '',
-                'nomor_ijin_entitas': company.nomor_ijin_entitas if company else '',
-                'tanggal_ijin_entitas': company.tanggal_ijin_entitas if company else '',
-                'nitku': company.nitku if company else '',
-                'nib_entitas': company.nib if company else '',
-            })
-
-            # Entitas 2 -
-            entitas_vals.append({
-                'header_id': rec.id,
-                'seri_entitas': 2,
-                'kode_entitas': kode_entitas[1],
-                'kode_jenis_identitas': '6',
-            })
-
-            # Entitas 3 -
-            entitas_vals.append({
-                'header_id': rec.id,
-                'seri_entitas': 3,
-                'kode_entitas': kode_entitas[2],
-                'kode_jenis_identitas': '6',
-                'nomor_identitas': company.npwp_perusahaan if company else '',
-                'nama_entitas': company.nama_perusahaan if company else '',
-                'alamat_entitas': company.alamat_perusahaan if company else '',
-                'nitku': company.nitku if company else '',
-            })
-
+            # Create entitas
+            entitas_vals = [
+                {
+                    'header_id': rec.id,
+                    'seri_entitas': 1,
+                    'kode_entitas': kode_entitas[0],
+                    'kode_jenis_identitas': '6',
+                    'nomor_identitas': company.npwp_perusahaan if company else '',
+                    'nama_entitas': company.nama_perusahaan if company else '',
+                    'alamat_entitas': company.alamat_perusahaan if company else '',
+                    'nomor_ijin_entitas': company.nomor_ijin_entitas if company else '',
+                    'tanggal_ijin_entitas': company.tanggal_ijin_entitas if company else '',
+                    'nitku': company.nitku if company else '',
+                    'nib_entitas': company.nib if company else '',
+                },
+                {
+                    'header_id': rec.id,
+                    'seri_entitas': 2,
+                    'kode_entitas': kode_entitas[1],
+                    'kode_jenis_identitas': '6',
+                },
+                {
+                    'header_id': rec.id,
+                    'seri_entitas': 3,
+                    'kode_entitas': kode_entitas[2],
+                    'kode_jenis_identitas': '6',
+                    'kode_status': '9',
+                    'nomor_identitas': company.npwp_perusahaan if company else '',
+                    'nama_entitas': company.nama_perusahaan if company else '',
+                    'alamat_entitas': company.alamat_perusahaan if company else '',
+                    'nitku': company.nitku if company else '',
+                    'tanggal_ijin_entitas': company.tanggal_ijin_entitas if company else '',
+                }
+            ]
             self.env['ceisa.entitas'].create(entitas_vals)
 
+            # Create pengangkut
+            pengangkut_vals = [{'header_id': rec.id, 'seri_pengangkut': 1}]
+            self.env['ceisa.pengangkut'].create(pengangkut_vals)
+
+            # Invalidate records if needed
             rec.invalidate_recordset(['nomor_aju'])
+            rec.sudo().invalidate_recordset()
 
         return records
-    
 
-    def action_post_document_ceisa(self):
+    def _generate_json_ceisa(self):
+        for rec in self:
+            self.env.cr.execute("SELECT ceisa_header_json_bc40(%s)", [rec.id])
+
+    def _get_token(self):
+        company = self.env['ceisa.company.master'].search([], limit=1)
+        if not company:
+            raise UserError("Data perusahaan tidak ditemukan.")
+
+        payload = {
+            "username": company.username_ceisa,
+            "password": company.password_ceisa
+        }
+
+        try:
+            response = requests.post(
+                "https://apis-gw.beacukai.go.id/nle-oauth/v1/user/login",
+                json=payload,
+                timeout=60
+            )
+            response.raise_for_status()
+        except requests.RequestException as e:
+            raise UserError(f"Gagal login ke API: {str(e)}")
+
+        response_json = response.json()
+        item = response_json.get('item', {})
+        access_token = item.get('access_token')
+        refresh_token = item.get('refresh_token')
+
+        if not access_token or not refresh_token:
+            raise UserError("Token tidak ditemukan dalam respons API.")
+
+        company.write({
+            'access_token': access_token,
+            'refresh_token': refresh_token,
+        })
+
+        return access_token
+
+    def _send_document_to_ceisa(self, access_token):
+        for rec in self:
+            jsonresult = rec.jsonresult
+            if not jsonresult:
+                raise UserError("JSON result dari ceisa.header kosong.")
+
+            headers = {
+                'Authorization': f'Bearer {access_token}',
+            }
+
+            try:
+                response = requests.post(
+                    "https://apis-gw.beacukai.go.id/openapi/document",
+                    headers=headers,
+                    json=jsonresult,
+                    timeout=60
+                )
+                response.raise_for_status()
+            except requests.RequestException as e:
+                raise UserError(f"Gagal mengirim dokumen ke Beacukai: {str(e)}")
+
+            response_json = response.json()
+            if response_json.get('status') != 'success':
+                raise UserError(f"API error: {response_json.get('message', 'Unknown error')}")
+
+    def _validate_ceisa_document(self):
         for rec in self:
             # Validate required fields in CeisaHeader
             if not rec.nomor_aju:
@@ -437,10 +704,6 @@ class CeisaHeader(models.Model):
                 raise UserError("Berat Bersih harus diisi.")
             if not rec.nomor_aju:
                 raise UserError("Nomor Aju harus diisi.")
-            # if not rec.seri:
-            #     raise UserError("Seri harus diisi.")
-            # if not rec.tanggal_aju:
-            #     raise UserError("Tanggal Aju harus diisi.")
             if not rec.tanggal_ttd:
                 raise UserError("Tanggal TTD harus diisi.")
 
@@ -452,14 +715,10 @@ class CeisaHeader(models.Model):
                     raise UserError("Alamat Entitas harus diisi.")
                 if not entitas.kode_entitas:
                     raise UserError("Kode Entitas harus diisi.")
-                # if not entitas.kode_jenis_api:
-                #     raise UserError("Kode Jenis API harus diisi.")
                 if not entitas.kode_jenis_identitas:
                     raise UserError("Kode Jenis Identitas harus diisi.")
                 if not entitas.nama_entitas:
                     raise UserError("Nama Entitas harus diisi.")
-                # if not entitas.nib_entitas:
-                #     raise UserError("NIB Entitas harus diisi.")
                 if not entitas.nomor_identitas:
                     raise UserError("Nomor Identitas harus diisi.")
                 if not entitas.seri_entitas:
@@ -510,8 +769,6 @@ class CeisaHeader(models.Model):
                     raise UserError("Kode Satuan Barang harus diisi.")
                 if not barang.netto:
                     raise UserError("Netto harus diisi.")
-                # if not barang.nilai_barang:
-                #     raise UserError("Nilai Barang harus diisi.")
                 if not barang.pos_tarif:
                     raise UserError("Pos Tarif harus diisi.")
                 if not barang.seri_barang:
@@ -524,8 +781,7 @@ class CeisaHeader(models.Model):
                     raise UserError("Ukuran harus diisi.")
                 if not barang.uraian:
                     raise UserError("Uraian harus diisi.")
-                if not barang.volume:
-                    raise UserError("Volume harus diisi.")
+
 
                 # Validate required fields in barang_tarif_ids
                 for tarif in barang.barang_tarif_ids:
@@ -537,12 +793,6 @@ class CeisaHeader(models.Model):
                         raise UserError("Kode Fasilitas Tarif harus diisi.")
                     if not tarif.kode_satuan_barang:
                         raise UserError("Kode Satuan Barang harus diisi.")
-                    # if not tarif.nilai_bayar:
-                    #     raise UserError("Nilai Bayar harus diisi.")
-                    # if not tarif.nilai_fasilitas:
-                    #     raise UserError("Nilai Fasilitas harus diisi.")
-                    # if not tarif.nilai_sudah_dilunasi:
-                    #     raise UserError("Nilai Sudah Dilunasi harus diisi.")
                     if not tarif.seri_barang:
                         raise UserError("Seri Barang harus diisi.")
                     if not tarif.tarif:
@@ -551,76 +801,20 @@ class CeisaHeader(models.Model):
                         raise UserError("Tarif Fasilitas harus diisi.")
                     if not tarif.kode_jenis_pungutan:
                         raise UserError("Kode Jenis Pungutan harus diisi.")
+                    
+    def action_generate_json_document_ceisa(self):
+        self._validate_ceisa_document()       # validasi semua dulu
+        self._generate_json_ceisa()           # generate JSON setelah data valid
+        return self._show_popup("Generate Success.", "Success")
+    
+    def action_post_document_ceisa(self):
+        self._validate_ceisa_document()       # validasi semua dulu
+        self._generate_json_ceisa()           # generate JSON setelah data valid
+        access_token = self._get_token()      # ambil token
+        self._send_document_to_ceisa(access_token)  # kirim dokumen
 
-            # Directly call the PostgreSQL function
-            self.env.cr.execute(
-                "SELECT ceisa_header_json_bc40(%s);", (rec.id,)
-            )
-            # Fetch company data
-            company = self.env['ceisa.company.master'].search([], limit=1)
-            if not company:
-                raise UserError("Data perusahaan tidak ditemukan.")
+        return self._show_popup("Dokumen berhasil dikirim ke Beacukai.", "Success")
             
-            # Fetch new tokens if not available
-            payload = {
-                "username": company.username_ceisa,
-                "password": company.password_ceisa
-            }
-
-            try:
-                response = requests.post(
-                    "https://apis-gw.beacukai.go.id/nle-oauth/v1/user/login",
-                    json=payload,
-                    timeout=60
-                )
-                response.raise_for_status()
-            except requests.RequestException as e:
-                raise UserError(f"Gagal login ke API: {str(e)}")
-
-            response_json = response.json()
-            item = response_json.get('item', {})
-            access_token = item.get('access_token')
-            refresh_token = item.get('refresh_token')
-
-            if not access_token or not refresh_token:
-                raise UserError("Token tidak ditemukan dalam respons API.")
-
-            company.write({
-                'access_token': access_token,
-                'refresh_token': refresh_token,
-            })
-            _logger.info("Token berhasil disimpan: %s", access_token)
-            return self._show_popup("Token berhasil disimpan: %s" % access_token, "Success")
-
-
-            # # Get jsonresult from the rec object
-            # jsonresult = rec.jsonresult
-            # if not jsonresult:
-            #     raise UserError("JSON result from ceisa.header is empty.")
-            
-            # # Prepare headers and send the document
-            # headers = {
-            #     'Authorization': f'Bearer {access_token}',
-            #     'Content-Type': 'application/json',
-            # }
-            
-            # try:
-            #     response = requests.post(
-            #         "https://apis-gw.beacukai.go.id/openapi/document",
-            #         headers=headers,
-            #         data=jsonresult,  # Use the jsonresult as the raw body
-            #         timeout=60
-            #     )
-            #     response.raise_for_status()  # Raise an error for bad status codes
-            # except requests.RequestException as e:
-            #     raise UserError(f"Failed to send document data to Beacukai API: {str(e)}")
-            
-            # # Handle the API response
-            # response_json = response.json()
-            # if response_json.get('status') == 'success':
-            #     _logger.info("Data successfully sent to Beacukai API: %s", response_json)
-            # else:
-            #     raise UserError(f"API error: {response_json.get('message', 'Unknown error')}")
 
     def _show_popup(self, message, title):
             # Menggunakan display_notification untuk menampilkan popup notifikasi
@@ -633,6 +827,120 @@ class CeisaHeader(models.Model):
                     'sticky': False,  # Tidak perlu sticky jika ingin popup menghilang otomatis
                 }
             }
+    
+    def action_generate_ndpbm(self):
+        for record in self:
+            # Force simpan perubahan di form (jika ada) sebelum ambil kurs
+            record._ceisa_header_save()
+
+            # Validasi kode_valuta harus diisi
+            if not record.kode_valuta:
+                raise UserError("Valuta kosong")
+
+            # Ambil data company
+            company = self.env['ceisa.company.master'].search([], limit=1)
+            if not company:
+                raise UserError("Data perusahaan tidak ditemukan.")
+
+            # Langsung login ulang untuk mendapatkan token
+            payload = {
+                "username": company.username_ceisa,
+                "password": company.password_ceisa
+            }
+            try:
+                response = requests.post(
+                    "https://apis-gw.beacukai.go.id/nle-oauth/v1/user/login",
+                    json=payload,
+                    timeout=60
+                )
+                response.raise_for_status()
+                item = response.json().get('item', {})
+                access_token = item.get('access_token')
+                refresh_token = item.get('refresh_token')
+
+                if not access_token or not refresh_token:
+                    raise UserError("Token tidak ditemukan dalam respons API.")
+
+                company.write({
+                    'access_token': access_token,
+                    'refresh_token': refresh_token,
+                })
+                _logger.info("Token berhasil disimpan: %s", access_token)
+            except requests.RequestException as e:
+                raise UserError(f"Gagal login ke API: {str(e)}")
+
+            # Panggil API kurs
+            try:
+                kurs_url = f"https://apis-gw.beacukai.go.id/openapi/kurs/{record.kode_valuta}"
+                headers = {
+                    'Authorization': f'Bearer {access_token}'
+                }
+                kurs_response = requests.get(kurs_url, headers=headers, timeout=60)
+                kurs_response.raise_for_status()
+
+                kurs_json = kurs_response.json()
+                if kurs_json.get("status") != "true":
+                    raise UserError(f"Gagal mengambil data kurs: {kurs_json.get('message')}")
+
+                data = kurs_json.get("data", [])
+                if not data or not data[0].get("nilaiKurs"):
+                    raise UserError("Nilai kurs tidak ditemukan.")
+
+                nilai_kurs = float(data[0].get("nilaiKurs"))
+                record.ndpbm = nilai_kurs
+                _logger.info("NDPBM berhasil diupdate: %s", nilai_kurs)
+
+            except requests.RequestException as e:
+                raise UserError(f"Gagal mengakses API Kurs: {str(e)}")
+
+
+
+    def _ceisa_header_save(self):
+        self.ensure_one()
+        self.write({})
+
+
+    @api.onchange(
+        'nilai_barang', 
+        'biaya_tambahan', 
+        'biaya_pengurang', 
+        'freight', 
+        'asuransi',
+        'ndpbm'
+    )
+    def _onchange_hitung_fob_cif_penyerahan(self):
+        for rec in self:
+            # Pastikan kode_dokumen adalah 23
+            if rec.kode_dokumen == '23':
+                # Perhitungan FOB
+                rec.fob = (rec.nilai_barang or 0.00) + (rec.biaya_tambahan or 0.00) - (rec.biaya_pengurang or 0.00)
+                # Perhitungan CIF
+                rec.cif = rec.fob + (rec.freight or 0.00) + (rec.asuransi or 0.00)
+                # Perhutungan Nilai Pabean
+                rec.harga_penyerahan = rec.cif * (rec.ndpbm or 0.0000)
+
+
+    @api.depends(
+    'nilai_barang', 
+    'biaya_tambahan', 
+    'biaya_pengurang', 
+    'freight', 
+    'asuransi', 
+    'ndpbm'
+    )
+    def _compute_fob_cif_harga_penyerahan(self):
+        for rec in self:
+            # Pastikan kode_dokumen adalah 23
+            if rec.kode_dokumen == '23':
+                # Perhitungan FOB
+                rec.fob = (rec.nilai_barang or 0.00) + (rec.biaya_tambahan or 0.00) - (rec.biaya_pengurang or 0.00)
+                # Perhitungan CIF
+                rec.cif = rec.fob + (rec.freight or 0.00) + (rec.asuransi or 0.00)
+                # Perhutungan Nilai Pabean
+                rec.harga_penyerahan = rec.cif * (rec.ndpbm or 0.0000)
+
+
+
 
     # def action_get_status_document_ceisa(self):
     #     # Contoh logika get status
@@ -687,7 +995,7 @@ class CeisaHeader(models.Model):
                             'nomorIjinEntitas', e.nomor_ijin_entitas,
                             'tanggalIjinEntitas', e.tanggal_ijin_entitas,
                             'seriEntitas', e.seri_entitas
-                        )), '[]'::jsonb)
+                        ) ORDER BY e.id::int), '[]'::jsonb)
                         FROM ceisa_entitas e
                         WHERE e.header_id = pid_header
                     ),
@@ -697,7 +1005,7 @@ class CeisaHeader(models.Model):
                             'kodeJenisKemasan', k.kode_jenis_kemasan,
                             'seriKemasan', k.seri_kemasan,
                             'merkKemasan', k.merk_kemasan
-                        )), '[]'::jsonb)
+                        ) ORDER BY k.id::int), '[]'::jsonb)
                         FROM ceisa_kemasan k
                         WHERE k.header_id = pid_header
                     ),
@@ -708,18 +1016,18 @@ class CeisaHeader(models.Model):
                             'seriKontainer', k.seri_kontainer,
                             'nomorKontainer', k.nomor_kontainer,
                             'kodeJenisKontainer', k.kode_jenis_kontainer
-                        )), '[]'::jsonb)
+                        ) ORDER BY k.id::int), '[]'::jsonb)
                         FROM ceisa_kontainer k
                         WHERE k.header_id = pid_header
                     ),
                     'dokumen', (
                         SELECT COALESCE(jsonb_agg(jsonb_build_object(
-                            'idDokumen', d.id,
+                            'idDokumen', d.seri_dokumen::text,
                             'kodeDokumen', d.kode_dokumen,
                             'nomorDokumen', d.nomor_dokumen,
                             'seriDokumen', d.seri_dokumen,
                             'tanggalDokumen', d.tanggal_dokumen
-                        )), '[]'::jsonb)
+                        ) ORDER BY d.id::int), '[]'::jsonb)
                         FROM ceisa_dokumen d
                         WHERE d.header_id = pid_header
                     ),
@@ -728,7 +1036,7 @@ class CeisaHeader(models.Model):
                             'kodeFasilitasTarif', p.kode_fasilitas_tarif,
                             'kodeJenisPungutan', p.kode_jenis_pungutan,
                             'nilaiPungutan', p.nilai_pungutan
-                        )), '[]'::jsonb)
+                        ) ORDER BY p.id::int), '[]'::jsonb)
                         FROM ceisa_pungutan p
                         WHERE p.header_id = pid_header
                     ),
@@ -739,7 +1047,7 @@ class CeisaHeader(models.Model):
                             'nomorPengangkut', pg.nomor_pengangkut,
                             'kodeCaraAngkut', pg.kode_cara_angkut,
                             'seriPengangkut', pg.seri_pengangkut
-                        )), '[]'::jsonb)
+                        ) ORDER BY pg.id::int), '[]'::jsonb)
                         FROM ceisa_pengangkut pg
                         WHERE pg.header_id = pid_header
                     ),
@@ -789,11 +1097,11 @@ class CeisaHeader(models.Model):
                                     'tarif', t.tarif,
                                     'tarifFasilitas', t.tarif_fasilitas,
                                     'kodeJenisPungutan', t.kode_jenis_pungutan
-                                )), '[]'::jsonb)
+                                ) ORDER BY t.id::int), '[]'::jsonb)
                                 FROM ceisa_barang_tarif t
                                 WHERE t.barang_id = b.id
                             )
-                        )), '[]'::jsonb)
+                        ) ORDER BY b.id::int), '[]'::jsonb)
                         FROM ceisa_barang b
                         WHERE b.header_id = pid_header
                     )
@@ -820,6 +1128,228 @@ class CeisaHeader(models.Model):
             COST 100;
         """)
 
+    def init(self):
+        self.env.cr.execute("""
+        CREATE OR REPLACE FUNCTION "public"."ceisa_header_json_bc23"("pid_header" int4)
+        RETURNS "pg_catalog"."void" AS $BODY$
+        DECLARE
+            vJsonResult JSONB;
+        BEGIN
+            SELECT jsonb_build_object(
+                'asalData', 'S',
+                'asuransi', h.asuransi,
+                'bruto', h.bruto,
+                'cif', h.cif,
+                'freight', h.freight,
+                'hargaPenyerahan', h.harga_penyerahan,
+                'jabatanTtd', h.jabatan_ttd,
+                'jumlahKontainer', h.jumlah_kontainer,
+                'kodeDokumen', h.kode_dokumen,
+                'kodeKantor', h.kode_kantor,
+                'kodeTujuanPengiriman', h.kode_tujuan_pengiriman,
+                'kotaTtd', h.kota_ttd,
+                'namaTtd', h.nama_ttd,
+                'netto', h.netto,
+                'nik', h.nik,
+                'nomorAju', h.nomor_aju,
+                'seri', h.seri,
+                'tanggalAju', h.tanggal_aju,
+                'tanggalTtd', h.tanggal_ttd,
+                'volume', h.volume,
+                'biayaTambahan', h.biaya_tambahan,
+                'biayaPengurang', h.biaya_pengurang,
+                'vd', h.vd,
+                'uangMuka', h.uang_muka,
+                'nilaiJasa', h.nilai_jasa,
+                'fob', h.fob,
+                'ndpbm', h.ndpbm,
+                'tanggalTiba', h.tanggal_tiba,
+                'kodePelMuat', h.kode_pel_muat,
+                'kodePelBongkar', h.kode_pel_bongkar,
+                'kodePelTransit', h.kode_pel_transit,
+                'kodeTps', h.kode_tps,
+                'kodeTujuanTpb', h.kode_tujuan_tpb,
+                'kodeTutupPu', h.kode_tutup_pu,
+                'kodeValuta', h.kode_valuta,
+                'kodeAsuransi', h.kode_asuransi,
+                'kodeIncoterm', h.kode_incoterm,
+                'kodeKantorBongkar', h.kode_kantor_bongkar,
+                'nilaiBarang', h.nilai_barang,
+                'nomorBc11', h.nomor_bc11,
+                'posBc11', h.pos_bc11,
+                'subposBc11', COALESCE(h.subpos_bc11_1, '') || COALESCE(h.subpos_bc11_2, ''),
+                'tanggalBc11', h.tanggal_bc11,
+                'entitas', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'alamatEntitas', e.alamat_entitas,
+                        'kodeEntitas', e.kode_entitas,
+                        'kodeJenisApi', e.kode_jenis_api,
+                        'kodeNegara', e.kode_negara,
+                        'kodeJenisIdentitas', e.kode_jenis_identitas,
+                        'kodeStatus', e.kode_status,
+                        'namaEntitas', e.nama_entitas,
+                        'nibEntitas', e.nib_entitas,
+                        'nomorIdentitas', e.nomor_identitas,
+                        'nomorIjinEntitas', e.nomor_ijin_entitas,
+                        'tanggalIjinEntitas', e.tanggal_ijin_entitas,
+                        'seriEntitas', e.seri_entitas
+                    ) ORDER BY e.id::int), '[]'::jsonb)
+                    FROM ceisa_entitas e
+                    WHERE e.header_id = pid_header
+                ),
+
+                -- KEMASAN
+                'kemasan', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'jumlahKemasan', k.jumlah_kemasan,
+                        'kodeJenisKemasan', k.kode_jenis_kemasan,
+                        'seriKemasan', k.seri_kemasan,
+                        'merkKemasan', k.merk_kemasan
+                    )), '[]'::jsonb)
+                    FROM ceisa_kemasan k
+                    WHERE k.header_id = pid_header
+                ),
+
+                -- KONTAINER
+                'kontainer', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'kodeTipeKontainer', k.kode_tipe_kontainer,
+                        'kodeUkuranKontainer', k.kode_ukuran_kontainer,
+                        'seriKontainer', k.seri_kontainer,
+                        'nomorKontainer', k.nomor_kontainer,
+                        'kodeJenisKontainer', k.kode_jenis_kontainer
+                    )), '[]'::jsonb)
+                    FROM ceisa_kontainer k
+                    WHERE k.header_id = pid_header
+                ),
+
+                -- DOKUMEN
+                'dokumen', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'idDokumen', d.seri_dokumen::text,
+                        'kodeDokumen', d.kode_dokumen,
+                        'nomorDokumen', d.nomor_dokumen,
+                        'seriDokumen', d.seri_dokumen,
+                        'tanggalDokumen', d.tanggal_dokumen
+                    )), '[]'::jsonb)
+                    FROM ceisa_dokumen d
+                    WHERE d.header_id = pid_header
+                ),
+
+                -- PUNGUTAN
+                'pungutan', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'kodeFasilitasTarif', p.kode_fasilitas_tarif,
+                        'kodeJenisPungutan', p.kode_jenis_pungutan,
+                        'nilaiPungutan', p.nilai_pungutan
+                    )), '[]'::jsonb)
+                    FROM ceisa_pungutan p
+                    WHERE p.header_id = pid_header
+                ),
+
+                -- PENGANGKUT
+                'pengangkut', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'kodeBendera', COALESCE(pg.kode_bendera, ''),
+                        'namaPengangkut', pg.nama_pengangkut,
+                        'nomorPengangkut', pg.nomor_pengangkut,
+                        'kodeCaraAngkut', pg.kode_cara_angkut,
+                        'seriPengangkut', pg.seri_pengangkut
+                    )), '[]'::jsonb)
+                    FROM ceisa_pengangkut pg
+                    WHERE pg.header_id = pid_header
+                ),
+
+                -- BARANG
+                'barang', (
+                    SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                        'asuransi', b.asuransi,
+                        'bruto', b.bruto,
+                        'cif', b.cif,
+                        'diskon', b.diskon,
+                        'hargaEkspor', b.harga_ekspor,
+                        'hargaPenyerahan', b.harga_penyerahan,
+                        'hargaSatuan', b.harga_satuan,
+                        'isiPerKemasan', b.isi_per_kemasan,
+                        'jumlahKemasan', b.jumlah_kemasan,
+                        'jumlahRealisasi', b.jumlah_realisasi,
+                        'jumlahSatuan', b.jumlah_satuan,
+                        'kodeBarang', b.kode_barang,
+                        'kodeDokumen', b.kode_dokumen,
+                        'kodeJenisKemasan', b.kode_jenis_kemasan,
+                        'kodeSatuanBarang', b.kode_satuan_barang,
+                        'merk', b.merk,
+                        'netto', b.netto,
+                        'nilaiBarang', b.nilai_barang,
+                        'posTarif', b.pos_tarif,
+                        'seriBarang', b.seri_barang,
+                        'spesifikasiLain', b.spesifikasi_lain,
+                        'tipe', b.tipe,
+                        'ukuran', b.ukuran,
+                        'uraian', b.uraian,
+                        'volume', b.volume,
+                        'cifRupiah', b.cif_rupiah,
+                        'hargaPerolehan', b.harga_perolehan,
+                        'kodeAsalBahanBaku', b.kode_asal_bahan_baku,
+                        'ndpbm', b.ndpbm,
+                        'uangMuka', b.uang_muka,
+                        'nilaiJasa', b.nilai_jasa,
+                        'fob', b.fob,
+                        'freight', b.freight,
+                        'kodeKategoriBarang', b.kode_kategori_barang,
+                        'kodeNegaraAsal', b.kode_negara_asal,
+                        'kodePerhitungan', b.kode_perhitungan,
+                        'nilaiTambah', b.nilai_tambah,
+                        'barangTarif', (
+                            SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                                'kodeJenisTarif', t.kode_jenis_tarif,
+                                'jumlahSatuan', t.jumlah_satuan,
+                                'kodeFasilitasTarif', t.kode_fasilitas_tarif,
+                                'kodeSatuanBarang', t.kode_satuan_barang,
+                                'nilaiBayar', t.nilai_bayar,
+                                'nilaiFasilitas', t.nilai_fasilitas,
+                                'nilaiSudahDilunasi', t.nilai_sudah_dilunasi,
+                                'seriBarang', t.seri_barang,
+                                'tarif', t.tarif,
+                                'tarifFasilitas', t.tarif_fasilitas,
+                                'kodeJenisPungutan', t.kode_jenis_pungutan
+                            ) ORDER BY t.id::int), '[]'::jsonb)
+                            FROM ceisa_barang_tarif t
+                            WHERE t.barang_id = b.id
+                        ),
+                        'barangDokumen', (
+                            SELECT COALESCE(jsonb_agg(jsonb_build_object(
+                                'seriDokumen', bd.seri_dokumen
+                            )), '[]'::jsonb)
+                            FROM ceisa_barang_dokumen bd
+                            WHERE bd.barang_id = b.id
+                        )
+                    )), '[]'::jsonb)
+                    FROM ceisa_barang b
+                    WHERE b.header_id = pid_header
+                )
+            )
+            INTO vJsonResult
+            FROM ceisa_header h
+            WHERE h.id = pid_header;
+
+            IF vJsonResult IS NOT NULL THEN
+                UPDATE ceisa_header
+                SET jsonresult = vJsonResult
+                WHERE id = pid_header;
+            ELSE
+                RAISE NOTICE 'No data found for header ID: %', pid_header;
+            END IF;
+
+        EXCEPTION
+            WHEN OTHERS THEN
+                RAISE NOTICE 'Error encountered: %', SQLERRM;
+        END;
+        $BODY$
+        LANGUAGE plpgsql VOLATILE
+        COST 100
+        """)
+
         self.env.cr.execute("""
             CREATE OR REPLACE FUNCTION set_nomor_aju()
             RETURNS TRIGGER AS $$
@@ -833,7 +1363,7 @@ class CeisaHeader(models.Model):
        
             BEGIN
                 -- Ambil NPWP dari ceisa_company_master
-                SELECT npwp_perusahaan INTO npwp FROM ceisa_company_master ORDER BY id LIMIT 1;
+                SELECT LEFT(npwp_perusahaan, 6) INTO npwp FROM ceisa_company_master ORDER BY id LIMIT 1;
                 IF npwp IS NULL THEN
                     npwp := '000000';
                 END IF;
@@ -882,55 +1412,170 @@ class CeisaHeader(models.Model):
                 v_harga_perolehan NUMERIC(18, 2) := 0;
                 v_volume NUMERIC(20, 4) := 0;
                 v_netto NUMERIC(20, 4) := 0;
+                v_nilai_pabean NUMERIC(18, 4) := 0;
+                v_nilai_impor NUMERIC(18, 4) := 0;
+                v_bm NUMERIC(18, 4) := 0;
+                v_pph NUMERIC(18, 4) := 0;
+                v_ppn NUMERIC(18, 4) := 0;
+                v_bm_tarif NUMERIC(18, 4) := 0;
+                v_pph_tarif NUMERIC(18, 4) := 0;
+                v_ppn_tarif NUMERIC(18, 4) := 0;
+                v_bm_fasilitas_tarif VARCHAR := ''; -- Menggunakan tipe VARCHAR
+                v_pph_fasilitas_tarif VARCHAR := ''; -- Menggunakan tipe VARCHAR
+                v_ppn_fasilitas_tarif VARCHAR := ''; -- Menggunakan tipe VARCHAR
             BEGIN
-                -- 1. Hapus pungutan lama jenis PPN
-                DELETE FROM ceisa_pungutan
-                WHERE header_id = p_header_id AND kode_jenis_pungutan = 'PPN';
+                -- Cek apakah kode_dokumen adalah 40
+                IF EXISTS (SELECT 1 FROM ceisa_header WHERE id = p_header_id AND kode_dokumen = '40') THEN
+                    -- 1. Hapus pungutan lama jenis PPN
+                    DELETE FROM ceisa_pungutan
+                    WHERE header_id = p_header_id;
 
-                -- 2. Insert ulang berdasarkan barang & tarif
-                INSERT INTO ceisa_pungutan (header_id, kode_jenis_pungutan, nilai_pungutan, kode_fasilitas_tarif)
-                SELECT
-                    b.header_id,
-                    'PPN',
-                    SUM(b.harga_penyerahan * t.tarif / 100.0),
-                    t.kode_fasilitas_tarif
-                FROM ceisa_barang b
-                JOIN ceisa_barang_tarif t ON t.barang_id = b.id
-                JOIN ceisa_header h ON h.id = b.header_id
-                WHERE b.header_id = p_header_id
-                AND h.kode_dokumen = '40'
-                AND t.kode_jenis_pungutan = 'PPN'
-                GROUP BY b.header_id, t.kode_fasilitas_tarif;
+                    -- 2. Insert ulang berdasarkan barang & tarif untuk PPN
+                    INSERT INTO ceisa_pungutan (header_id, kode_jenis_pungutan, nilai_pungutan, kode_fasilitas_tarif)
+                    SELECT
+                        b.header_id,
+                        'PPN',
+                        SUM(b.harga_penyerahan * t.tarif / t.tarif_fasilitas),
+                        t.kode_fasilitas_tarif -- Ambil kode_fasilitas_tarif dari ceisa_barang
+                    FROM ceisa_barang b
+                    JOIN ceisa_barang_tarif t ON t.barang_id = b.id
+                    JOIN ceisa_header h ON h.id = b.header_id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'PPN'
+                    GROUP BY b.header_id, t.kode_fasilitas_tarif; -- Kelompokkan berdasarkan kode_fasilitas_tarif yang ada di ceisa_barang
 
-                -- 3. Update ceisa_header dari total ceisa_barang
-                SELECT
-                    COALESCE(SUM(harga_penyerahan), 0),
-                    COALESCE(SUM(nilai_jasa), 0),
-                    COALESCE(SUM(uang_muka), 0),
-                    COALESCE(SUM(harga_perolehan), 0),
-                    COALESCE(SUM(volume), 0),
-                    COALESCE(SUM(netto), 0)
-                INTO
-                    v_harga_penyerahan,
-                    v_nilai_jasa,
-                    v_uang_muka,
-                    v_harga_perolehan,
-                    v_volume,
-                    v_netto
-                FROM ceisa_barang
-                WHERE header_id = p_header_id;
+                    -- 3. Update ceisa_header dari total ceisa_barang
+                    SELECT
+                        COALESCE(SUM(harga_penyerahan), 0),
+                        COALESCE(SUM(nilai_jasa), 0),
+                        COALESCE(SUM(uang_muka), 0),
+                        COALESCE(SUM(harga_perolehan), 0),
+                        COALESCE(SUM(volume), 0),
+                        COALESCE(SUM(netto), 0)
+                    INTO
+                        v_harga_penyerahan,
+                        v_nilai_jasa,
+                        v_uang_muka,
+                        v_harga_perolehan,
+                        v_volume,
+                        v_netto
+                    FROM ceisa_barang
+                    WHERE header_id = p_header_id;
 
-                UPDATE ceisa_header
-                SET
-                    harga_penyerahan = v_harga_penyerahan,
-                    nilai_jasa = v_nilai_jasa,
-                    uang_muka = v_uang_muka,
-                    harga_perolehan = v_harga_perolehan,
-                    volume = v_volume,
-                    netto = v_netto
-                WHERE id = p_header_id;
+                    UPDATE ceisa_header
+                    SET
+                        harga_penyerahan = v_harga_penyerahan,
+                        nilai_jasa = v_nilai_jasa,
+                        uang_muka = v_uang_muka,
+                        harga_perolehan = v_harga_perolehan,
+                        volume = v_volume,
+                        netto = v_netto
+                    WHERE id = p_header_id;
+
+                -- Cek apakah kode_dokumen adalah 23
+                ELSIF EXISTS (SELECT 1 FROM ceisa_header WHERE id = p_header_id AND kode_dokumen = '23') THEN
+                    -- 1. Hapus pungutan lama
+                    DELETE FROM ceisa_pungutan
+                    WHERE header_id = p_header_id;
+
+                    -- 2. Ambil Nilai Pabean
+                    SELECT
+                        COALESCE(harga_penyerahan, 0) INTO v_nilai_pabean
+                    FROM ceisa_header
+                    WHERE id = p_header_id;
+
+                    -- 3. Hitung Nilai BM 
+                    SELECT 
+                        COALESCE(SUM(t.tarif / t.tarif_fasilitas), 0) INTO v_bm_tarif
+                    FROM ceisa_barang_tarif t
+                    JOIN ceisa_barang b ON t.barang_id = b.id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'BM';
+
+                    -- 
+                    v_bm := CEIL(v_nilai_pabean * v_bm_tarif / 1000) * 1000;                      
+
+                    -- 4. Hitung Nilai Impor (Nilai Pabean + Nilai BM)
+                    v_nilai_impor := v_nilai_pabean + v_bm;
+
+                    -- 5. Hitung PPH
+                    SELECT 
+                        COALESCE(SUM(t.tarif / t.tarif_fasilitas), 0) INTO v_pph_tarif
+                    FROM ceisa_barang_tarif t
+                    JOIN ceisa_barang b ON t.barang_id = b.id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'PPH';
+
+                    v_pph := CEIL(v_nilai_impor * v_pph_tarif / 1000) * 1000;
+
+                    -- 6. Hitung PPN
+                    SELECT 
+                        COALESCE(SUM(t.tarif / t.tarif_fasilitas), 0) INTO v_ppn_tarif
+                    FROM ceisa_barang_tarif t
+                    JOIN ceisa_barang b ON t.barang_id = b.id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'PPN';
+
+                    v_ppn := CEIL(v_nilai_impor * v_ppn_tarif / 1000) * 1000;
+
+                    -- 7. Ambil kode_fasilitas_tarif dari ceisa_barang berdasarkan kode_jenis_pungutan
+                    -- Untuk BM
+                    SELECT
+                        t.kode_fasilitas_tarif INTO v_bm_fasilitas_tarif
+                    FROM ceisa_barang b
+                    JOIN ceisa_barang_tarif t ON t.barang_id = b.id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'BM'
+                    LIMIT 1;
+
+                    -- Untuk PPH
+                    SELECT
+                        t.kode_fasilitas_tarif INTO v_pph_fasilitas_tarif
+                    FROM ceisa_barang b
+                    JOIN ceisa_barang_tarif t ON t.barang_id = b.id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'PPH'
+                    LIMIT 1;
+
+                    -- Untuk PPN
+                    SELECT
+                        t.kode_fasilitas_tarif INTO v_ppn_fasilitas_tarif
+                    FROM ceisa_barang b
+                    JOIN ceisa_barang_tarif t ON t.barang_id = b.id
+                    WHERE b.header_id = p_header_id
+                    AND t.kode_jenis_pungutan = 'PPN'
+                    LIMIT 1;
+
+                    -- 8. Insert Pungutan BM
+                    INSERT INTO ceisa_pungutan (header_id, kode_jenis_pungutan, nilai_pungutan, kode_fasilitas_tarif)
+                    VALUES
+                        (p_header_id, 'BM', v_bm, v_bm_fasilitas_tarif); -- Ambil kode_fasilitas_tarif dari ceisa_barang
+
+                    -- 9. Insert Pungutan PPH
+                    INSERT INTO ceisa_pungutan (header_id, kode_jenis_pungutan, nilai_pungutan, kode_fasilitas_tarif)
+                    VALUES
+                        (p_header_id, 'PPH', v_pph, v_pph_fasilitas_tarif); -- Ambil kode_fasilitas_tarif dari ceisa_barang
+
+                    -- 10. Insert Pungutan PPN
+                    INSERT INTO ceisa_pungutan (header_id, kode_jenis_pungutan, nilai_pungutan, kode_fasilitas_tarif)
+                    VALUES
+                        (p_header_id, 'PPN', v_ppn, v_ppn_fasilitas_tarif); -- Ambil kode_fasilitas_tarif dari ceisa_barang
+
+                    SELECT
+                        COALESCE(SUM(netto), 0)
+                    INTO
+                        v_netto
+                    FROM ceisa_barang
+                    WHERE header_id = p_header_id;
+
+                    UPDATE ceisa_header
+                    SET
+                        netto = v_netto
+                    WHERE id = p_header_id;
+
+                END IF;
             END;
-            $$ LANGUAGE plpgsql;
+        $$ LANGUAGE plpgsql;
         """)
 
 
@@ -975,7 +1620,7 @@ class CeisaEntitas(models.Model):
     nib_entitas = fields.Char(default='')
     nomor_identitas = fields.Char(default='')
     nomor_ijin_entitas = fields.Char(default='')
-    tanggal_ijin_entitas = fields.Char(default='')
+    tanggal_ijin_entitas = fields.Date()
     seri_entitas = fields.Integer()
     nitku = fields.Char(default='')
 
@@ -1150,15 +1795,35 @@ class CeisaPungutan(models.Model):
         self.env.cr.execute("""
             CREATE OR REPLACE VIEW vw_pungutan_pivot AS
             SELECT
-                MIN(id) AS id,  -- ini solusi penting
-                header_id,
-                MAX(CASE WHEN kode_fasilitas_tarif = '3' THEN nilai_pungutan ELSE 0 END) AS ditangguhkan,
-                MAX(CASE WHEN kode_fasilitas_tarif = '7' THEN nilai_pungutan ELSE 0 END) AS sudah_dilunasi,
-                MAX(CASE WHEN kode_fasilitas_tarif = '5' THEN nilai_pungutan ELSE 0 END) AS dibebaskan,
-                MAX(CASE WHEN kode_fasilitas_tarif = '6' THEN nilai_pungutan ELSE 0 END) AS tidak_dipungut,
-                MAX(kode_jenis_pungutan) AS kode_jenis_pungutan
-            FROM ceisa_pungutan
-            GROUP BY header_id;
+            ceisa_pungutan."id", 
+            ceisa_pungutan.header_id,
+            COALESCE(
+                CASE
+                    WHEN ceisa_pungutan.kode_fasilitas_tarif = '3' THEN ceisa_pungutan.nilai_pungutan
+                    ELSE NULL
+                END, 0
+            ) AS ditangguhkan,
+            COALESCE(
+                CASE
+                    WHEN ceisa_pungutan.kode_fasilitas_tarif = '7' THEN ceisa_pungutan.nilai_pungutan
+                    ELSE NULL
+                END, 0
+            ) AS dibebaskan,
+            COALESCE(
+                CASE
+                    WHEN ceisa_pungutan.kode_fasilitas_tarif = '5' THEN ceisa_pungutan.nilai_pungutan
+                    ELSE NULL
+                END, 0
+            ) AS sudah_dilunasi,
+            COALESCE(
+                CASE
+                    WHEN ceisa_pungutan.kode_fasilitas_tarif = '6' THEN ceisa_pungutan.nilai_pungutan
+                    ELSE NULL
+                END, 0
+            ) AS tidak_dipungut,
+            ceisa_pungutan.kode_jenis_pungutan
+        FROM
+            ceisa_pungutan;
         """)
 
 
@@ -1229,14 +1894,15 @@ class CeisaBarang(models.Model):
 
     header_id = fields.Many2one('ceisa.header')
     barang_tarif_ids = fields.One2many('ceisa.barang.tarif', 'barang_id', string='Barang Tarif')
+    barang_dokumen_ids = fields.One2many('ceisa.barang.dokumen', 'barang_id', string='Barang Dokumen')
 
-    asuransi = fields.Float(digits=(18, 2), default=0.00)
+    asuransi = fields.Float(digits=(18, 2), default=0.00, string="Asuransi")
     bruto = fields.Float(digits=(20, 4), default=0.0000)
-    cif = fields.Float(digits=(18, 2), default=0.00)
+    cif = fields.Float(digits=(18, 2), default=0.00, string="CIF")
     diskon = fields.Float(digits=(18, 2), default=0.00)
     harga_ekspor = fields.Float(digits=(18, 4), default=0.0000)
-    harga_penyerahan = fields.Float(digits=(18, 4), default=0.0000)
-    harga_satuan = fields.Float(digits=(18, 4), default=0.0000)
+    harga_penyerahan = fields.Float(digits=(18, 4), default=0.0000, string="Harga Penyerahan")
+    harga_satuan = fields.Float(digits=(18, 4), default=0.0000, string="Harga Satuan")
     isi_per_kemasan = fields.Float(digits=(18, 2), default=0.00)
     jumlah_kemasan = fields.Float(digits=(18, 2), default=0.00)
     jumlah_realisasi = fields.Float(digits=(18, 4), default=0.0000)
@@ -1247,7 +1913,7 @@ class CeisaBarang(models.Model):
     kode_satuan_barang = fields.Char(default='')
     merk = fields.Char(default='')
     netto = fields.Float(digits=(20, 4), default=0.0000)
-    nilai_barang = fields.Float(digits=(18, 2), default=0.00)
+    nilai_barang = fields.Float(digits=(18, 2), default=0.00, string="Harga FOB")
     pos_tarif = fields.Char(string="Pos Tarif/Hs", default='')
     seri_barang = fields.Integer()
     spesifikasi_lain = fields.Char(default='')
@@ -1255,12 +1921,35 @@ class CeisaBarang(models.Model):
     ukuran = fields.Char(default='')
     uraian = fields.Char(default='')
     volume = fields.Float(digits=(20, 4), default=0.0000)
-    cif_rupiah = fields.Float(digits=(18, 2), default=0.00)
+    cif_rupiah = fields.Float(digits=(18, 2), default=0.00, compute='_compute_cif_rupiah', store=True)
     harga_perolehan = fields.Float(digits=(18, 2), default=0.00)
     kode_asal_bahan_baku = fields.Char(default='')
-    ndpbm = fields.Float(digits=(18, 4), default=0.0000)
+    ndpbm = fields.Float(digits=(10, 4), default=0.0000)
     uang_muka = fields.Float(digits=(18, 4), default=0.0000)
     nilai_jasa = fields.Float(digits=(18, 4), default=0.0000)
+    #tambahan 23
+    freight = fields.Float(digits=(18, 2), default=0.00, string="Freight")
+    fob = fields.Float(digits=(18, 2), default=0.00, string="FOB")
+    kode_perhitungan = fields.Char(default='')
+    nilai_tambah = fields.Float(digits=(18, 2), string="Biaya Tambahan")
+
+    @api.onchange('jumlah_satuan')
+    def _onchange_jumlah_satuan(self):
+        if self.jumlah_satuan and self.header_id and self.header_id.fob:
+            try:
+                self.harga_satuan = self.header_id.fob / self.jumlah_satuan
+            except ZeroDivisionError:
+                self.harga_satuan = 0.0
+        else:
+            self.harga_satuan = 0.0
+
+    @api.depends('cif', 'header_id.ndpbm')
+    def _compute_cif_rupiah(self):
+        for record in self:
+            if record.cif and record.header_id.ndpbm:
+                record.cif_rupiah = record.cif * record.header_id.ndpbm
+            else:
+                record.cif_rupiah = 0.00
 
     @api.model
     def create(self, vals):
@@ -1279,22 +1968,43 @@ class CeisaBarang(models.Model):
                     'kode_jenis_pungutan': 'PPN',
                     'tarif': 11,
                     'kode_fasilitas_tarif': '6',
-                    'tarif_fasilitas': 100
+                    'tarif_fasilitas': 100,
+                    'kode_jenis_tarif': '1'
                 })
             elif kode == '23':
                 self.env['ceisa.barang.tarif'].create([
                     {
                         'barang_id': record.id,
-                        'kode_jenis_pungutan': 'PPN',
-                        'nilai_fasilitas': 11,
-                        'kode_fasilitas_tarif': '3'
+                        'kode_jenis_pungutan': 'BM',
+                        'tarif': 5,
+                        'kode_fasilitas_tarif': '3',
+                        'tarif_fasilitas': 100,
+                        'kode_jenis_tarif': '1'
+                        
                     },
                     {
                         'barang_id': record.id,
-                        'kode_jenis_pungutan': 'BM',
-                        'nilai_fasilitas': 5,
-                        'kode_fasilitas_tarif': '1'
+                        'kode_jenis_pungutan': 'PPH',
+                        'tarif': 2.5,
+                        'kode_fasilitas_tarif': '6',
+                        'tarif_fasilitas': 100,
+                        'kode_jenis_tarif': '1'
                     },
+                    {
+                        'barang_id': record.id,
+                        'kode_jenis_pungutan': 'PPN',
+                        'tarif': 11,
+                        'kode_fasilitas_tarif': '6',
+                        'tarif_fasilitas': 100,
+                        'kode_jenis_tarif': '1'
+                    },
+                    # {
+                    #     'barang_id': record.id,
+                    #     'kode_jenis_pungutan': 'PPNBM',
+                    #     'kode_jenis_tarif': '1',
+                    # },
+
+
                 ])
         return record
 
@@ -1303,6 +2013,23 @@ class CeisaBarang(models.Model):
         if self.header_id and not self.seri_barang:
             other_docs = self.header_id.barang_ids.filtered(lambda d: d != self)
             self.seri_barang = len(other_docs) + 1
+            
+            if self.header_id.kode_dokumen == '40':
+                self.kode_asal_bahan_baku = '1'
+                self.kode_perhitungan = '0'
+            elif self.header_id.kode_dokumen == '23':
+                self.kode_perhitungan = '0'
+                self.kode_asal_bahan_baku = '0'
+                self.freight = self.header_id.freight
+                self.fob = self.header_id.fob
+                self.asuransi = self.header_id.asuransi
+                self.cif = self.header_id.cif
+                self.harga_penyerahan = self.header_id.harga_penyerahan
+                self.nilai_barang = self.header_id.nilai_barang
+                self.ndpbm = self.header_id.ndpbm
+                self.nilai_tambah = self.header_id.biaya_tambahan
+            
+
 
         # Hanya isi tarif jika belum ada
         if not self.barang_tarif_ids:
@@ -1319,15 +2046,32 @@ class CeisaBarang(models.Model):
             elif kode == '23':
                 pungutans = [
                     (0, 0, {
-                        'kode_jenis_pungutan': 'PPN',
-                        'nilai_fasilitas': 11,
-                        'kode_fasilitas_tarif': '3'
+                        'kode_jenis_pungutan': 'BM',
+                        'tarif': 5,
+                        'kode_fasilitas_tarif': '3',
+                        'tarif_fasilitas': 100,
+                        'kode_jenis_tarif': '1',
                     }),
                     (0, 0, {
-                        'kode_jenis_pungutan': 'BM',
-                        'nilai_fasilitas': 5,
-                        'kode_fasilitas_tarif': '1'
+                        'kode_jenis_pungutan': 'PPH',
+                        'tarif': 2.5,
+                        'kode_fasilitas_tarif': '6',
+                        'tarif_fasilitas': 100,
+                        'kode_jenis_tarif': '1',
                     }),
+                    (0, 0, {
+                        'kode_jenis_pungutan': 'PPN',
+                        'tarif': 11,
+                        'kode_fasilitas_tarif': '6',
+                        'tarif_fasilitas': 100,
+                        'kode_jenis_tarif': '1',
+                    }),
+
+                    # (0, 0, {
+                    #     'kode_jenis_pungutan': 'PPNBM',
+                    # }),
+
+
                 ]
             self.barang_tarif_ids = pungutans
 
@@ -1372,6 +2116,34 @@ class CeisaBarang(models.Model):
         for rec in self:
             if rec.satuan_barang_lookup:
                 rec.kode_satuan_barang = rec.satuan_barang_lookup.kode_satuan
+    
+    kode_kategori_barang = fields.Char(default='')
+    kategori_barang_lookup = fields.Many2one('ceisa.referensi.kategori.barang', string='Kategori Barang', compute='_compute_kategori_barang_lookup', inverse='_inverse_kategori_barang_lookup', store=False)
+    @api.depends('kode_kategori_barang')
+    def _compute_kategori_barang_lookup(self):
+        for rec in self:
+            rec.kategori_barang_lookup = self.env['ceisa.referensi.kategori.barang'].search([
+                ('kode_kategori_barang', '=', rec.kode_kategori_barang)
+            ], limit=1)
+
+    def _inverse_kategori_barang_lookup(self):
+        for rec in self:
+            if rec.kategori_barang_lookup:
+                rec.kode_kategori_barang = rec.kategori_barang_lookup.kode_kategori_barang
+
+    kode_negara_asal = fields.Char(default='')
+    negara_asal_lookup = fields.Many2one('ceisa.referensi.negara', string='Negara', compute='_compute_negara_asal_lookup', inverse='_inverse_negara_asal_lookup', store=False)
+    @api.depends('kode_negara_asal')
+    def _compute_negara_asal_lookup(self):
+        for rec in self:
+            rec.negara_asal_lookup = self.env['ceisa.referensi.negara'].search([
+                ('kode_negara', '=', rec.kode_negara_asal)
+            ], limit=1)
+
+    def _inverse_negara_asal_lookup(self):
+        for rec in self:
+            if rec.negara_asal_lookup:
+                rec.kode_negara_asal = rec.negara_asal_lookup.kode_negara
 
     @api.onchange('header_id')
     def _onchange_set_seri_seri_barang(self):
@@ -1384,7 +2156,7 @@ class CeisaBarangTarif(models.Model):
     _description = 'Barang Tarif'
 
     barang_id = fields.Many2one('ceisa.barang')
-    kode_jenis_tarif = fields.Char(default='1')
+    
     jumlah_satuan = fields.Float(digits=(24, 4), default=0.0000)
     kode_fasilitas_tarif = fields.Char(default='')
     kode_satuan_barang = fields.Char(default='')
@@ -1394,7 +2166,54 @@ class CeisaBarangTarif(models.Model):
     seri_barang = fields.Integer()
     tarif = fields.Float(digits=(18, 2), default=0.00)
     tarif_fasilitas = fields.Float(digits=(5, 2), default=0.00)
-    kode_jenis_pungutan = fields.Char(default='PPN')
+
+    kode_jenis_pungutan = fields.Char(default='')
+    jenis_pungutan_lookup = fields.Many2one(
+        'ceisa.referensi.jenis.pungutan',
+        string='Jenis Pungutan',
+        compute='_compute_jenis_pungutan_lookup',
+        inverse='_inverse_jenis_pungutan_lookup',
+        store=False,
+    )
+
+    @api.depends('kode_jenis_pungutan')
+    def _compute_jenis_pungutan_lookup(self):
+        for rec in self:
+            rec.jenis_pungutan_lookup = self.env['ceisa.referensi.jenis.pungutan'].search([
+                ('kode_jenis_pungutan', '=', rec.kode_jenis_pungutan)
+            ], limit=1)
+
+    def _inverse_jenis_pungutan_lookup(self):
+        for rec in self:
+            if rec.jenis_pungutan_lookup:
+                rec.kode_jenis_pungutan = rec.jenis_pungutan_lookup.kode_jenis_pungutan
+
+
+    kode_jenis_tarif = fields.Char(default='1')
+    # Lookup untuk dropdown
+    jenis_tarif_lookup = fields.Many2one(
+        'ceisa.referensi.jenis.tarif',
+        string='Jenis Tarif',
+        compute='_compute_jenis_tarif_lookup',
+        inverse='_inverse_jenis_tarif_lookup',
+        store=False,
+    )
+
+    @api.depends('kode_jenis_tarif')
+    def _compute_jenis_tarif_lookup(self):
+        for rec in self:
+            rec.jenis_tarif_lookup = self.env['ceisa.referensi.jenis.tarif'].search([
+                ('kode_jenis_tarif', '=', rec.kode_jenis_tarif)
+            ], limit=1)
+
+    def _inverse_jenis_tarif_lookup(self):
+        for rec in self:
+            if rec.jenis_tarif_lookup:
+                rec.kode_jenis_tarif = rec.jenis_tarif_lookup.kode_jenis_tarif
+
+
+    
+    
 
     @api.onchange('barang_id')
     def _onchange_barang_id(self):
@@ -1600,136 +2419,6 @@ class ItemReferenceWizard(models.TransientModel):
     po_id = fields.Selection(_get_po_options, string="Pilih PO")
 
 
-
-
-
-
-# class ItemReferenceWizard(models.TransientModel):
-#     _name = 'item.reference.wizard'
-#     _description = 'Pilih Barang dari Referensi'
-
-#     source = fields.Selection([
-#         ('po', 'Purchase Order'),
-#         ('master_item', 'Master Item'),
-#     ], string='Sumber Referensi', required=True, default='po')
-
-#     po_id = fields.Many2one('vw.item.reference.grouped', string="Pilih",
-#                                 domain="[('source','=','po')]",
-#                                 depends_context='{"default_source": "po"}',
-#                                 visibility_condition='source == "po"')
-
-#     nomor_po = fields.Char(string='Nomor PO', readonly=True)
-#     header_id = fields.Many2one('ceisa.header', string='Dokumen Header', default=lambda self: self.env.context.get('default_header_id'))
-#     reference_ids = fields.One2many('item.reference.line', 'wizard_id', string='Barang Referensi')
-#     show_po_fields = fields.Boolean(compute='_compute_show_po_fields', store=False)
-
-#     @api.depends('source')
-#     def _compute_show_po_fields(self):
-#         for rec in self:
-#             rec.show_po_fields = rec.source == 'po'
-
-#     def action_search(self):
-#         self.ensure_one()
-
-#         # validasi wajib source
-#         if not self.source:
-#             raise UserError("Silakan pilih sumber referensi terlebih dahulu.")
-
-        
-#         if self.source == 'po' and not self.po_id:
-#             raise UserError("Silakan pilih Purchase Order terlebih dahulu.")
-
-#         self.reference_ids.unlink()
-
-#         domain = [('source', '=', self.source)]
-#         if self.source == 'po' and self.po_id:
-#             domain.append(('nomor_po', '=', self.po_id.nomor_po))  # Gunakan nomor_po
-
-
-#         refs = self.env['vw.item.reference'].search(domain)
-#         for ref in refs:
-#             self.env['item.reference.line'].create({
-#                 'wizard_id': self.id,
-#                 'kode_barang': ref.kode_barang,
-#                 'uraian': ref.uraian,
-#                 'nilai_barang': ref.nilai_barang,
-#                 'selected': False,
-#             })
-
-#         # RETURN agar tetap di wizard
-#         return {
-#             'type': 'ir.actions.act_window',
-#             'res_model': 'item.reference.wizard',
-#             'res_id': self.id,
-#             'view_mode': 'form',
-#             'view_id': self.env.ref('ceisa.view_item_reference_wizard_form').id,
-#             'target': 'new',
-#             'context': self.env.context,
-#         }
-
-
-#     def action_add_to_barang(self):
-#         header = self.header_id
-#         next_seri = max(header.barang_ids.mapped('seri_barang') or [0]) + 1
-
-#         for line in self.reference_ids.filtered(lambda l: l.selected):
-#             header.barang_ids.create({
-#                 'header_id': header.id,
-#                 'seri_barang': next_seri,
-#                 'kode_barang': line.kode_barang,
-#                 'kode_hs': (line.kode_barang or '')[:8],
-#                 'uraian': line.uraian,
-#                 'nilai_barang': line.nilai_barang,
-#             })
-#             next_seri += 1
-
-#     def action_toggle_select(self):
-#         self.ensure_one()
-#         if any(line.selected for line in self.reference_ids):
-#             # Jika ada yang selected, unselect semua
-#             for line in self.reference_ids:
-#                 line.selected = False
-#         else:
-#             # Jika semua unselected, select semua
-#             for line in self.reference_ids:
-#                 line.selected = True
-
-#         return {
-#             'type': 'ir.actions.act_window',
-#             'res_model': 'item.reference.wizard',
-#             'res_id': self.id,
-#             'view_mode': 'form',
-#             'view_id': self.env.ref('ceisa.view_item_reference_wizard_form').id,
-#             'target': 'new',
-#             'context': self.env.context,
-#         }
-
-
-# class VwItemReference(models.Model):
-#     _name = 'vw.item.reference'
-#     _auto = False  # karena view
-#     _description = 'Referensi Barang Gabungan'
-#     _rec_name = 'nomor_po'
-
-#     kode_barang = fields.Char()
-#     po_id = fields.Char()
-#     nomor_po = fields.Char()
-#     uraian = fields.Char()
-#     nilai_barang = fields.Float()
-#     source = fields.Selection([('po', 'PO'), ('master', 'Master Item')])
-
-
-
-# class VwItemReferenceGrouped(models.Model):
-#     _name = 'vw.item.reference.grouped'
-#     _auto = False
-#     _description = 'Item Reference (Grouped)'
-#     _rec_name = 'nomor_po'
-
-#     po_id = fields.Char()
-#     nomor_po = fields.Char()
-#     source = fields.Selection([('po', 'PO'), ('master', 'Master Item')])
-
 class ItemReferenceLine(models.TransientModel):
     _name = 'item.reference.line'
     _description = 'Baris Referensi Barang'
@@ -1745,7 +2434,7 @@ class ItemReferenceLine(models.TransientModel):
 
 class CeisaCompanyMaster(models.Model):
     _name = 'ceisa.company.master'
-    _description = 'company'
+    _description = 'Ceisa Company Master'
 
      #-----------------------------------------------------------------
     nama_perusahaan = fields.Char(required=True)
@@ -1773,7 +2462,8 @@ class CeisaCompanyMaster(models.Model):
     def _inverse_kantor_lookup(self):
         for rec in self:
             if rec.kantor_pabean_lookup:
-                rec.kode_kantor = rec.kantor_pabean_lookup.kode_kantor
+                # rec.kode_kantor = rec.kantor_pabean_lookup.kode_kantor
+                rec.kode_kantor = rec.kantor_pabean_lookup.kode_kantor if rec.kantor_pabean_lookup else False
 
     username_ceisa = fields.Char(required = True)
     password_ceisa = fields.Char(required = True)
@@ -1787,7 +2477,7 @@ class CeisaCompanyMaster(models.Model):
 
 class CeisaNumberingMaster(models.Model):
     _name = 'ceisa.numbering.master'
-    _description = 'numbering'
+    _description = 'Ceisa Numbering Master'
 
      #-----------------------------------------------------------------
     kode_dokumen = fields.Char(required=True)
@@ -1809,8 +2499,15 @@ class VwPungutanPivot(models.Model):
     tidak_dipungut = fields.Float()
 
 
+class CeisaBarangDokumen(models.Model):
+    _name = 'ceisa.barang.dokumen'
+    _description = 'Barang Dokumen'
 
-
-
+    barang_id = fields.Many2one('ceisa.barang')
+    seri_barang = fields.Integer()
+    kode_dokumen = fields.Char(default='')
+    nomor_dokumen = fields.Char(default='')
+    seri_dokumen = fields.Integer()
+    tanggal_dokumen = fields.Date()
 
 

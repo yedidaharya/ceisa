@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <record id="pelabuhan_idpsu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10900</field>
+            <field name="kode_pelabuhan">IDPSU</field>
+            <field name="uraian_pelabuhan">Pangkalan Susu</field>
+        </record>
+        <record id="pelabuhan_idpte" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11300</field>
+            <field name="kode_pelabuhan">IDPTE</field>
+            <field name="uraian_pelabuhan">Pulau Tello</field>
+        </record>
+        <record id="pelabuhan_idpum" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110700</field>
+            <field name="kode_pelabuhan">IDPUM</field>
+            <field name="uraian_pelabuhan">Pomalaa</field>
+        </record>
+        <record id="pelabuhan_idpwg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDPWG</field>
+            <field name="uraian_pelabuhan">Perawang, Sumatra</field>
+        </record>
+        <record id="pelabuhan_idraq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110600</field>
+            <field name="kode_pelabuhan">IDRAQ</field>
+            <field name="uraian_pelabuhan">Raha, Sul.tengg.</field>
+        </record>
+        <record id="pelabuhan_idrem" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60300</field>
+            <field name="kode_pelabuhan">IDREM</field>
+            <field name="uraian_pelabuhan">Rembang</field>
+        </record>
+        <record id="pelabuhan_idrga" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDRGA</field>
+            <field name="uraian_pelabuhan">Rengat</field>
+        </record>
+        <record id="pelabuhan_idrpa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10700</field>
+            <field name="kode_pelabuhan">IDRPA</field>
+            <field name="uraian_pelabuhan">Rantau Panjang</field>
+        </record>
+        <record id="pelabuhan_idsab" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDSAB</field>
+            <field name="uraian_pelabuhan">Sabang - Sulawesi</field>
+        </record>
+        <record id="pelabuhan_idsak" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70300</field>
+            <field name="kode_pelabuhan">IDSAK</field>
+            <field name="uraian_pelabuhan">Sangkapura / Bawean</field>
+        </record>
+        <record id="pelabuhan_idsap" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21300</field>
+            <field name="kode_pelabuhan">IDSAP</field>
+            <field name="uraian_pelabuhan">Sungai Apit</field>
+        </record>
+        <record id="pelabuhan_idsen" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100500</field>
+            <field name="kode_pelabuhan">IDSEN</field>
+            <field name="uraian_pelabuhan">Senipah</field>
+        </record>
+        <record id="pelabuhan_idsig" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130100</field>
+            <field name="kode_pelabuhan">IDSIG</field>
+            <field name="uraian_pelabuhan">Sigli</field>
+        </record>
+        <record id="pelabuhan_idsin" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130400</field>
+            <field name="kode_pelabuhan">IDSIN</field>
+            <field name="uraian_pelabuhan">Sinabang</field>
+        </record>
+        <record id="pelabuhan_idsiq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20800</field>
+            <field name="kode_pelabuhan">IDSIQ</field>
+            <field name="uraian_pelabuhan">Singkep/ Dabo (u)</field>
+        </record>
+        <record id="pelabuhan_idske" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21100</field>
+            <field name="kode_pelabuhan">IDSKE</field>
+            <field name="uraian_pelabuhan">Sungai Kembung</field>
+        </record>
+        <record id="pelabuhan_idski" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">101000</field>
+            <field name="kode_pelabuhan">IDSKI</field>
+            <field name="uraian_pelabuhan">Sangkulirang, Kalimantan</field>
+        </record>
+        <record id="pelabuhan_idskp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDSKP</field>
+            <field name="uraian_pelabuhan">Sekupang</field>
+        </record>
+        <record id="pelabuhan_idslg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11300</field>
+            <field name="kode_pelabuhan">IDSLG</field>
+            <field name="uraian_pelabuhan">Sibolga</field>
+        </record>
+        <record id="pelabuhan_idsli" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDSLI</field>
+            <field name="uraian_pelabuhan">Sungai Liat</field>
+        </record>
+        <record id="pelabuhan_idsmq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90700</field>
+            <field name="kode_pelabuhan">IDSMQ</field>
+            <field name="uraian_pelabuhan">Sampit</field>
+        </record>
+        <record id="pelabuhan_idsnn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDSNN</field>
+            <field name="uraian_pelabuhan">Sanana</field>
+        </record>
+        <record id="pelabuhan_idsoc" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60600</field>
+            <field name="kode_pelabuhan">IDSOC</field>
+            <field name="uraian_pelabuhan">Solo / Jebres / Adi Sumarmo (u)</field>
+        </record>
+        <record id="pelabuhan_idsoq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120300</field>
+            <field name="kode_pelabuhan">IDSOQ</field>
+            <field name="uraian_pelabuhan">Sorong / Jefman (u)</field>
+        </record>
+        <record id="pelabuhan_idsor" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120300</field>
+            <field name="kode_pelabuhan">IDSOR</field>
+            <field name="uraian_pelabuhan">Sorong</field>
+        </record>
+        <record id="pelabuhan_idspd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70200</field>
+            <field name="kode_pelabuhan">IDSPD</field>
+            <field name="uraian_pelabuhan">Sapudi</field>
+        </record>
+        <record id="pelabuhan_idsqr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110400</field>
+            <field name="kode_pelabuhan">IDSQR</field>
+            <field name="uraian_pelabuhan">Soroako</field>
+        </record>
+        <record id="pelabuhan_idsrg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60100</field>
+            <field name="kode_pelabuhan">IDSRG</field>
+            <field name="uraian_pelabuhan">Semarang / Achmad Yani (u)</field>
+        </record>
+        <record id="pelabuhan_idsri" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100500</field>
+            <field name="kode_pelabuhan">IDSRI</field>
+            <field name="uraian_pelabuhan">Samarinda / Temindung (u)</field>
+        </record>
+        <record id="pelabuhan_idstt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90500</field>
+            <field name="kode_pelabuhan">IDSTT</field>
+            <field name="uraian_pelabuhan">Sintete</field>
+        </record>
+        <record id="pelabuhan_idsuq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDSUQ</field>
+            <field name="uraian_pelabuhan">Sungai Guntung</field>
+        </record>
+        <record id="pelabuhan_idsur" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70100</field>
+            <field name="kode_pelabuhan">IDSUR</field>
+            <field name="uraian_pelabuhan">Surabaya (ptt)</field>
+        </record>
+        <record id="pelabuhan_idtan" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20500</field>
+            <field name="kode_pelabuhan">IDTAN</field>
+            <field name="uraian_pelabuhan">Tanjung Uban</field>
+        </record>
+        <record id="pelabuhan_idtbt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20100</field>
+            <field name="kode_pelabuhan">IDTBT</field>
+            <field name="uraian_pelabuhan">Tanjung Batu, Riau</field>
+        </record>
+        <record id="pelabuhan_idtby" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11500</field>
+            <field name="kode_pelabuhan">IDTBY</field>
+            <field name="uraian_pelabuhan">Padang/tl.bayur</field>
+        </record>
+        <record id="pelabuhan_idtdl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11300</field>
+            <field name="kode_pelabuhan">IDTDL</field>
+            <field name="uraian_pelabuhan">Teluk Dalam</field>
+        </record>
+        <record id="pelabuhan_idteg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">61000</field>
+            <field name="kode_pelabuhan">IDTEG</field>
+            <field name="uraian_pelabuhan">Tegal</field>
+        </record>
+        <record id="pelabuhan_idtem" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDTEM</field>
+            <field name="uraian_pelabuhan">Tembilahan</field>
+        </record>
+        <record id="pelabuhan_idten" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80500</field>
+            <field name="kode_pelabuhan">IDTEN</field>
+            <field name="uraian_pelabuhan">Tenau</field>
+        </record>
+        <record id="pelabuhan_idter" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21700</field>
+            <field name="kode_pelabuhan">IDTER</field>
+            <field name="uraian_pelabuhan">Terempa</field>
+        </record>
+        <record id="pelabuhan_idtes" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60100</field>
+            <field name="kode_pelabuhan">IDTES</field>
+            <field name="uraian_pelabuhan">Tanjung Emas</field>
+        </record>
+        <record id="pelabuhan_idtgd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDTGD</field>
+            <field name="uraian_pelabuhan">Tagulandang</field>
+        </record>
+        <record id="pelabuhan_idtgr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDTGR</field>
+            <field name="uraian_pelabuhan">Pasir/tanah Grogot</field>
+        </record>
+        <record id="pelabuhan_idtim" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120800</field>
+            <field name="kode_pelabuhan">IDTIM</field>
+            <field name="uraian_pelabuhan">Amamapare</field>
+        </record>
+        <record id="pelabuhan_idtjb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11100</field>
+            <field name="kode_pelabuhan">IDTJB</field>
+            <field name="uraian_pelabuhan">Tanjung Balai Asahan</field>
+        </record>
+        <record id="pelabuhan_idtjq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30500</field>
+            <field name="kode_pelabuhan">IDTJQ</field>
+            <field name="uraian_pelabuhan">Tanjung Pandan / Buluh Tumbang (u)</field>
+        </record>
+        <record id="pelabuhan_idtjs" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDTJS</field>
+            <field name="uraian_pelabuhan">Tanjung Selor</field>
+        </record>
+        <record id="pelabuhan_idtks" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120300</field>
+            <field name="kode_pelabuhan">IDTKS</field>
+            <field name="uraian_pelabuhan">Teluk Kasim/salawati</field>
+        </record>
+        <record id="pelabuhan_idtll" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21000</field>
+            <field name="kode_pelabuhan">IDTLL</field>
+            <field name="uraian_pelabuhan">Tanjung Lumba-lumba</field>
+        </record>
+        <record id="pelabuhan_idtln" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50400</field>
+            <field name="kode_pelabuhan">IDTLN</field>
+            <field name="uraian_pelabuhan">Tanjung Leneng</field>
+        </record>
+        <record id="pelabuhan_idtmb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70300</field>
+            <field name="kode_pelabuhan">IDTMB</field>
+            <field name="uraian_pelabuhan">Tambak</field>
+        </record>
+        <record id="pelabuhan_idtmd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20900</field>
+            <field name="kode_pelabuhan">IDTMD</field>
+            <field name="uraian_pelabuhan">Tanjung Medang</field>
+        </record>
+        <record id="pelabuhan_idtmo" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90400</field>
+            <field name="kode_pelabuhan">IDTMO</field>
+            <field name="uraian_pelabuhan">Telok Melano</field>
+        </record>
+        <record id="pelabuhan_idtmu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11200</field>
+            <field name="kode_pelabuhan">IDTMU</field>
+            <field name="uraian_pelabuhan">Teluk Mengkudu</field>
+        </record>
+        <record id="pelabuhan_idtnj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20500</field>
+            <field name="kode_pelabuhan">IDTNJ</field>
+            <field name="uraian_pelabuhan">Tanjung Pinang / Kijang (u)</field>
+        </record>
+        <record id="pelabuhan_idtol" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDTOL</field>
+            <field name="uraian_pelabuhan">Toboali</field>
+        </record>
+        <record id="pelabuhan_idtpd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30500</field>
+            <field name="kode_pelabuhan">IDTPD</field>
+            <field name="uraian_pelabuhan">Tanjung Pandan</field>
+        </record>
+        <record id="pelabuhan_idtpe" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70100</field>
+            <field name="kode_pelabuhan">IDTPE</field>
+            <field name="uraian_pelabuhan">Tanjung Perak</field>
+        </record>
+        <record id="pelabuhan_idtpn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20500</field>
+            <field name="kode_pelabuhan">IDTPN</field>
+            <field name="uraian_pelabuhan">Tanjung Pinang</field>
+        </record>
+        <record id="pelabuhan_idtpp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">40300</field>
+            <field name="kode_pelabuhan">IDTPP</field>
+            <field name="uraian_pelabuhan">Tanjung Priok</field>
+        </record>
+        <record id="pelabuhan_idtrd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDTRD</field>
+            <field name="uraian_pelabuhan">Tanjung Redep</field>
+        </record>
+        <record id="pelabuhan_idtsm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20300</field>
+            <field name="kode_pelabuhan">IDTSM</field>
+            <field name="uraian_pelabuhan">Tanjung Samak</field>
+        </record>
+        <record id="pelabuhan_idttg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDTTG</field>
+            <field name="uraian_pelabuhan">Tebing Tinggi (ska)</field>
+        </record>
+        <record id="pelabuhan_idttm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11100</field>
+            <field name="kode_pelabuhan">IDTTM</field>
+            <field name="uraian_pelabuhan">Tanjung Tiram</field>
+        </record>
+        <record id="pelabuhan_idtub" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70400</field>
+            <field name="kode_pelabuhan">IDTUB</field>
+            <field name="uraian_pelabuhan">Tuban</field>
+        </record>
+        <record id="pelabuhan_idtwr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDTWR</field>
+            <field name="uraian_pelabuhan">Tanjung/warukin (u)</field>
+        </record>
+        <record id="pelabuhan_iduju" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110100</field>
+            <field name="kode_pelabuhan">IDUJU</field>
+            <field name="uraian_pelabuhan">Ujungpandang</field>
+        </record>
+        <record id="pelabuhan_idwan" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDWAN</field>
+            <field name="uraian_pelabuhan">Wani</field>
+        </record>
+        <record id="pelabuhan_idwkl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80500</field>
+            <field name="kode_pelabuhan">IDWKL</field>
+            <field name="uraian_pelabuhan">Waikelo</field>
+        </record>
+        <record id="pelabuhan_idwsp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30700</field>
+            <field name="kode_pelabuhan">IDWSP</field>
+            <field name="uraian_pelabuhan">Way Seputih</field>
+        </record>
+        <record id="pelabuhan_idwss" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDWSS</field>
+            <field name="uraian_pelabuhan">Waisarisa</field>
+        </record>
+        <record id="pelabuhan_idamb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDAMB</field>
+            <field name="uraian_pelabuhan">Ambon</field>
+        </record>
+        <record id="pelabuhan_idami" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDAMI</field>
+            <field name="uraian_pelabuhan">Mataram  / Selaparang (u)</field>
+        </record>
+        <record id="pelabuhan_idamq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDAMQ</field>
+            <field name="uraian_pelabuhan">Ambon / Pattimura/laha (u)</field>
+        </record>
+        <record id="pelabuhan_idaun" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130500</field>
+            <field name="kode_pelabuhan">IDAUN</field>
+            <field name="uraian_pelabuhan">Blang Lancang (arun)</field>
+        </record>
+        <record id="pelabuhan_idbaa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80500</field>
+            <field name="kode_pelabuhan">IDBAA</field>
+            <field name="uraian_pelabuhan">Baa</field>
+        </record>
+        <record id="pelabuhan_idbaj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110500</field>
+            <field name="kode_pelabuhan">IDBAJ</field>
+            <field name="uraian_pelabuhan">Bajoe</field>
+        </record>
+        <record id="pelabuhan_idbal" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110400</field>
+            <field name="kode_pelabuhan">IDBAL</field>
+            <field name="uraian_pelabuhan">Balantang/malili</field>
+        </record>
+        <record id="pelabuhan_idban" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDBAN</field>
+            <field name="uraian_pelabuhan">Banjarmasin</field>
+        </record>
+        <record id="pelabuhan_idbdj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDBDJ</field>
+            <field name="uraian_pelabuhan">Banjar Masin /samsudin Noor (u)</field>
+        </record>
+        <record id="pelabuhan_idbdl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21100</field>
+            <field name="kode_pelabuhan">IDBDL</field>
+            <field name="uraian_pelabuhan">Bandul</field>
+        </record>
+        <record id="pelabuhan_idbds" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDBDS</field>
+            <field name="uraian_pelabuhan">Badas Sumbawa</field>
+        </record>
+        <record id="pelabuhan_idbej" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDBEJ</field>
+            <field name="uraian_pelabuhan">Berau</field>
+        </record>
+        <record id="pelabuhan_idbik" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120900</field>
+            <field name="kode_pelabuhan">IDBIK</field>
+            <field name="uraian_pelabuhan">Biak / Frans Kasiepo (u)</field>
+        </record>
+        <record id="pelabuhan_idbki" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110100</field>
+            <field name="kode_pelabuhan">IDBKI</field>
+            <field name="uraian_pelabuhan">Biring Kassi</field>
+        </record>
+        <record id="pelabuhan_idbkl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70100</field>
+            <field name="kode_pelabuhan">IDBKL</field>
+            <field name="uraian_pelabuhan">Bangkalan</field>
+        </record>
+        <record id="pelabuhan_idbks" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30200</field>
+            <field name="kode_pelabuhan">IDBKS</field>
+            <field name="uraian_pelabuhan">Bengkulu / Padang Kemiling (u)</field>
+        </record>
+        <record id="pelabuhan_idblg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50700</field>
+            <field name="kode_pelabuhan">IDBLG</field>
+            <field name="uraian_pelabuhan">Balongan</field>
+        </record>
+        <record id="pelabuhan_idbls" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21100</field>
+            <field name="kode_pelabuhan">IDBLS</field>
+            <field name="uraian_pelabuhan">Bengkalis</field>
+        </record>
+        <record id="pelabuhan_idbnt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21700</field>
+            <field name="kode_pelabuhan">IDBNT</field>
+            <field name="uraian_pelabuhan">Belanak Terminal</field>
+        </record>
+        <record id="pelabuhan_idboa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80200</field>
+            <field name="kode_pelabuhan">IDBOA</field>
+            <field name="uraian_pelabuhan">Benoa/loloan</field>
+        </record>
+        <record id="pelabuhan_idbpd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20200</field>
+            <field name="kode_pelabuhan">IDBPD</field>
+            <field name="uraian_pelabuhan">Belakang Padang</field>
+        </record>
+        <record id="pelabuhan_idbpn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDBPN</field>
+            <field name="uraian_pelabuhan">Balikpapan /sepinggan (u)</field>
+        </record>
+        <record id="pelabuhan_idbtg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100600</field>
+            <field name="kode_pelabuhan">IDBTG</field>
+            <field name="uraian_pelabuhan">Bontang</field>
+        </record>
+        <record id="pelabuhan_idbth" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDBTH</field>
+            <field name="uraian_pelabuhan">Batam / Hang Nadim (u)</field>
+        </record>
+        <record id="pelabuhan_idbtu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDBTU</field>
+            <field name="uraian_pelabuhan">Batu Ampar</field>
+        </record>
+        <record id="pelabuhan_idbul" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80200</field>
+            <field name="kode_pelabuhan">IDBUL</field>
+            <field name="uraian_pelabuhan">Buleleng</field>
+        </record>
+        <record id="pelabuhan_idbun" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDBUN</field>
+            <field name="uraian_pelabuhan">Buatan</field>
+        </record>
+        <record id="pelabuhan_idbxd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120700</field>
+            <field name="kode_pelabuhan">IDBXD</field>
+            <field name="uraian_pelabuhan">Bade, Irian Jaya</field>
+        </record>
+        <record id="pelabuhan_idcbn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50700</field>
+            <field name="kode_pelabuhan">IDCBN</field>
+            <field name="uraian_pelabuhan">Cirebon</field>
+        </record>
+        <record id="pelabuhan_idcgd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50400</field>
+            <field name="kode_pelabuhan">IDCGD</field>
+            <field name="uraian_pelabuhan">Cigading</field>
+        </record>
+        <record id="pelabuhan_idcgk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50100</field>
+            <field name="kode_pelabuhan">IDCGK</field>
+            <field name="uraian_pelabuhan">Cengkareng / Sukarno Hatta (u)</field>
+        </record>
+        <record id="pelabuhan_idcin" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160200</field>
+            <field name="kode_pelabuhan">IDCIN</field>
+            <field name="uraian_pelabuhan">Cinta, Java</field>
+        </record>
+        <record id="pelabuhan_idcxp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60400</field>
+            <field name="kode_pelabuhan">IDCXP</field>
+            <field name="uraian_pelabuhan">Cilacap</field>
+        </record>
+        <record id="pelabuhan_iddas" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20800</field>
+            <field name="kode_pelabuhan">IDDAS</field>
+            <field name="uraian_pelabuhan">Singkep - Dabo</field>
+        </record>
+        <record id="pelabuhan_iddjb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDDJB</field>
+            <field name="uraian_pelabuhan">Jambi /palmerah/ Sulatan Taha (u)</field>
+        </record>
+        <record id="pelabuhan_iddjm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDDJM</field>
+            <field name="uraian_pelabuhan">Jambi</field>
+        </record>
+        <record id="pelabuhan_iddog" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDDOG</field>
+            <field name="uraian_pelabuhan">Donggala (u)</field>
+        </record>
+        <record id="pelabuhan_iddps" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80100</field>
+            <field name="kode_pelabuhan">IDDPS</field>
+            <field name="uraian_pelabuhan">Denpasar / Ngurah Rai (u)</field>
+        </record>
+        <record id="pelabuhan_iddum" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20900</field>
+            <field name="kode_pelabuhan">IDDUM</field>
+            <field name="uraian_pelabuhan">Dumai</field>
+        </record>
+        <record id="pelabuhan_idend" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80700</field>
+            <field name="kode_pelabuhan">IDEND</field>
+            <field name="uraian_pelabuhan">Ende/ipi</field>
+        </record>
+        <record id="pelabuhan_ident" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90200</field>
+            <field name="kode_pelabuhan">IDENT</field>
+            <field name="uraian_pelabuhan">Entikong</field>
+        </record>
+        <record id="pelabuhan_idgil" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80200</field>
+            <field name="kode_pelabuhan">IDGIL</field>
+            <field name="uraian_pelabuhan">Gilimanuk</field>
+        </record>
+        <record id="pelabuhan_idglx" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDGLX</field>
+            <field name="uraian_pelabuhan">Galela , Maluku</field>
+        </record>
+        <record id="pelabuhan_idgor" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111300</field>
+            <field name="kode_pelabuhan">IDGOR</field>
+            <field name="uraian_pelabuhan">Gorontalo</field>
+        </record>
+        <record id="pelabuhan_idgre" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70300</field>
+            <field name="kode_pelabuhan">IDGRE</field>
+            <field name="uraian_pelabuhan">Gresik</field>
+        </record>
+        <record id="pelabuhan_idgsr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDGSR</field>
+            <field name="uraian_pelabuhan">Geser</field>
+        </record>
+        <record id="pelabuhan_idhlp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">40400</field>
+            <field name="kode_pelabuhan">IDHLP</field>
+            <field name="uraian_pelabuhan">Halim Perdana Kusuma (u)</field>
+        </record>
+        <record id="pelabuhan_idhls" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDHLS</field>
+            <field name="uraian_pelabuhan">Hulu Siau</field>
+        </record>
+        <record id="pelabuhan_idkab" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDKAB</field>
+            <field name="uraian_pelabuhan">Kabil/panau</field>
+        </record>
+        <record id="pelabuhan_idkdw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90400</field>
+            <field name="kode_pelabuhan">IDKDW</field>
+            <field name="uraian_pelabuhan">Kendawangan</field>
+        </record>
+        <record id="pelabuhan_idken" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDKEN</field>
+            <field name="uraian_pelabuhan">Kuala Enok</field>
+        </record>
+        <record id="pelabuhan_idkgn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70200</field>
+            <field name="kode_pelabuhan">IDKGN</field>
+            <field name="uraian_pelabuhan">Kangean</field>
+        </record>
+        <record id="pelabuhan_idkjl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90800</field>
+            <field name="kode_pelabuhan">IDKJL</field>
+            <field name="uraian_pelabuhan">Kuala Jelai</field>
+        </record>
+        <record id="pelabuhan_idkkp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90900</field>
+            <field name="kode_pelabuhan">IDKKP</field>
+            <field name="uraian_pelabuhan">Kuala Kapuas</field>
+        </record>
+        <record id="pelabuhan_idkla" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDKLA</field>
+            <field name="uraian_pelabuhan">Kamp. Laut</field>
+        </record>
+        <record id="pelabuhan_idklb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160200</field>
+            <field name="kode_pelabuhan">IDKLB</field>
+            <field name="uraian_pelabuhan">Kalibaru</field>
+        </record>
+        <record id="pelabuhan_idkld" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110900</field>
+            <field name="kode_pelabuhan">IDKLD</field>
+            <field name="uraian_pelabuhan">Kolonedale (u)</field>
+        </record>
+        <record id="pelabuhan_idklg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70200</field>
+            <field name="kode_pelabuhan">IDKLG</field>
+            <field name="uraian_pelabuhan">Kalianget</field>
+        </record>
+        <record id="pelabuhan_idkls" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130600</field>
+            <field name="kode_pelabuhan">IDKLS</field>
+            <field name="uraian_pelabuhan">Kuala Langsa</field>
+        </record>
+        <record id="pelabuhan_idkml" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70100</field>
+            <field name="kode_pelabuhan">IDKML</field>
+            <field name="uraian_pelabuhan">Kamal</field>
+        </record>
+        <record id="pelabuhan_idkoe" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80500</field>
+            <field name="kode_pelabuhan">IDKOE</field>
+            <field name="uraian_pelabuhan">Kupang / El-tari (u)</field>
+        </record>
+        <record id="pelabuhan_idkpb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90700</field>
+            <field name="kode_pelabuhan">IDKPB</field>
+            <field name="uraian_pelabuhan">Kuala Pembuang</field>
+        </record>
+        <record id="pelabuhan_idkru" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130100</field>
+            <field name="kode_pelabuhan">IDKRU</field>
+            <field name="uraian_pelabuhan">Krueng Raja Malahayati</field>
+        </record>
+        <record id="pelabuhan_idkta" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30700</field>
+            <field name="kode_pelabuhan">IDKTA</field>
+            <field name="uraian_pelabuhan">Kota Agung</field>
+        </record>
+        <record id="pelabuhan_idktb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDKTB</field>
+            <field name="uraian_pelabuhan">Kotabaru</field>
+        </record>
+        <record id="pelabuhan_idktg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90400</field>
+            <field name="kode_pelabuhan">IDKTG</field>
+            <field name="uraian_pelabuhan">Ketapang Kalimantan Barat</field>
+        </record>
+        <record id="pelabuhan_idktj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11200</field>
+            <field name="kode_pelabuhan">IDKTJ</field>
+            <field name="uraian_pelabuhan">Kuala Tanjung</field>
+        </record>
+        <record id="pelabuhan_idktk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDKTK</field>
+            <field name="uraian_pelabuhan">Kuala Tungkal</field>
+        </record>
+        <record id="pelabuhan_idktp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160700</field>
+            <field name="kode_pelabuhan">IDKTP</field>
+            <field name="uraian_pelabuhan">Ketapang Jawa Timur</field>
+        </record>
+        <record id="pelabuhan_idkua" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130600</field>
+            <field name="kode_pelabuhan">IDKUA</field>
+            <field name="uraian_pelabuhan">KUALA LANGSA</field>
+        </record>
+        <record id="pelabuhan_idkum" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90800</field>
+            <field name="kode_pelabuhan">IDKUM</field>
+            <field name="uraian_pelabuhan">Kumai</field>
+        </record>
+        <record id="pelabuhan_idlab" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDLAB</field>
+            <field name="uraian_pelabuhan">Labuha Maluku</field>
+        </record>
+        <record id="pelabuhan_idlal" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDLAL</field>
+            <field name="uraian_pelabuhan">Labuhan Alas</field>
+        </record>
+        <record id="pelabuhan_idlbi" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11100</field>
+            <field name="kode_pelabuhan">IDLBI</field>
+            <field name="uraian_pelabuhan">Labuhan Bilik</field>
+        </record>
+        <record id="pelabuhan_idlei" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11100</field>
+            <field name="kode_pelabuhan">IDLEI</field>
+            <field name="uraian_pelabuhan">Leidong</field>
+        </record>
+        <record id="pelabuhan_idlem" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDLEM</field>
+            <field name="uraian_pelabuhan">Lembar</field>
+        </record>
+        <record id="pelabuhan_idlha" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDLHA</field>
+            <field name="uraian_pelabuhan">Labuhan Haji, Ntb</field>
+        </record>
+        <record id="pelabuhan_idlhj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130100</field>
+            <field name="kode_pelabuhan">IDLHJ</field>
+            <field name="uraian_pelabuhan">Labuhan Haji Aceh</field>
+        </record>
+        <record id="pelabuhan_idlhk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130100</field>
+            <field name="kode_pelabuhan">IDLHK</field>
+            <field name="uraian_pelabuhan">Lhok Nga</field>
+        </record>
+        <record id="pelabuhan_idlin" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDLIN</field>
+            <field name="uraian_pelabuhan">Lingkas Tarakan</field>
+        </record>
+        <record id="pelabuhan_idlir" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDLIR</field>
+            <field name="uraian_pelabuhan">Lirung</field>
+        </record>
+        <record id="pelabuhan_idlka" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80700</field>
+            <field name="kode_pelabuhan">IDLKA</field>
+            <field name="uraian_pelabuhan">Larantuka</field>
+        </record>
+        <record id="pelabuhan_idlks" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDLKS</field>
+            <field name="uraian_pelabuhan">Lombok</field>
+        </record>
+        <record id="pelabuhan_idlol" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDLOL</field>
+            <field name="uraian_pelabuhan">Loli</field>
+        </record>
+        <record id="pelabuhan_idlsw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130500</field>
+            <field name="kode_pelabuhan">IDLSW</field>
+            <field name="uraian_pelabuhan">Lhok Seumawe</field>
+        </record>
+        <record id="pelabuhan_idlub" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDLUB</field>
+            <field name="uraian_pelabuhan">Lubuk Besar Bangka</field>
+        </record>
+        <record id="pelabuhan_idluk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDLUK</field>
+            <field name="uraian_pelabuhan">Labuhan Uki</field>
+        </record>
+        <record id="pelabuhan_idluv" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">121000</field>
+            <field name="kode_pelabuhan">IDLUV</field>
+            <field name="uraian_pelabuhan">Tual</field>
+        </record>
+        <record id="pelabuhan_idluw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111000</field>
+            <field name="kode_pelabuhan">IDLUW</field>
+            <field name="uraian_pelabuhan">Luwuk</field>
+        </record>
+        <record id="pelabuhan_idmal" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">IDMAL</field>
+            <field name="kode_pelabuhan">IDMAL</field>
+            <field name="uraian_pelabuhan">Mangole</field>
+        </record>
+        <record id="pelabuhan_idman" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30500</field>
+            <field name="kode_pelabuhan">IDMAN</field>
+            <field name="uraian_pelabuhan">Manggar</field>
+        </record>
+        <record id="pelabuhan_idmbs" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11500</field>
+            <field name="kode_pelabuhan">IDMBS</field>
+            <field name="uraian_pelabuhan">Muara Bungus</field>
+        </record>
+        <record id="pelabuhan_idmdc" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDMDC</field>
+            <field name="uraian_pelabuhan">Menado / Sam Ratulangi (u)</field>
+        </record>
+        <record id="pelabuhan_idmeq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130400</field>
+            <field name="kode_pelabuhan">IDMEQ</field>
+            <field name="uraian_pelabuhan">Meulaboh</field>
+        </record>
+        <record id="pelabuhan_idmes" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10800</field>
+            <field name="kode_pelabuhan">IDMES</field>
+            <field name="uraian_pelabuhan">Medan / Polonia (u)</field>
+        </record>
+        <record id="pelabuhan_idmju" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110300</field>
+            <field name="kode_pelabuhan">IDMJU</field>
+            <field name="uraian_pelabuhan">Mamuju</field>
+        </record>
+        <record id="pelabuhan_idmkq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120700</field>
+            <field name="kode_pelabuhan">IDMKQ</field>
+            <field name="uraian_pelabuhan">Merauke</field>
+        </record>
+        <record id="pelabuhan_idmkw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120400</field>
+            <field name="kode_pelabuhan">IDMKW</field>
+            <field name="uraian_pelabuhan">Manokwari</field>
+        </record>
+        <record id="pelabuhan_idmlg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70600</field>
+            <field name="kode_pelabuhan">IDMLG</field>
+            <field name="uraian_pelabuhan">Malang / Abdulrachman Saleh (u)</field>
+        </record>
+        <record id="pelabuhan_idmli" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110400</field>
+            <field name="kode_pelabuhan">IDMLI</field>
+            <field name="uraian_pelabuhan">Malili, Sulawesi</field>
+        </record>
+        <record id="pelabuhan_idmnd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDMND</field>
+            <field name="uraian_pelabuhan">Manado</field>
+        </record>
+        <record id="pelabuhan_idmof" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80700</field>
+            <field name="kode_pelabuhan">IDMOF</field>
+            <field name="uraian_pelabuhan">Maumere</field>
+        </record>
+        <record id="pelabuhan_idmor" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20100</field>
+            <field name="kode_pelabuhan">IDMOR</field>
+            <field name="uraian_pelabuhan">Moro Sulit</field>
+        </record>
+        <record id="pelabuhan_idmpa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11500</field>
+            <field name="kode_pelabuhan">IDMPA</field>
+            <field name="uraian_pelabuhan">Muara Padang</field>
+        </record>
+        <record id="pelabuhan_idmrk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50400</field>
+            <field name="kode_pelabuhan">IDMRK</field>
+            <field name="uraian_pelabuhan">Merak</field>
+        </record>
+        <record id="pelabuhan_idmsa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDMSA</field>
+            <field name="uraian_pelabuhan">Muara Sabak</field>
+        </record>
+        <record id="pelabuhan_idmun" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160700</field>
+            <field name="kode_pelabuhan">IDMUN</field>
+            <field name="uraian_pelabuhan">Muncar</field>
+        </record>
+        <record id="pelabuhan_idmuo" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDMUO</field>
+            <field name="uraian_pelabuhan">Muntok</field>
+        </record>
+        <record id="pelabuhan_idmxb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110400</field>
+            <field name="kode_pelabuhan">IDMXB</field>
+            <field name="uraian_pelabuhan">Masamba</field>
+        </record>
+        <record id="pelabuhan_idnah" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDNAH</field>
+            <field name="uraian_pelabuhan">Tahuna / Naha (u) - Sulut</field>
+        </record>
+        <record id="pelabuhan_idnam" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDNAM</field>
+            <field name="uraian_pelabuhan">Namlea</field>
+        </record>
+        <record id="pelabuhan_idnat" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11300</field>
+            <field name="kode_pelabuhan">IDNAT</field>
+            <field name="uraian_pelabuhan">Natal</field>
+        </record>
+        <record id="pelabuhan_idnbx" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">122200</field>
+            <field name="kode_pelabuhan">IDNBX</field>
+            <field name="uraian_pelabuhan">Nabire , Irian Jaya</field>
+        </record>
+        <record id="pelabuhan_idnip" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDNIP</field>
+            <field name="uraian_pelabuhan">Nipah Panjang</field>
+        </record>
+        <record id="pelabuhan_idnnx" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100900</field>
+            <field name="kode_pelabuhan">IDNNX</field>
+            <field name="uraian_pelabuhan">Nunukan</field>
+        </record>
+        <record id="pelabuhan_idnon" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDNON</field>
+            <field name="uraian_pelabuhan">Nongsa</field>
+        </record>
+        <record id="pelabuhan_idnti" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">122300</field>
+            <field name="kode_pelabuhan">IDNTI</field>
+            <field name="uraian_pelabuhan">Bintuni, Irian Jaya</field>
+        </record>
+        <record id="pelabuhan_idpac" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">71000</field>
+            <field name="kode_pelabuhan">IDPAC</field>
+            <field name="uraian_pelabuhan">Pacitan</field>
+        </record>
+        <record id="pelabuhan_idpai" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21000</field>
+            <field name="kode_pelabuhan">IDPAI</field>
+            <field name="uraian_pelabuhan">Panipahan</field>
+        </record>
+        <record id="pelabuhan_idpak" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDPAK</field>
+            <field name="uraian_pelabuhan">Pekan Baru</field>
+        </record>
+        <record id="pelabuhan_idpap" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110300</field>
+            <field name="kode_pelabuhan">IDPAP</field>
+            <field name="uraian_pelabuhan">Pare-pare</field>
+        </record>
+        <record id="pelabuhan_idpat" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDPAT</field>
+            <field name="uraian_pelabuhan">Pantoloan</field>
+        </record>
+        <record id="pelabuhan_idpaz" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">71300</field>
+            <field name="kode_pelabuhan">IDPAZ</field>
+            <field name="uraian_pelabuhan">Pasuruan</field>
+        </record>
+        <record id="pelabuhan_idpba" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30200</field>
+            <field name="kode_pelabuhan">IDPBA</field>
+            <field name="uraian_pelabuhan">Pulau Baai</field>
+        </record>
+        <record id="pelabuhan_idpbl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDPBL</field>
+            <field name="uraian_pelabuhan">Pulau Buluh</field>
+        </record>
+        <record id="pelabuhan_idpbn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130400</field>
+            <field name="kode_pelabuhan">IDPBN</field>
+            <field name="uraian_pelabuhan">Pulau Banyak</field>
+        </record>
+        <record id="pelabuhan_idpdb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80100</field>
+            <field name="kode_pelabuhan">IDPDB</field>
+            <field name="uraian_pelabuhan">Padang Baai</field>
+        </record>
+        <record id="pelabuhan_idpdg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11500</field>
+            <field name="kode_pelabuhan">IDPDG</field>
+            <field name="uraian_pelabuhan">Padang / Tabing (u)</field>
+        </record>
+        <record id="pelabuhan_idpdo" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11200</field>
+            <field name="kode_pelabuhan">IDPDO</field>
+            <field name="uraian_pelabuhan">Pangkalan Dode</field>
+        </record>
+        <record id="pelabuhan_idpdu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30100</field>
+            <field name="kode_pelabuhan">IDPDU</field>
+            <field name="uraian_pelabuhan">Pangkal Duri</field>
+        </record>
+        <record id="pelabuhan_idpek" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDPEK</field>
+            <field name="uraian_pelabuhan">Pekanbaru (rumbai)</field>
+        </record>
+        <record id="pelabuhan_idpem" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90500</field>
+            <field name="kode_pelabuhan">IDPEM</field>
+            <field name="uraian_pelabuhan">Pemangkat</field>
+        </record>
+        <record id="pelabuhan_idpet" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDPET</field>
+            <field name="uraian_pelabuhan">Petta</field>
+        </record>
+        <record id="pelabuhan_idpeu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20800</field>
+            <field name="kode_pelabuhan">IDPEU</field>
+            <field name="uraian_pelabuhan">Penuba</field>
+        </record>
+        <record id="pelabuhan_idpex" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60200</field>
+            <field name="kode_pelabuhan">IDPEX</field>
+            <field name="uraian_pelabuhan">Pekalongan</field>
+        </record>
+        <record id="pelabuhan_idpge" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDPGE</field>
+            <field name="uraian_pelabuhan">Pulau Gebe</field>
+        </record>
+        <record id="pelabuhan_idpgk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDPGK</field>
+            <field name="uraian_pelabuhan">Pangkal Pinang (u)</field>
+        </record>
+        <record id="pelabuhan_idpgx" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDPGX</field>
+            <field name="uraian_pelabuhan">Pangkal Balam /pkl.pinang</field>
+        </record>
+        <record id="pelabuhan_idpjg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30700</field>
+            <field name="kode_pelabuhan">IDPJG</field>
+            <field name="uraian_pelabuhan">Panjang (lampung, Sumatra)</field>
+        </record>
+        <record id="pelabuhan_idpkn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90800</field>
+            <field name="kode_pelabuhan">IDPKN</field>
+            <field name="uraian_pelabuhan">Pangkalan Bun</field>
+        </record>
+        <record id="pelabuhan_idpkr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10900</field>
+            <field name="kode_pelabuhan">IDPKR</field>
+            <field name="uraian_pelabuhan">Pangkalan Brandan</field>
+        </record>
+        <record id="pelabuhan_idpku" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDPKU</field>
+            <field name="uraian_pelabuhan">Pekan Baru / Simpang Tiga (u)</field>
+        </record>
+        <record id="pelabuhan_idpky" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90900</field>
+            <field name="kode_pelabuhan">IDPKY</field>
+            <field name="uraian_pelabuhan">Palangkaraya/ Panarung (u)/ Tjilik  Riwut (u)</field>
+        </record>
+        <record id="pelabuhan_idpla" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30100</field>
+            <field name="kode_pelabuhan">IDPLA</field>
+            <field name="uraian_pelabuhan">Palembang - Plaju</field>
+        </record>
+        <record id="pelabuhan_idplm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30100</field>
+            <field name="kode_pelabuhan">IDPLM</field>
+            <field name="uraian_pelabuhan">Palembang/sm.badaruddin(u)</field>
+        </record>
+        <record id="pelabuhan_idpls" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30100</field>
+            <field name="kode_pelabuhan">IDPLS</field>
+            <field name="uraian_pelabuhan">Palembang -  Kertapati</field>
+        </record>
+        <record id="pelabuhan_idplw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDPLW</field>
+            <field name="uraian_pelabuhan">Palu / Mutiara (u)</field>
+        </record>
+        <record id="pelabuhan_idpma" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90700</field>
+            <field name="kode_pelabuhan">IDPMA</field>
+            <field name="uraian_pelabuhan">Pegatan Mendawai</field>
+        </record>
+        <record id="pelabuhan_idpnk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90100</field>
+            <field name="kode_pelabuhan">IDPNK</field>
+            <field name="uraian_pelabuhan">Pontianak / Supadio (u)</field>
+        </record>
+        <record id="pelabuhan_idpol" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70300</field>
+            <field name="kode_pelabuhan">IDPOL</field>
+            <field name="uraian_pelabuhan">Poleng</field>
+        </record>
+        <record id="pelabuhan_idpon" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90100</field>
+            <field name="kode_pelabuhan">IDPON</field>
+            <field name="uraian_pelabuhan">Pontianak</field>
+        </record>
+        <record id="pelabuhan_idppo" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110400</field>
+            <field name="kode_pelabuhan">IDPPO</field>
+            <field name="uraian_pelabuhan">Palopo</field>
+        </record>
+        <record id="pelabuhan_idpps" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90900</field>
+            <field name="kode_pelabuhan">IDPPS</field>
+            <field name="uraian_pelabuhan">Pulang Pisau</field>
+        </record>
+        <record id="pelabuhan_idpra" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDPRA</field>
+            <field name="uraian_pelabuhan">Perigi Raja</field>
+        </record>
+        <record id="pelabuhan_idprg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDPRG</field>
+            <field name="uraian_pelabuhan">Parigi</field>
+        </record>
+        <record id="pelabuhan_idprn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">71100</field>
+            <field name="kode_pelabuhan">IDPRN</field>
+            <field name="uraian_pelabuhan">Panarukan</field>
+        </record>
+        <record id="pelabuhan_idpro" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">71200</field>
+            <field name="kode_pelabuhan">IDPRO</field>
+            <field name="uraian_pelabuhan">Probolinggo (kalibuntu)</field>
+        </record>
+        <record id="pelabuhan_idpsb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">40600</field>
+            <field name="kode_pelabuhan">IDPSB</field>
+            <field name="uraian_pelabuhan">Jakarta / Pos Pasar Baru (ptt)</field>
+        </record>
+        <record id="pelabuhan_idpsj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110900</field>
+            <field name="kode_pelabuhan">IDPSJ</field>
+            <field name="uraian_pelabuhan">Posso</field>
+        </record>
+        <record id="pelabuhan_idpss" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20200</field>
+            <field name="kode_pelabuhan">IDPSS</field>
+            <field name="uraian_pelabuhan">Pulau Sambu</field>
+        </record>
+        <record id="pelabuhan_idapn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110900</field>
+            <field name="kode_pelabuhan">IDAPN</field>
+            <field name="uraian_pelabuhan">Ampana</field>
+        </record>
+        <record id="pelabuhan_idboj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70400</field>
+            <field name="kode_pelabuhan">IDBOJ</field>
+            <field name="uraian_pelabuhan">Bojonegoro</field>
+        </record>
+        <record id="pelabuhan_idftg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDFTG</field>
+            <field name="uraian_pelabuhan">Pelabuhan Futong Terminal</field>
+        </record>
+        <record id="pelabuhan_idiam" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDIAM</field>
+            <field name="uraian_pelabuhan">Asam Asam</field>
+        </record>
+        <record id="pelabuhan_idibt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDIBT</field>
+            <field name="uraian_pelabuhan">Indonesia Bulk Terminal</field>
+        </record>
+        <record id="pelabuhan_iditn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20600</field>
+            <field name="kode_pelabuhan">IDITN</field>
+            <field name="uraian_pelabuhan">Tanjung Uban</field>
+        </record>
+        <record id="pelabuhan_idjep" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60300</field>
+            <field name="kode_pelabuhan">IDJEP</field>
+            <field name="uraian_pelabuhan">Jepara</field>
+        </record>
+        <record id="pelabuhan_idjor" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDJOR</field>
+            <field name="uraian_pelabuhan">Jorong Anchorage</field>
+        </record>
+        <record id="pelabuhan_idkgh" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130500</field>
+            <field name="kode_pelabuhan">IDKGH</field>
+            <field name="uraian_pelabuhan">Krueng Geukueh</field>
+        </record>
+        <record id="pelabuhan_idkij" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20500</field>
+            <field name="kode_pelabuhan">IDKIJ</field>
+            <field name="uraian_pelabuhan">Kijang</field>
+        </record>
+        <record id="pelabuhan_idkpl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDKPL</field>
+            <field name="uraian_pelabuhan">Kampung Laut</field>
+        </record>
+        <record id="pelabuhan_idlom" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDLOM</field>
+            <field name="uraian_pelabuhan">Lombok</field>
+        </record>
+        <record id="pelabuhan_idmbk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDMBK</field>
+            <field name="uraian_pelabuhan">Muara Bangkong</field>
+        </record>
+        <record id="pelabuhan_idmsk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDMSK</field>
+            <field name="uraian_pelabuhan">Muara Sabak</field>
+        </record>
+        <record id="pelabuhan_idnta" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20200</field>
+            <field name="kode_pelabuhan">IDNTA</field>
+            <field name="uraian_pelabuhan">Nipah</field>
+        </record>
+        <record id="pelabuhan_idpgm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111000</field>
+            <field name="kode_pelabuhan">IDPGM</field>
+            <field name="uraian_pelabuhan">Pagimana</field>
+        </record>
+        <record id="pelabuhan_idpmt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11000</field>
+            <field name="kode_pelabuhan">IDPMT</field>
+            <field name="uraian_pelabuhan">Pematangsiantar</field>
+        </record>
+        <record id="pelabuhan_idpot" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDPOT</field>
+            <field name="uraian_pelabuhan">Poto Tano</field>
+        </record>
+        <record id="pelabuhan_idsei" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100900</field>
+            <field name="kode_pelabuhan">IDSEI</field>
+            <field name="uraian_pelabuhan">Sebuku Island</field>
+        </record>
+        <record id="pelabuhan_idstr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11000</field>
+            <field name="kode_pelabuhan">IDSTR</field>
+            <field name="uraian_pelabuhan">Siantar</field>
+        </record>
+        <record id="pelabuhan_idtua" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">121000</field>
+            <field name="kode_pelabuhan">IDTUA</field>
+            <field name="uraian_pelabuhan">Tual</field>
+        </record>
+        <record id="pelabuhan_idtzd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDTZD</field>
+            <field name="uraian_pelabuhan">Amurang</field>
+        </record>
+        <record id="pelabuhan_idwai" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDWAI</field>
+            <field name="uraian_pelabuhan">Wainibe</field>
+        </record>
+        <record id="pelabuhan_idwid" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160200</field>
+            <field name="kode_pelabuhan">IDWID</field>
+            <field name="uraian_pelabuhan">Widuri</field>
+        </record>
+        <record id="pelabuhan_idzrm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120600</field>
+            <field name="kode_pelabuhan">IDZRM</field>
+            <field name="uraian_pelabuhan">Sarmi</field>
+        </record>
+        <record id="pelabuhan_idsbg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130300</field>
+            <field name="kode_pelabuhan">IDSBG</field>
+            <field name="uraian_pelabuhan">Aceh - Sabang</field>
+        </record>
+        <record id="pelabuhan_idtrk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDTRK</field>
+            <field name="uraian_pelabuhan">Tarakan (u)</field>
+        </record>
+        <record id="pelabuhan_idssi" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21300</field>
+            <field name="kode_pelabuhan">IDSSI</field>
+            <field name="uraian_pelabuhan">Siak Sri Indrapura</field>
+        </record>
+        <record id="pelabuhan_idsrd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100500</field>
+            <field name="kode_pelabuhan">IDSRD</field>
+            <field name="uraian_pelabuhan">Samarinda</field>
+        </record>
+        <record id="pelabuhan_idkdr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110600</field>
+            <field name="kode_pelabuhan">IDKDR</field>
+            <field name="uraian_pelabuhan">Kendari</field>
+        </record>
+        <record id="pelabuhan_idupg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110100</field>
+            <field name="kode_pelabuhan">IDUPG</field>
+            <field name="uraian_pelabuhan">Ujung Pandang / Hasanuddin (u)</field>
+        </record>
+        <record id="pelabuhan_idsph" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDSPH</field>
+            <field name="uraian_pelabuhan">Sapeh</field>
+        </record>
+        <record id="pelabuhan_idbju" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160700</field>
+            <field name="kode_pelabuhan">IDBJU</field>
+            <field name="uraian_pelabuhan">Banyuwangi</field>
+        </record>
+        <record id="pelabuhan_idcom" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">61000</field>
+            <field name="kode_pelabuhan">IDCOM</field>
+            <field name="uraian_pelabuhan">Comal</field>
+        </record>
+        <record id="pelabuhan_idjkt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">40300</field>
+            <field name="kode_pelabuhan">IDJKT</field>
+            <field name="uraian_pelabuhan">Jakarta / Pasar Ikan</field>
+        </record>
+        <record id="pelabuhan_idsnk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDSNK</field>
+            <field name="uraian_pelabuhan">Simbur Naik</field>
+        </record>
+        <record id="pelabuhan_idama" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120800</field>
+            <field name="kode_pelabuhan">IDAMA</field>
+            <field name="uraian_pelabuhan">Amamapare, Ij</field>
+        </record>
+        <record id="pelabuhan_idajn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160200</field>
+            <field name="kode_pelabuhan">IDAJN</field>
+            <field name="uraian_pelabuhan">Arjuna, Java</field>
+        </record>
+        <record id="pelabuhan_idabu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">81400</field>
+            <field name="kode_pelabuhan">IDABU</field>
+            <field name="uraian_pelabuhan">Atambua</field>
+        </record>
+        <record id="pelabuhan_idbtm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20400</field>
+            <field name="kode_pelabuhan">IDBTM</field>
+            <field name="uraian_pelabuhan">Batam Island</field>
+        </record>
+        <record id="pelabuhan_idbtw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDBTW</field>
+            <field name="uraian_pelabuhan">Batulicin</field>
+        </record>
+        <record id="pelabuhan_idbka" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50900</field>
+            <field name="kode_pelabuhan">IDBKA</field>
+            <field name="uraian_pelabuhan">Bekasi</field>
+        </record>
+        <record id="pelabuhan_idblt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30500</field>
+            <field name="kode_pelabuhan">IDBLT</field>
+            <field name="uraian_pelabuhan">Belitung</field>
+        </record>
+        <record id="pelabuhan_idben" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDBEN</field>
+            <field name="uraian_pelabuhan">Benete</field>
+        </record>
+        <record id="pelabuhan_idbmt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDBMT</field>
+            <field name="uraian_pelabuhan">Bima Terminal, Jv</field>
+        </record>
+        <record id="pelabuhan_idbir" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110100</field>
+            <field name="kode_pelabuhan">IDBIR</field>
+            <field name="uraian_pelabuhan">Biringkassi</field>
+        </record>
+        <record id="pelabuhan_idbll" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130500</field>
+            <field name="kode_pelabuhan">IDBLL</field>
+            <field name="uraian_pelabuhan">Blang Lancang, St</field>
+        </record>
+        <record id="pelabuhan_idbog" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50300</field>
+            <field name="kode_pelabuhan">IDBOG</field>
+            <field name="uraian_pelabuhan">BOGOR</field>
+        </record>
+        <record id="pelabuhan_idbua" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDBUA</field>
+            <field name="uraian_pelabuhan">Bula</field>
+        </record>
+        <record id="pelabuhan_idbug" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80200</field>
+            <field name="kode_pelabuhan">IDBUG</field>
+            <field name="uraian_pelabuhan">Buleleng, Bali</field>
+        </record>
+        <record id="pelabuhan_idceb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80200</field>
+            <field name="kode_pelabuhan">IDCEB</field>
+            <field name="uraian_pelabuhan">Celukan Bawang, Bl</field>
+        </record>
+        <record id="pelabuhan_idcen" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50100</field>
+            <field name="kode_pelabuhan">IDCEN</field>
+            <field name="uraian_pelabuhan">Cengkareng</field>
+        </record>
+        <record id="pelabuhan_idcig" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50400</field>
+            <field name="kode_pelabuhan">IDCIG</field>
+            <field name="uraian_pelabuhan">Cigading</field>
+        </record>
+        <record id="pelabuhan_idciw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50400</field>
+            <field name="kode_pelabuhan">IDCIW</field>
+            <field name="uraian_pelabuhan">Ciwandan</field>
+        </record>
+        <record id="pelabuhan_iddma" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120600</field>
+            <field name="kode_pelabuhan">IDDMA</field>
+            <field name="uraian_pelabuhan">Demta</field>
+        </record>
+        <record id="pelabuhan_idgeb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDGEB</field>
+            <field name="uraian_pelabuhan">Gebe</field>
+        </record>
+        <record id="pelabuhan_idkso" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">71100</field>
+            <field name="kode_pelabuhan">IDKSO</field>
+            <field name="uraian_pelabuhan">Kalbut Situbondo</field>
+        </record>
+        <record id="pelabuhan_idkat" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70200</field>
+            <field name="kode_pelabuhan">IDKAT</field>
+            <field name="uraian_pelabuhan">Kalianget</field>
+        </record>
+        <record id="pelabuhan_idkrg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDKRG</field>
+            <field name="uraian_pelabuhan">Kariangau</field>
+        </record>
+        <record id="pelabuhan_idknl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110900</field>
+            <field name="kode_pelabuhan">IDKNL</field>
+            <field name="uraian_pelabuhan">Kolonodale</field>
+        </record>
+        <record id="pelabuhan_idkbu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDKBU</field>
+            <field name="uraian_pelabuhan">Kotabaru</field>
+        </record>
+        <record id="pelabuhan_ideno" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDENO</field>
+            <field name="uraian_pelabuhan">Kuala Enok</field>
+        </record>
+        <record id="pelabuhan_idkka" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90900</field>
+            <field name="kode_pelabuhan">IDKKA</field>
+            <field name="uraian_pelabuhan">Kuala Kapuas, Kl</field>
+        </record>
+        <record id="pelabuhan_idlbj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80700</field>
+            <field name="kode_pelabuhan">IDLBJ</field>
+            <field name="uraian_pelabuhan">Labuanbajo</field>
+        </record>
+        <record id="pelabuhan_idlrt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">121000</field>
+            <field name="kode_pelabuhan">IDLRT</field>
+            <field name="uraian_pelabuhan">Larat</field>
+        </record>
+        <record id="pelabuhan_idlsx" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130500</field>
+            <field name="kode_pelabuhan">IDLSX</field>
+            <field name="uraian_pelabuhan">Lhok Sukon</field>
+        </record>
+        <record id="pelabuhan_idlbm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20500</field>
+            <field name="kode_pelabuhan">IDLBM</field>
+            <field name="uraian_pelabuhan">Lobam</field>
+        </record>
+        <record id="pelabuhan_idlmb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDLMB</field>
+            <field name="uraian_pelabuhan">Lombok Strait</field>
+        </record>
+        <record id="pelabuhan_idlbw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDLBW</field>
+            <field name="uraian_pelabuhan">Long Bawan</field>
+        </record>
+        <record id="pelabuhan_idmak" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110100</field>
+            <field name="kode_pelabuhan">IDMAK</field>
+            <field name="uraian_pelabuhan">Makassar</field>
+        </record>
+        <record id="pelabuhan_idmgb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80100</field>
+            <field name="kode_pelabuhan">IDMGB</field>
+            <field name="uraian_pelabuhan">Manggis</field>
+        </record>
+        <record id="pelabuhan_idmpc" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30200</field>
+            <field name="kode_pelabuhan">IDMPC</field>
+            <field name="uraian_pelabuhan">Muko-Muko</field>
+        </record>
+        <record id="pelabuhan_idnpl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDNPL</field>
+            <field name="uraian_pelabuhan">North Pulau Laut</field>
+        </record>
+        <record id="pelabuhan_idpga" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70200</field>
+            <field name="kode_pelabuhan">IDPGA</field>
+            <field name="uraian_pelabuhan">Pagerungan</field>
+        </record>
+        <record id="pelabuhan_idpbw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDPBW</field>
+            <field name="uraian_pelabuhan">Palibelo</field>
+        </record>
+        <record id="pelabuhan_idpks" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10900</field>
+            <field name="kode_pelabuhan">IDPKS</field>
+            <field name="uraian_pelabuhan">Pangkalan Susu, Sumatra</field>
+        </record>
+        <record id="pelabuhan_idptl" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDPTL</field>
+            <field name="uraian_pelabuhan">Pantoloan, Sv</field>
+        </record>
+        <record id="pelabuhan_idpng" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20800</field>
+            <field name="kode_pelabuhan">IDPNG</field>
+            <field name="uraian_pelabuhan">Penuba</field>
+        </record>
+        <record id="pelabuhan_idper" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21200</field>
+            <field name="kode_pelabuhan">IDPER</field>
+            <field name="uraian_pelabuhan">Perawang</field>
+        </record>
+        <record id="pelabuhan_idput" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDPUT</field>
+            <field name="uraian_pelabuhan">Pulau Laut</field>
+        </record>
+        <record id="pelabuhan_idsqn" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDSQN</field>
+            <field name="uraian_pelabuhan">Sanana</field>
+        </record>
+        <record id="pelabuhan_idstu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDSTU</field>
+            <field name="uraian_pelabuhan">Satui</field>
+        </record>
+        <record id="pelabuhan_idsxk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">121000</field>
+            <field name="kode_pelabuhan">IDSXK</field>
+            <field name="uraian_pelabuhan">Saumlaki</field>
+        </record>
+        <record id="pelabuhan_idsmb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30700</field>
+            <field name="kode_pelabuhan">IDSMB</field>
+            <field name="uraian_pelabuhan">Semangka Bay, St</field>
+        </record>
+        <record id="pelabuhan_idszh" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDSZH</field>
+            <field name="uraian_pelabuhan">Senipah</field>
+        </record>
+        <record id="pelabuhan_idskt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60600</field>
+            <field name="kode_pelabuhan">IDSKT</field>
+            <field name="uraian_pelabuhan">Surakarta</field>
+        </record>
+        <record id="pelabuhan_idtmc" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80500</field>
+            <field name="kode_pelabuhan">IDTMC</field>
+            <field name="uraian_pelabuhan">Tambolaka</field>
+        </record>
+        <record id="pelabuhan_idtnb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDTNB</field>
+            <field name="uraian_pelabuhan">Tanah Grogot</field>
+        </record>
+        <record id="pelabuhan_idtba" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">101000</field>
+            <field name="kode_pelabuhan">IDTBA</field>
+            <field name="uraian_pelabuhan">Tanjung Bara, Kl</field>
+        </record>
+        <record id="pelabuhan_idtjg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDTJG</field>
+            <field name="uraian_pelabuhan">Tanjung Warukin</field>
+        </record>
+        <record id="pelabuhan_idtjp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70100</field>
+            <field name="kode_pelabuhan">IDTJP</field>
+            <field name="uraian_pelabuhan">Tanjungperak</field>
+        </record>
+        <record id="pelabuhan_idtrh" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30700</field>
+            <field name="kode_pelabuhan">IDTRH</field>
+            <field name="uraian_pelabuhan">Tarahan</field>
+        </record>
+        <record id="pelabuhan_idtar" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDTAR</field>
+            <field name="uraian_pelabuhan">Tarjun</field>
+        </record>
+        <record id="pelabuhan_idtti" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30600</field>
+            <field name="kode_pelabuhan">IDTTI</field>
+            <field name="uraian_pelabuhan">Tebingtinggi</field>
+        </record>
+        <record id="pelabuhan_idtbo" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDTBO</field>
+            <field name="uraian_pelabuhan">Tobelo</field>
+        </record>
+        <record id="pelabuhan_idwar" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120600</field>
+            <field name="kode_pelabuhan">IDWAR</field>
+            <field name="uraian_pelabuhan">Waris</field>
+        </record>
+        <record id="pelabuhan_idnbf" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">91000</field>
+            <field name="kode_pelabuhan">IDNBF</field>
+            <field name="uraian_pelabuhan">Nangau Badau</field>
+        </record>
+        <record id="pelabuhan_idlop" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80300</field>
+            <field name="kode_pelabuhan">IDLOP</field>
+            <field name="uraian_pelabuhan">Bandara Internasional Lombok</field>
+        </record>
+        <record id="pelabuhan_idkno" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10100</field>
+            <field name="kode_pelabuhan">IDKNO</field>
+            <field name="uraian_pelabuhan">Bandara Internasional Kuala Namu</field>
+        </record>
+        <record id="pelabuhan_idrgt" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDRGT</field>
+            <field name="uraian_pelabuhan">Rengat/ Japura (u)</field>
+        </record>
+        <record id="pelabuhan_idsia" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21100</field>
+            <field name="kode_pelabuhan">IDSIA</field>
+            <field name="uraian_pelabuhan">Siak Yechil, Riau</field>
+        </record>
+        <record id="pelabuhan_idsnb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21000</field>
+            <field name="kode_pelabuhan">IDSNB</field>
+            <field name="uraian_pelabuhan">Sinaboi</field>
+        </record>
+        <record id="pelabuhan_idspa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20300</field>
+            <field name="kode_pelabuhan">IDSPA</field>
+            <field name="uraian_pelabuhan">Selat Panjang</field>
+        </record>
+        <record id="pelabuhan_idadb" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDADB</field>
+            <field name="uraian_pelabuhan">Adang Bay</field>
+        </record>
+        <record id="pelabuhan_idsuk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50300</field>
+            <field name="kode_pelabuhan">IDSUK</field>
+            <field name="uraian_pelabuhan">Sukabumi</field>
+        </record>
+        <record id="pelabuhan_idjbk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">51000</field>
+            <field name="kode_pelabuhan">IDJBK</field>
+            <field name="uraian_pelabuhan">Jababeka</field>
+        </record>
+        <record id="pelabuhan_idamu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDAMU</field>
+            <field name="uraian_pelabuhan">Amurang</field>
+        </record>
+        <record id="pelabuhan_idarj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">160200</field>
+            <field name="kode_pelabuhan">IDARJ</field>
+            <field name="uraian_pelabuhan">Arjuna, Java</field>
+        </record>
+        <record id="pelabuhan_idata" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">81400</field>
+            <field name="kode_pelabuhan">IDATA</field>
+            <field name="uraian_pelabuhan">Atapupu</field>
+        </record>
+        <record id="pelabuhan_idbar" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11200</field>
+            <field name="kode_pelabuhan">IDBAR</field>
+            <field name="uraian_pelabuhan">Bandar Khalipah</field>
+        </record>
+        <record id="pelabuhan_idbdo" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50500</field>
+            <field name="kode_pelabuhan">IDBDO</field>
+            <field name="uraian_pelabuhan">Bandung / Husein Sastranegara (u)</field>
+        </record>
+        <record id="pelabuhan_idbit" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111100</field>
+            <field name="kode_pelabuhan">IDBIT</field>
+            <field name="uraian_pelabuhan">Bitung</field>
+        </record>
+        <record id="pelabuhan_idbkh" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30700</field>
+            <field name="kode_pelabuhan">IDBKH</field>
+            <field name="uraian_pelabuhan">Bakauheni</field>
+        </record>
+        <record id="pelabuhan_idbkm" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110100</field>
+            <field name="kode_pelabuhan">IDBKM</field>
+            <field name="uraian_pelabuhan">Bulukumba</field>
+        </record>
+        <record id="pelabuhan_idblc" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100200</field>
+            <field name="kode_pelabuhan">IDBLC</field>
+            <field name="uraian_pelabuhan">Batu Licin</field>
+        </record>
+        <record id="pelabuhan_idblj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30300</field>
+            <field name="kode_pelabuhan">IDBLJ</field>
+            <field name="uraian_pelabuhan">Belinju</field>
+        </record>
+        <record id="pelabuhan_idblw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10700</field>
+            <field name="kode_pelabuhan">IDBLW</field>
+            <field name="uraian_pelabuhan">Belawan</field>
+        </record>
+        <record id="pelabuhan_idbnd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">50500</field>
+            <field name="kode_pelabuhan">IDBND</field>
+            <field name="uraian_pelabuhan">Bandung (ptt/gede Bage)</field>
+        </record>
+        <record id="pelabuhan_idbpp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100300</field>
+            <field name="kode_pelabuhan">IDBPP</field>
+            <field name="uraian_pelabuhan">Balikpapan</field>
+        </record>
+        <record id="pelabuhan_idbtj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">130100</field>
+            <field name="kode_pelabuhan">IDBTJ</field>
+            <field name="uraian_pelabuhan">Aceh / Blang Bintang (u)</field>
+        </record>
+        <record id="pelabuhan_idbuw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110600</field>
+            <field name="kode_pelabuhan">IDBUW</field>
+            <field name="uraian_pelabuhan">Bau-bau</field>
+        </record>
+        <record id="pelabuhan_idbyq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDBYQ</field>
+            <field name="uraian_pelabuhan">Bunyu</field>
+        </record>
+        <record id="pelabuhan_idcbw" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80200</field>
+            <field name="kode_pelabuhan">IDCBW</field>
+            <field name="uraian_pelabuhan">Celukan Bawang</field>
+        </record>
+        <record id="pelabuhan_iddjj" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120600</field>
+            <field name="kode_pelabuhan">IDDJJ</field>
+            <field name="uraian_pelabuhan">Jayapura / Sentani (u)</field>
+        </record>
+        <record id="pelabuhan_idene" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80700</field>
+            <field name="kode_pelabuhan">IDENE</field>
+            <field name="uraian_pelabuhan">Ende / H.hasan Aroeboesman(u)</field>
+        </record>
+        <record id="pelabuhan_idgns" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11300</field>
+            <field name="kode_pelabuhan">IDGNS</field>
+            <field name="uraian_pelabuhan">Gunung Sitoli</field>
+        </record>
+        <record id="pelabuhan_idgto" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111300</field>
+            <field name="kode_pelabuhan">IDGTO</field>
+            <field name="uraian_pelabuhan">Gorontalo / Jalaluddin(u)</field>
+        </record>
+        <record id="pelabuhan_idjog" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60700</field>
+            <field name="kode_pelabuhan">IDJOG</field>
+            <field name="uraian_pelabuhan">Yogyakarta / Adi Sucipto (u)</field>
+        </record>
+        <record id="pelabuhan_idkdi" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110600</field>
+            <field name="kode_pelabuhan">IDKDI</field>
+            <field name="uraian_pelabuhan">Kendari / Wolter Monginsidi (u)</field>
+        </record>
+        <record id="pelabuhan_idkid" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDKID</field>
+            <field name="uraian_pelabuhan">Pulau Kijang</field>
+        </record>
+        <record id="pelabuhan_idsmr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">60100</field>
+            <field name="kode_pelabuhan">IDSMR</field>
+            <field name="uraian_pelabuhan">Semarang (ptt)</field>
+        </record>
+        <record id="pelabuhan_idtbk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20100</field>
+            <field name="kode_pelabuhan">IDTBK</field>
+            <field name="uraian_pelabuhan">Tanjung Balai Karimun</field>
+        </record>
+        <record id="pelabuhan_idswq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDSWQ</field>
+            <field name="uraian_pelabuhan">Sumbawa/ Brang-biji (u)</field>
+        </record>
+        <record id="pelabuhan_idtbr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">11500</field>
+            <field name="kode_pelabuhan">IDTBR</field>
+            <field name="uraian_pelabuhan">Teluk Bayur</field>
+        </record>
+        <record id="pelabuhan_idsug" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30100</field>
+            <field name="kode_pelabuhan">IDSUG</field>
+            <field name="uraian_pelabuhan">Sungai Gerong</field>
+        </record>
+        <record id="pelabuhan_idsub" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">70500</field>
+            <field name="kode_pelabuhan">IDSUB</field>
+            <field name="uraian_pelabuhan">Surabaya /juanda (u)</field>
+        </record>
+        <record id="pelabuhan_idtte" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDTTE</field>
+            <field name="uraian_pelabuhan">Ternate</field>
+        </record>
+        <record id="pelabuhan_idtgk" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">20300</field>
+            <field name="kode_pelabuhan">IDTGK</field>
+            <field name="uraian_pelabuhan">Tanjung Kedabu</field>
+        </record>
+        <record id="pelabuhan_idtka" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">90100</field>
+            <field name="kode_pelabuhan">IDTKA</field>
+            <field name="uraian_pelabuhan">Telok Air</field>
+        </record>
+        <record id="pelabuhan_idtob" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120200</field>
+            <field name="kode_pelabuhan">IDTOB</field>
+            <field name="uraian_pelabuhan">Tobelo</field>
+        </record>
+        <record id="pelabuhan_idtsg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">101000</field>
+            <field name="kode_pelabuhan">IDTSG</field>
+            <field name="uraian_pelabuhan">Tanjung Sangata</field>
+        </record>
+        <record id="pelabuhan_idtul" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDTUL</field>
+            <field name="uraian_pelabuhan">Tulehu</field>
+        </record>
+        <record id="pelabuhan_idwgp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80500</field>
+            <field name="kode_pelabuhan">IDWGP</field>
+            <field name="uraian_pelabuhan">Waingapu</field>
+        </record>
+        <record id="pelabuhan_idzri" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120900</field>
+            <field name="kode_pelabuhan">IDZRI</field>
+            <field name="uraian_pelabuhan">Serui</field>
+        </record>
+        <record id="pelabuhan_idasa" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100100</field>
+            <field name="kode_pelabuhan">IDASA</field>
+            <field name="uraian_pelabuhan">Asam Asam</field>
+        </record>
+        <record id="pelabuhan_idbag" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21000</field>
+            <field name="kode_pelabuhan">IDBAG</field>
+            <field name="uraian_pelabuhan">Bagan Siapi-api</field>
+        </record>
+        <record id="pelabuhan_idbgg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111000</field>
+            <field name="kode_pelabuhan">IDBGG</field>
+            <field name="uraian_pelabuhan">Banggai</field>
+        </record>
+        <record id="pelabuhan_idfkq" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120500</field>
+            <field name="kode_pelabuhan">IDFKQ</field>
+            <field name="uraian_pelabuhan">Fak-fak</field>
+        </record>
+        <record id="pelabuhan_idgal" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">120100</field>
+            <field name="kode_pelabuhan">IDGAL</field>
+            <field name="uraian_pelabuhan">Galala</field>
+        </record>
+        <record id="pelabuhan_idino" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">111200</field>
+            <field name="kode_pelabuhan">IDINO</field>
+            <field name="uraian_pelabuhan">Inobonto</field>
+        </record>
+        <record id="pelabuhan_iddgg" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">110800</field>
+            <field name="kode_pelabuhan">IDDGG</field>
+            <field name="uraian_pelabuhan">Donggala</field>
+        </record>
+        <record id="pelabuhan_idjua" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">100800</field>
+            <field name="kode_pelabuhan">IDJUA</field>
+            <field name="uraian_pelabuhan">Juata Tarakan</field>
+        </record>
+        <record id="pelabuhan_idbmu" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">80400</field>
+            <field name="kode_pelabuhan">IDBMU</field>
+            <field name="uraian_pelabuhan">Bima</field>
+        </record>
+        <record id="pelabuhan_idkgd" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">21500</field>
+            <field name="kode_pelabuhan">IDKGD</field>
+            <field name="uraian_pelabuhan">Kuala Gaung</field>
+        </record>
+        <record id="pelabuhan_idtpr" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">10900</field>
+            <field name="kode_pelabuhan">IDTPR</field>
+            <field name="uraian_pelabuhan">Tanjung Pura</field>
+        </record>
+        <record id="pelabuhan_idbku" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">30200</field>
+            <field name="kode_pelabuhan">IDBKU</field>
+            <field name="uraian_pelabuhan">Bengkulu</field>
+        </record>
+        <record id="pelabuhan_idtpp" model="ceisa.referensi.pelabuhan">
+            <field name="kode_kantor">40100</field>
+            <field name="kode_pelabuhan">IDTPP</field>
+            <field name="uraian_pelabuhan">IDTPP</field>
+        </record>
+    </data>
+</odoo>

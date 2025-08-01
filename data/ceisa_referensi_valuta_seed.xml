@@ -1,0 +1,893 @@
+<?xml version="1.0" ?>
+<odoo>
+  <data noupdate="1">
+    <record id="ceisa_referensi_valuta_1" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ADP</field>
+      <field name="uraian_valuta">ANDORRAN PESETA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_2" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AED</field>
+      <field name="uraian_valuta">UAE  DIRHAM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_3" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AFA</field>
+      <field name="uraian_valuta">AFGHANI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_4" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AFN</field>
+      <field name="uraian_valuta">AFGHANI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_5" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ALL</field>
+      <field name="uraian_valuta">LEK</field>
+    </record>
+    <record id="ceisa_referensi_valuta_6" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AMD</field>
+      <field name="uraian_valuta">ARMENIAN DRAM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_7" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ANG</field>
+      <field name="uraian_valuta">NETHERLANDS ANTILLIAN GUILDER</field>
+    </record>
+    <record id="ceisa_referensi_valuta_8" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AOA</field>
+      <field name="uraian_valuta">KWANZA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_9" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AON</field>
+      <field name="uraian_valuta">NEW KWANZA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_10" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ARS</field>
+      <field name="uraian_valuta">ARGENTINA PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_11" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ATS</field>
+      <field name="uraian_valuta">SCHILLING</field>
+    </record>
+    <record id="ceisa_referensi_valuta_12" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AUD</field>
+      <field name="uraian_valuta">AUSTRALIAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_13" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AWG</field>
+      <field name="uraian_valuta">ARUBAN GUILDER</field>
+    </record>
+    <record id="ceisa_referensi_valuta_14" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AZM</field>
+      <field name="uraian_valuta">AZERBAIJANIAN MANAT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_15" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">AZN</field>
+      <field name="uraian_valuta">AZERBAIJANIAN MANAT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_16" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BAM</field>
+      <field name="uraian_valuta">CONVERTIBLE MARKS</field>
+    </record>
+    <record id="ceisa_referensi_valuta_17" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BBD</field>
+      <field name="uraian_valuta">BARBADOS DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_18" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BDT</field>
+      <field name="uraian_valuta">TAKA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_19" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BEF</field>
+      <field name="uraian_valuta">BELGIAN FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_20" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BGL</field>
+      <field name="uraian_valuta">LEV</field>
+    </record>
+    <record id="ceisa_referensi_valuta_21" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BGN</field>
+      <field name="uraian_valuta">BULGARIAN LEV</field>
+    </record>
+    <record id="ceisa_referensi_valuta_22" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BHD</field>
+      <field name="uraian_valuta">BAHRAINI DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_23" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BIF</field>
+      <field name="uraian_valuta">BURUNDI FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_24" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BMD</field>
+      <field name="uraian_valuta">BERMUDIAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_25" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BND</field>
+      <field name="uraian_valuta">BRUNEI DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_26" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BOB</field>
+      <field name="uraian_valuta">BOLIAIANO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_27" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BOV</field>
+      <field name="uraian_valuta">MVDOL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_28" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BRL</field>
+      <field name="uraian_valuta">BRAZILIAN REAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_29" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BSD</field>
+      <field name="uraian_valuta">BAHAMIAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_30" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BTN</field>
+      <field name="uraian_valuta">NGULTRUM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_31" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BUK</field>
+      <field name="uraian_valuta">BURMAN KYAT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_32" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BWP</field>
+      <field name="uraian_valuta">PULA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_33" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BYB</field>
+      <field name="uraian_valuta">BELARUSSIAN RUBLE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_34" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BYR</field>
+      <field name="uraian_valuta">BELARUSSIAN RUBLE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_35" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">BZD</field>
+      <field name="uraian_valuta">BELIZE DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_36" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CAD</field>
+      <field name="uraian_valuta">CANADIAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_37" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CDF</field>
+      <field name="uraian_valuta">CONGOLESE FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_38" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CHE</field>
+      <field name="uraian_valuta">WIR EURO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_39" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CHF</field>
+      <field name="uraian_valuta">SWISS FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_40" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CHW</field>
+      <field name="uraian_valuta">WIR FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_41" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CLF</field>
+      <field name="uraian_valuta">UNIDADES DE FOMENTO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_42" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CLP</field>
+      <field name="uraian_valuta">CHILEAN PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_43" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CNY</field>
+      <field name="uraian_valuta">YUAN RENMINBI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_44" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">COP</field>
+      <field name="uraian_valuta">COLOMBIAN PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_45" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">COU</field>
+      <field name="uraian_valuta">UNIDAD DE VALOR REAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_46" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CRC</field>
+      <field name="uraian_valuta">COSTA RICAN COLON</field>
+    </record>
+    <record id="ceisa_referensi_valuta_47" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CUC</field>
+      <field name="uraian_valuta">PESO CONVERTIBLE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_48" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CUP</field>
+      <field name="uraian_valuta">CUBAN PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_49" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CVE</field>
+      <field name="uraian_valuta">CAPE VERDE ESCUDO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_50" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CYP</field>
+      <field name="uraian_valuta">CYPRUS POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_51" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">CZK</field>
+      <field name="uraian_valuta">CZECH KORUNA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_52" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">DEM</field>
+      <field name="uraian_valuta">DEUSTCHE MARK</field>
+    </record>
+    <record id="ceisa_referensi_valuta_53" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">DJF</field>
+      <field name="uraian_valuta">DJIBOUTI FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_54" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">DKK</field>
+      <field name="uraian_valuta">DANISH KRONE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_55" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">DOP</field>
+      <field name="uraian_valuta">DOMINCAN PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_56" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">DZD</field>
+      <field name="uraian_valuta">ALGERIAN DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_57" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ECS</field>
+      <field name="uraian_valuta">SUCRE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_58" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">EEK</field>
+      <field name="uraian_valuta">KROON</field>
+    </record>
+    <record id="ceisa_referensi_valuta_59" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">EGP</field>
+      <field name="uraian_valuta">EGYPTIAN POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_60" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ERN</field>
+      <field name="uraian_valuta">NAKFA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_61" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ESP</field>
+      <field name="uraian_valuta">SPAINISH PESETA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_62" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ETB</field>
+      <field name="uraian_valuta">ETHIOPIAN BIRR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_63" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">EUR</field>
+      <field name="uraian_valuta">EURO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_64" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">FIM</field>
+      <field name="uraian_valuta">MARKKA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_65" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">FJD</field>
+      <field name="uraian_valuta">FIJI DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_66" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">FKP</field>
+      <field name="uraian_valuta">FALKLAND ISLANDS POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_67" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">FRF</field>
+      <field name="uraian_valuta">FRANCH FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_68" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GBP</field>
+      <field name="uraian_valuta">POUND STERLING</field>
+    </record>
+    <record id="ceisa_referensi_valuta_69" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GEK</field>
+      <field name="uraian_valuta">GEORGIAN COUPON</field>
+    </record>
+    <record id="ceisa_referensi_valuta_70" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GEL</field>
+      <field name="uraian_valuta">LARI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_71" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GHC</field>
+      <field name="uraian_valuta">CEDI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_72" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GHS</field>
+      <field name="uraian_valuta">CEDI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_73" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GIP</field>
+      <field name="uraian_valuta">GIBRALTAR POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_74" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GMD</field>
+      <field name="uraian_valuta">DALASI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_75" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GNF</field>
+      <field name="uraian_valuta">GUINEA FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_76" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GRD</field>
+      <field name="uraian_valuta">DRACHMA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_77" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GTQ</field>
+      <field name="uraian_valuta">QUETZAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_78" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GWP</field>
+      <field name="uraian_valuta">GUINEA-BISSAU PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_79" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">GYD</field>
+      <field name="uraian_valuta">GUYANA DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_80" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">HKD</field>
+      <field name="uraian_valuta">HONG KONG DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_81" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">HNL</field>
+      <field name="uraian_valuta">LEMPIRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_82" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">HRD</field>
+      <field name="uraian_valuta">CROATIAN DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_83" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">HRK</field>
+      <field name="uraian_valuta">KUNA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_84" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">HTG</field>
+      <field name="uraian_valuta">GOURDE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_85" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">HUF</field>
+      <field name="uraian_valuta">FORINT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_86" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">IDR</field>
+      <field name="uraian_valuta">RUPIAH</field>
+    </record>
+    <record id="ceisa_referensi_valuta_87" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">IEP</field>
+      <field name="uraian_valuta">IRISH POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_88" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ILS</field>
+      <field name="uraian_valuta">SHEKEL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_89" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">INR</field>
+      <field name="uraian_valuta">INDIAN RUPEE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_90" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">IQD</field>
+      <field name="uraian_valuta">IRAQI DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_91" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">IRR</field>
+      <field name="uraian_valuta">IRANIAN RIAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_92" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ISK</field>
+      <field name="uraian_valuta">ICELAND KRONA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_93" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ITL</field>
+      <field name="uraian_valuta">ITALIAN LIRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_94" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">JMD</field>
+      <field name="uraian_valuta">JAMAICAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_95" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">JOD</field>
+      <field name="uraian_valuta">JORDANIAN DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_96" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">JPY</field>
+      <field name="uraian_valuta">YEN</field>
+    </record>
+    <record id="ceisa_referensi_valuta_97" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KES</field>
+      <field name="uraian_valuta">KENYAN SHILLING</field>
+    </record>
+    <record id="ceisa_referensi_valuta_98" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KGS</field>
+      <field name="uraian_valuta">SOM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_99" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KHR</field>
+      <field name="uraian_valuta">RIEL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_100" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KMF</field>
+      <field name="uraian_valuta">COMORO FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_101" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KPW</field>
+      <field name="uraian_valuta">NORTH KOREAN WON</field>
+    </record>
+    <record id="ceisa_referensi_valuta_102" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KRW</field>
+      <field name="uraian_valuta">WON</field>
+    </record>
+    <record id="ceisa_referensi_valuta_103" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KWD</field>
+      <field name="uraian_valuta">KUWAUTI DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_104" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KYD</field>
+      <field name="uraian_valuta">CAYMAN ISLANDS DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_105" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">KZT</field>
+      <field name="uraian_valuta">TENGE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_106" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LAK</field>
+      <field name="uraian_valuta">KIP</field>
+    </record>
+    <record id="ceisa_referensi_valuta_107" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LBP</field>
+      <field name="uraian_valuta">LEBANESE POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_108" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LKR</field>
+      <field name="uraian_valuta">SRI LANGKA RUPEE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_109" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LRD</field>
+      <field name="uraian_valuta">LIBERIAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_110" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LSL</field>
+      <field name="uraian_valuta">LOLI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_111" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LTL</field>
+      <field name="uraian_valuta">LITHUANIAN LITAS</field>
+    </record>
+    <record id="ceisa_referensi_valuta_112" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LUF</field>
+      <field name="uraian_valuta">LUXEMBOURG FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_113" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LVL</field>
+      <field name="uraian_valuta">LATVIAN LATS#</field>
+    </record>
+    <record id="ceisa_referensi_valuta_114" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LVR</field>
+      <field name="uraian_valuta">LATVIAN RUBLE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_115" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">LYD</field>
+      <field name="uraian_valuta">LIBYAN DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_116" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MAD</field>
+      <field name="uraian_valuta">MOROCCOAN DIRHAM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_117" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MDL</field>
+      <field name="uraian_valuta">MOLDOVAN LEU</field>
+    </record>
+    <record id="ceisa_referensi_valuta_118" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MGA</field>
+      <field name="uraian_valuta">MALAGASY ARIARY</field>
+    </record>
+    <record id="ceisa_referensi_valuta_119" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MGF</field>
+      <field name="uraian_valuta">MALAGASY FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_120" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MKD</field>
+      <field name="uraian_valuta">DENAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_121" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MMK</field>
+      <field name="uraian_valuta">KYAT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_122" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MNT</field>
+      <field name="uraian_valuta">TUGRIK</field>
+    </record>
+    <record id="ceisa_referensi_valuta_123" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MOP</field>
+      <field name="uraian_valuta">PATACA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_124" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MRO</field>
+      <field name="uraian_valuta">OUGUIYA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_125" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MTL</field>
+      <field name="uraian_valuta">MALLESE LIRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_126" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MUR</field>
+      <field name="uraian_valuta">MAURITIUS PUPEE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_127" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MVR</field>
+      <field name="uraian_valuta">RUFIYAA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_128" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MWK</field>
+      <field name="uraian_valuta">KWACHA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_129" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MXN</field>
+      <field name="uraian_valuta">MEXICAN  NUEVO PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_130" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MXV</field>
+      <field name="uraian_valuta">MEXICAN UNIDAD DE INVERSION (UDI);</field>
+    </record>
+    <record id="ceisa_referensi_valuta_131" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MYR</field>
+      <field name="uraian_valuta">MALAYSIAN RINGGIT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_132" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MZM</field>
+      <field name="uraian_valuta">METICAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_133" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">MZN</field>
+      <field name="uraian_valuta">METICAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_134" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NAD</field>
+      <field name="uraian_valuta">NAMIBIA DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_135" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NGN</field>
+      <field name="uraian_valuta">NAIRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_136" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NIO</field>
+      <field name="uraian_valuta">CORDOBA ORO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_137" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NLG</field>
+      <field name="uraian_valuta">NETHERLANDS GUILDER</field>
+    </record>
+    <record id="ceisa_referensi_valuta_138" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NOK</field>
+      <field name="uraian_valuta">NORWEGIAN KRONE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_139" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NPR</field>
+      <field name="uraian_valuta">NEPALESE RUPEE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_140" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">NZD</field>
+      <field name="uraian_valuta">NEW ZEALAND DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_141" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">OMR</field>
+      <field name="uraian_valuta">RIAL OMANI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_142" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PAB</field>
+      <field name="uraian_valuta">BALBOA/US  DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_143" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PEN</field>
+      <field name="uraian_valuta">NUEVO SOL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_144" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PGK</field>
+      <field name="uraian_valuta">KINA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_145" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PHP</field>
+      <field name="uraian_valuta">PHILIPPINES PESO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_146" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PKR</field>
+      <field name="uraian_valuta">PAKISTAN RUPEE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_147" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PLN</field>
+      <field name="uraian_valuta">ZLOTY</field>
+    </record>
+    <record id="ceisa_referensi_valuta_148" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PLZ</field>
+      <field name="uraian_valuta">ZLOTY</field>
+    </record>
+    <record id="ceisa_referensi_valuta_149" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PRA</field>
+      <field name="uraian_valuta">PRADNYANA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_150" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PTE</field>
+      <field name="uraian_valuta">PORTUGUESE ESCUDO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_151" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">PYG</field>
+      <field name="uraian_valuta">GUARANI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_152" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">QAR</field>
+      <field name="uraian_valuta">QATARI RIAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_153" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ROL</field>
+      <field name="uraian_valuta">LEU</field>
+    </record>
+    <record id="ceisa_referensi_valuta_154" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">RON</field>
+      <field name="uraian_valuta">NEW LEU</field>
+    </record>
+    <record id="ceisa_referensi_valuta_155" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">RSD</field>
+      <field name="uraian_valuta">SERBIAN DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_156" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">RUB</field>
+      <field name="uraian_valuta">RUSSIAN RUBLE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_157" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">RUR</field>
+      <field name="uraian_valuta">RUSSIAN RUBLE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_158" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">RWF</field>
+      <field name="uraian_valuta">RWANDA FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_159" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SAR</field>
+      <field name="uraian_valuta">SAUDI RIYAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_160" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SBD</field>
+      <field name="uraian_valuta">SOLOMON ISLANDS DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_161" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SCR</field>
+      <field name="uraian_valuta">SEYCHELLES RUPEE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_162" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SDD</field>
+      <field name="uraian_valuta">SUDANASE DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_163" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SDG</field>
+      <field name="uraian_valuta">SUDANESE POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_164" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SDP</field>
+      <field name="uraian_valuta">SUDANESE POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_165" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SEK</field>
+      <field name="uraian_valuta">SWEDISH KRONE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_166" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SGD</field>
+      <field name="uraian_valuta">SINGAPORE DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_167" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SHP</field>
+      <field name="uraian_valuta">ST. HELENA POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_168" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SIT</field>
+      <field name="uraian_valuta">TOLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_169" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SKK</field>
+      <field name="uraian_valuta">SLOVAK KORUNA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_170" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SLL</field>
+      <field name="uraian_valuta">LEONE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_171" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SOS</field>
+      <field name="uraian_valuta">SOMALIA SHILLING</field>
+    </record>
+    <record id="ceisa_referensi_valuta_172" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SRD</field>
+      <field name="uraian_valuta">SURINAM DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_173" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SRG</field>
+      <field name="uraian_valuta">SURINAM GUILDER</field>
+    </record>
+    <record id="ceisa_referensi_valuta_174" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">STD</field>
+      <field name="uraian_valuta">DOBRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_175" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SVC</field>
+      <field name="uraian_valuta">EL SALVADOR COLON</field>
+    </record>
+    <record id="ceisa_referensi_valuta_176" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SYP</field>
+      <field name="uraian_valuta">SYRIAN POUND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_177" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">SZL</field>
+      <field name="uraian_valuta">LILANGENI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_178" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">THB</field>
+      <field name="uraian_valuta">BAHT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_179" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TJS</field>
+      <field name="uraian_valuta">SOMONI</field>
+    </record>
+    <record id="ceisa_referensi_valuta_180" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TMM</field>
+      <field name="uraian_valuta">MANAT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_181" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TMT</field>
+      <field name="uraian_valuta">MANAT</field>
+    </record>
+    <record id="ceisa_referensi_valuta_182" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TND</field>
+      <field name="uraian_valuta">TUNISIAN DINAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_183" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TOP</field>
+      <field name="uraian_valuta">PA'ANGA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_184" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TRL</field>
+      <field name="uraian_valuta">TURKISH LIRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_185" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TRY</field>
+      <field name="uraian_valuta">TURKISH LIRA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_186" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TTD</field>
+      <field name="uraian_valuta">TRINIDAD AND TOBAGO DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_187" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TWD</field>
+      <field name="uraian_valuta">NEW TAIWAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_188" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">TZS</field>
+      <field name="uraian_valuta">TANZANIA SHILLING</field>
+    </record>
+    <record id="ceisa_referensi_valuta_189" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">UAH</field>
+      <field name="uraian_valuta">HRYVNIA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_190" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">UAK</field>
+      <field name="uraian_valuta">KARBOVANET</field>
+    </record>
+    <record id="ceisa_referensi_valuta_191" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">UGX</field>
+      <field name="uraian_valuta">UGANDA SHILLING</field>
+    </record>
+    <record id="ceisa_referensi_valuta_192" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">USD</field>
+      <field name="uraian_valuta">US DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_193" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">UYI</field>
+      <field name="uraian_valuta">URUGUAY PESO EN UNIDADES INDEXADAS</field>
+    </record>
+    <record id="ceisa_referensi_valuta_194" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">UYU</field>
+      <field name="uraian_valuta">PESO URUGUAYO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_195" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">UZS</field>
+      <field name="uraian_valuta">UBEKISTAN SUM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_196" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">VEB</field>
+      <field name="uraian_valuta">BOLIVAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_197" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">VEF</field>
+      <field name="uraian_valuta">BOLIVAR FUERTE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_198" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">VND</field>
+      <field name="uraian_valuta">DONG</field>
+    </record>
+    <record id="ceisa_referensi_valuta_199" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">VUV</field>
+      <field name="uraian_valuta">VATU</field>
+    </record>
+    <record id="ceisa_referensi_valuta_200" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">WST</field>
+      <field name="uraian_valuta">TALA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_201" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XAF</field>
+      <field name="uraian_valuta">CFA  FRANC BAEC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_202" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XAG</field>
+      <field name="uraian_valuta">SILVER</field>
+    </record>
+    <record id="ceisa_referensi_valuta_203" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XAU</field>
+      <field name="uraian_valuta">GOLD</field>
+    </record>
+    <record id="ceisa_referensi_valuta_204" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XBA</field>
+      <field name="uraian_valuta">BOND MARKETS UNITS EUROPEAN COMPOSITE UNIT (EURCO);</field>
+    </record>
+    <record id="ceisa_referensi_valuta_205" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XBB</field>
+      <field name="uraian_valuta">EUROPEAN MONETARY UNIT (E.M.U.-6);</field>
+    </record>
+    <record id="ceisa_referensi_valuta_206" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XBC</field>
+      <field name="uraian_valuta">EUROPEAN UNIT OF ACCOUNT 9(E.U.A.-9);</field>
+    </record>
+    <record id="ceisa_referensi_valuta_207" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XBD</field>
+      <field name="uraian_valuta">EUROPEAN UNIT OF ACCOUNT 17(E.U.A.-17);</field>
+    </record>
+    <record id="ceisa_referensi_valuta_208" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XCD</field>
+      <field name="uraian_valuta">EAST CARIBBEAN DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_209" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XDR</field>
+      <field name="uraian_valuta">SDR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_210" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XFU</field>
+      <field name="uraian_valuta">UIC-FRANC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_211" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XOF</field>
+      <field name="uraian_valuta">CFA FRANC BCEAO</field>
+    </record>
+    <record id="ceisa_referensi_valuta_212" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XPD</field>
+      <field name="uraian_valuta">PALLADIUM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_213" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XPF</field>
+      <field name="uraian_valuta">CFA FRANC BEAC</field>
+    </record>
+    <record id="ceisa_referensi_valuta_214" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">XPT</field>
+      <field name="uraian_valuta">PLATINUM</field>
+    </record>
+    <record id="ceisa_referensi_valuta_215" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">YER</field>
+      <field name="uraian_valuta">YEMENI RIAL</field>
+    </record>
+    <record id="ceisa_referensi_valuta_216" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">YUN</field>
+      <field name="uraian_valuta">NEW YUGOSSLAVIAN</field>
+    </record>
+    <record id="ceisa_referensi_valuta_217" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ZAL</field>
+      <field name="uraian_valuta">FINANCIAL RAND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_218" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ZAR</field>
+      <field name="uraian_valuta">RAND</field>
+    </record>
+    <record id="ceisa_referensi_valuta_219" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ZMK</field>
+      <field name="uraian_valuta">KWACHA</field>
+    </record>
+    <record id="ceisa_referensi_valuta_220" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ZRN</field>
+      <field name="uraian_valuta">ZAIFE</field>
+    </record>
+    <record id="ceisa_referensi_valuta_221" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ZWD</field>
+      <field name="uraian_valuta">ZIMBABWE DOLLAR</field>
+    </record>
+    <record id="ceisa_referensi_valuta_222" model="ceisa.referensi.valuta">
+      <field name="kode_valuta">ZWL</field>
+      <field name="uraian_valuta">ZIMBABWE DOLLAR</field>
+    </record>
+  </data>
+</odoo>

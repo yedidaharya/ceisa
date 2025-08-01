@@ -12,3 +12,14 @@ from . import ceisa_referensi_tipe_kontainer
 from . import ceisa_referensi_satuan
 from . import ceisa_referensi_fasilitas_tarif
 from . import ceisa_referensi_jenis_identitas
+from . import ceisa_referensi_pelabuhan
+from . import ceisa_referensi_entitas
+from . import ceisa_referensi_tutup_pu
+from . import ceisa_referensi_tps
+from . import ceisa_referensi_valuta
+from . import ceisa_referensi_incoterm
+from . import ceisa_referensi_asuransi
+from . import ceisa_referensi_kena_pajak
+from . import ceisa_referensi_kategori_barang
+from . import ceisa_referensi_jenis_tarif
+from . import ceisa_referensi_jenis_pungutan

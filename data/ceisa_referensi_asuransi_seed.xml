@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <data noupdate="1">
+    <record id="ceisa_referensi_asuransi_1" model="ceisa.referensi.asuransi">
+      <field name="kode_asuransi">LN</field>
+      <field name="uraian_asuransi">Luar Negeri</field>
+    </record>
+    <record id="ceisa_referensi_asuransi_2" model="ceisa.referensi.asuransi">
+      <field name="kode_asuransi">DN</field>
+      <field name="uraian_asuransi">Dalam Negeri</field>
+    </record>
+  </data>
+</odoo>

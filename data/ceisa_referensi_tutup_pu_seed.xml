@@ -1,0 +1,14 @@
+<odoo>
+    <record id="1" model="ceisa.referensi.tutup.pu">
+        <field name="kode_tutup_pu">11</field>
+        <field name="uraian_tutup_pu">BC 1.1</field>
+    </record>
+    <record id="2" model="ceisa.referensi.tutup.pu">
+        <field name="kode_tutup_pu">12</field>
+        <field name="uraian_tutup_pu">BC 1.2</field>
+    </record>
+    <record id="3" model="ceisa.referensi.tutup.pu">
+        <field name="kode_tutup_pu">14</field>
+        <field name="uraian_tutup_pu">BC 1.4</field>
+    </record>
+</odoo>
